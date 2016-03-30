@@ -1,0 +1,73 @@
+  @mixin heading($colour) {
+  position: relative;
+  h2 {
+    background: ($colour);
+    font-size: 2rem;         
+    font-family: serif;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    position: relative; 
+    padding: 0.6rem 1.8rem;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0;
+    top: -16px;
+    @include breakpoint(768) {
+      top: -20px;
+    }
+    border-radius: 3px;
+    margin-bottom: 20px;
+   }   
+  h2:after {
+    @include triangle($colour);
+  }
+}
+
+@mixin shadow() {
+  box-shadow: 1px 1px 1px #ccc;
+}
+@mixin cta() {
+  color: darken($yellow, 4%);
+  border: 3px solid darken($yellow, 4%);
+  padding: 8px 26px 8px 26px;
+  display: inline-block;
+  margin: 0 0 20px 0;
+  border-radius: 1px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 1px;
+  margin-right: 12px;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: bold;
+  &:hover {
+    color: white;
+    border: 3px solid darken($yellow, 4%);
+    background: darken($yellow, 4%);
+    text-decoration: none;        
+  }
+}
+
+ 
+
+ 
+@mixin triangle($colour) {
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid $colour;  
+  left: 0;
+  right: 0;
+  margin: 0 auto; 
+  bottom: -10px;
+  content: ""; 
+}    
+
+@mixin responsiveBg() {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;  
+}

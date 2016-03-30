@@ -1,0 +1,65 @@
+/********************
+HELPERS
+********************/
+
+img {
+  max-width: 100%;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.absCentre {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+$hexSize: 100px; 
+$hexCol: green; 
+.hexagon {
+  width: $hexSize;
+  height: $hexSize/2;
+  background: $hexCol;
+  position: relative;
+}
+.hexagon:before {
+  content: "";
+  position: absolute;
+  top: (($hexSize/4)*-1);
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: $hexSize/2 solid transparent;
+  border-right: $hexSize/2 solid transparent;
+  border-bottom: $hexSize/4 solid $hexCol;
+}
+.hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: (($hexSize/4)*-1);
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: $hexSize/2 solid transparent;
+  border-right: $hexSize/2 solid transparent;
+  border-top: $hexSize/4 solid $hexCol;
+}
+.left-col, .right-col {
+    @include breakpoint(480) {
+      width: 48%;
+      float: left;      
+    }
+}
+.left-col {
+  @include breakpoint(480) {
+    margin-right: 4%; 
+  }
+}
+
+

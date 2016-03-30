@@ -1,0 +1,22 @@
+ {% include header.html %}
+
+		<section class="intro"> 
+			<nav>
+				<a href="/index.html">Home</a>
+				<a href="#clients">Clients</a>
+				<a href="blog.html">Blog</a>
+				<a href="#skills">Skills</a>
+				<a href="#contact">Contact</a>
+				<a href="/index.html#work">Portfolio</a>
+			</nav>
+			<div>
+				<p class="ja">Blog</p>
+			</div>
+			<p class="jobTitle">{{ post.title }}</p>
+		</section>
+
+		<div class="content">
+			 
+			 {{ content }}
+			 {% include footer.html %}
+	

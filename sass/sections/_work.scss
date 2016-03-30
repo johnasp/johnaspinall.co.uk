@@ -1,0 +1,39 @@
+.work {
+	background: url(../img/waves-grey.jpg) #eaeaea;
+	@include heading($blue);
+	padding: 0;
+	clear: both;
+	padding-bottom: 20px;
+	.latest {
+		p {
+			font-size: 2rem;
+		}
+	}
+	.project {
+		text-align: center;
+		a {
+			@include cta;
+			padding: 8px 26px 8px 18px;
+			&:after {
+				content: "  >";
+				font-size: 2.2rem;
+				position: absolute;
+				right: 4px;
+				top: 4px;
+			}
+		}
+		img, p {
+			margin-bottom: 20px;
+		}
+	}
+}
+.portfolio .module {
+	top: -70px;
+}
+
+
+
+
+
+
+
