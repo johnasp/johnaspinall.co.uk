@@ -2,5 +2,6 @@ wp-content
 config.codekit
 .DS_Store
 img
-css
+/css/
 js
+/_site/sass/
