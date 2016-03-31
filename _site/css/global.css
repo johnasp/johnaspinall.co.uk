@@ -755,7 +755,7 @@ INTRO
         text-decoration: none; }
       .work .project a:after {
         content: "  >";
-        font-size: 2.2rem;
+        font-size: 1.8rem;
         position: absolute;
         right: 4px;
         top: 4px; }

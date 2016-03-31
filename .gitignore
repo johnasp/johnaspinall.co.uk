@@ -1,8 +1,8 @@
 wp-content
 config.codekit
 .DS_Store
-img
-/css/
 js
 /_site/sass/
 /sass/.sass-cache/
+/img/
+/css/
