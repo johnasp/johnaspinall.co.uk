@@ -4,5 +4,3 @@ config.codekit
 js
 /_site/sass/
 /sass/.sass-cache/
-/img/
-/css/
