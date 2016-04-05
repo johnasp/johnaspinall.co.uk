@@ -32,4 +32,7 @@
 			list-style: bullet;
 		}
 	}
+	.email {
+		@include cta ();
+	}
 }

@@ -1275,6 +1275,8 @@ INTRO
     margin-bottom: 20px; }
   #post #visual-designs {
     width: 320px; }
+  #post .email {
+    border: 2px solid black; }
 
 .contact {
   position: relative;
@@ -1334,6 +1336,25 @@ INTRO
       display: inline-block;
       width: 49%;
       list-style: bullet; }
+  .contact .email {
+    color: #e2aa00;
+    border: 3px solid #e2aa00;
+    padding: 8px 26px 8px 26px;
+    display: inline-block;
+    margin: 0 0 20px 0;
+    border-radius: 1px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: 1px;
+    margin-right: 12px;
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: bold; }
+    .contact .email:hover {
+      color: white;
+      border: 3px solid #e2aa00;
+      background: #e2aa00;
+      text-decoration: none; }
 
 footer {
   background: url(../img/waves-footer.jpg);
