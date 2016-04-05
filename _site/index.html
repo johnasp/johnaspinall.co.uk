@@ -5,11 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>John Aspinall portfolio and blog</title>
 	<link rel="stylesheet" href="/css/global.css">
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
- 
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/slippry.min.js"></script>
 
 	<link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono|Lobster|Roboto' rel='stylesheet' type='text/css'>
-	<script src="/js/global.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -34,10 +33,11 @@
 		</section>
 
 		<div class="content">
-			 	<section id="home" class="about">
+
+	<section id="home" class="about">
 			<div class="inner clearfix">
-			<p> Hi there, I'm John and I'm a UX designer experienced in working in Agile teams teams for large organisations.  I work for clients around <strong>Manchester</strong>  and can also travel for exciting projects!</p>
-			<p>I'm also a web and UI designer with strong front end design and development skills.  A selection of my portfolio of work can be viewed in the section titled (funnily enough) 'work'.</p>   
+			<p> Hi I'm John a UX designer experienced in working in Agile teams for large organisations.  I work for clients around <strong>Manchester</strong>  but can also travel for projects and work remotely. </p>
+			<p>I'm also a web and UI designer with strong front end design and development skills.  A selection of my work can be viewed in myt portfolio.</p>   
 			</div>    
 	</section><!-- about -->
 
@@ -97,7 +97,7 @@
 						<img src="img/kiddicare-home.jpg" alt="Kiddicare redesign concept">
 						<div>
 							<p>Produced a series of UX deliverables for a project to responsively redesign the Kiddicare website.</p>
-							<a href="/portfolio/kiddicare-redesign-wireframes/">Project overview</a>
+							<a href="/ux/2016/02/09/kiddicare-ux.html">Project overview</a>
 						</div>
 					</div>
 
@@ -130,7 +130,7 @@
 		</div><!-- inner -->
 	</section><!-- Work -->
 
-
+			 
 
 
 <section name="skills" class="skills">
@@ -252,10 +252,11 @@
 		</div><!-- content -->
 	</div><!-- wrapper -->
 
-	      <script>
-        // Basic FitVids Test
-        $(".wrapper").fitVids();
-      </script>
+ 	<script src="/js/global.js"></script>	
+  <script>
+	  $(".wrapper").fitVids();
+	  $('#visual-designs').slippry()
+	</script>
 
 </body>
 </html>

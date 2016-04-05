@@ -25,25 +25,23 @@
 
 #post {
 	margin-top: 20px;
+	font-family: georgia, serif;
 	table.overview {
 	  border-radius:  3px;
-	  background: rgba(220, 219, 215, 0.44);
-	  margin-top: 16px;
+	  margin-top: 32px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100%;
 	  td {
 		  padding: 8px;
-		  font-size: 16px;
+		  font-size: 1.8rem;
 		  vertical-align: top;
 		  color: #525252;
 		}
 		td:first-child  {
 		  width: 30%;
-		  @include breakpoint(600) {
-		  	width: 20%;
-		  }
-		  text-transform: uppercase;
 		  font-weight: bold;
 		  padding-left: 14px; 
-
 		}
 	}
 	h3 {
@@ -59,6 +57,10 @@
 		@include breakpoint(mob) {
 			font-size: 2.6rem;
 		}
+	}
+	h5 {
+		font-family: arial, verdana, sans-serif;
+		font-weight: normal;
 	}
    /*img, iframe {
 		-webkit-box-shadow: 1px 1px 9px 1px rgba(133,130,133,1);
@@ -93,6 +95,11 @@
 	  @include breakpoint(768) {
 			padding: 2em 15%;
 		}
+		.featured {
+			background: lighten(#e1e1e1, 5%);
+			padding: 15px;
+			margin-top: 8px;
+		}
 	}
 	.invision {
 		display: none;
@@ -111,4 +118,7 @@
     padding: 8px;
     margin-bottom: 20px;
 	}	
+	#visual-designs {
+		width: 320px;
+	}
 }

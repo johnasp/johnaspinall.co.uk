@@ -3,24 +3,22 @@ layout: post
 title: JD Williams mobile UX
 category: UX
 tag: portfolio
+excerpt: Improving the product search and navigation UX on mobile specific eCommerce website(s) 
 --- 
+<div class="featured"><img src="/img/jdw-latest.jpg" alt="Collage of screents of my JDW mobile designs"></div>
 
 <table class="overview cols">
   <tr>
     <td>Project:</td>
-    <td>Improving the product search navigation user experience on mobile specific eCommerce website(s).</td>  
+    <td>Product search and navigation UX redesign on mobile specific website</td>  
   </tr>  
+    <tr>
+    <td>My role:</td>
+    <td>UX lead</td>
+  </tr> 
   <tr>
     <td>Client:</td>
     <td>JD Williams</td>  
-  </tr> 
-  <tr>
-    <td>Industry:</td>
-    <td>eCommerce</td>  
-  </tr>  
-  <tr>
-    <td>Role:</td>
-    <td>UX lead</td>
   </tr> 
   <tr>
     <td>Tasks:</td>
@@ -40,26 +38,25 @@ To illustrate the issues with the old site, I recorded a video of myself navigat
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/5TQih57yXrE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-##### Old JD Williams mobile website in operation
+##### VIDEO - Old JD Williams mobile website in operation
 
 #### Discovery & Research
 
-To gain an understanding of how our competitors approached mobile search and navigation, I compiled a list of industry key players and followed a specific search task (i.e. Find red dress sizes 14 & 16) and screen recorded each of these sessions for post analysis. 
+To gain an understanding of how our competitors approached mobile search and navigation, I compiled a list of industry key players and followed a user search journey on each of these sites. I screen recorded each of these sessions and also took screen prints for post analysis. 
 
-I then presented each of these screen recording to project stakeholders, along with my observations. My analysis helped craft a short list of interface design patterns we may wish to pursue.  
+I then presented each of these screen recording and prints to project stakeholders, along with my observations. I printed out and pinned the screen shots to the meeting room wall, the purpose of this was to further narrow down the design patterns we wanted to take advantage of. 
+
+My analysis helped us craft a short list of interface design patterns to pursue in our product. 
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLb837OBwsGkXV0Cd-W7hb-EaKUBl2bgVq" frameborder="0" allowfullscreen></iframe>
 
-##### Competitors screen recording play-list
-
-
-I then arranged a further project stakeholder meeting where I printed out and pinned screen shots I took of sites in our short list, to the wall.  The purpose of this was to further narrow down the design patterns we wanted to use in our product. 
-
-In addition to competitor research, I also conducted a few "quick and dirty" user testing sessions in the form of getting my Mum, partner and her group of friends to attempt to follow the user journey on the existing site.   The results of which were logged and it was noted that they all tended to struggle at the refinement stage and some couldn't even complete the user journey at all.  This observation was also validated by data in drop offs in the analytics goal funnel. 
+##### VIDEO - Competitors screen recording play-list
 
 <div class="no-margin"><img src="/img/portfolio/competition-wall.jpg" alt="Competitor research wall" /></div>
 
-##### Competitor research wall
+##### IMAGE - Competitor research wall
+
+In addition to competitor research, I also conducted a few "quick and dirty" user testing sessions in the form of getting my Mum, partner and her group of friends to attempt to follow the user journey on the existing site.   The results of which were logged and it was noted that they all tended to struggle at the refinement stage and some couldn't even complete the user journey at all.  This observation was also validated by data in drop offs in the analytics goal funnel. 
 
 #### Decisions
 
@@ -72,7 +69,35 @@ The key changes I therefore wanted to make on the new product were derived from 
 
 I designed visual concepts of all screens for the new interface (in Adobe Fireworks), samples of which can viewed below.
 
-<div class="no-margin"><img src="/img/portfolio/visual-designs.jpg" alt="Selection of visual design concepts" /></div>
+<ul id="visual-designs">
+  <li>
+    <a href="#slide1"><img src="/img/portfolio/filter1.jpg" alt=""></a>
+  </li>
+  <li>
+    <a href="#slide2"><img src="/img/portfolio/filter2.jpg"  alt="This is an awesome jQuery slider plugin."></a>
+  </li>
+  <li>
+    <a href="#slide3"><img src="/img/portfolio/filter3.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+  </li>
+  <li>
+    <a href="#slide4"><img src="/img/portfolio/filter4.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+  </li>
+  <li>
+    <a href="#slide5"><img src="/img/portfolio/menu.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+  </li>
+  <li>
+    <a href="#slide6"><img src="/img/portfolio/window1.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+  </li>
+  <li>
+    <a href="#slide6"><img src="/img/portfolio/window2.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+  </li>
+  <li>
+    <a href="#slide6"><img src="/img/portfolio/window3.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+  </li>
+  <li>
+    <a href="#slide6"><img src="/img/portfolio/window4.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+  </li>
+</ul>
 
 ##### Selection of visual design concepts
 
@@ -92,9 +117,9 @@ Follow the journey below to interact with the [visual prototype](https://invis.i
 
 #### Working prototype
 
- I have learnt through experience that the only way to accurately see how a mobile web page will both look and perform on a mobile web browser, is to view a complete coded web page direct on a mobile device.
+I have learnt through experience that the only way to accurately see how a mobile web page will both look and perform on a mobile web browser, is to view a complete coded web page direct on a mobile device.
 
-WIth this in mind, I decided to code a production ready prototype written in HTML, CSS (SASS) and Jquery, whilst utilising Grunt for a build system and Github for source control and Github pages for web hosting. 
+With this in mind, I decided to code a production ready prototype written in HTML, CSS (SASS) and Jquery, whilst utilising Grunt for a build system and Github for source control and Github pages for web hosting. 
 
 You can view a video demo of the prototype in action below or [access this live URL which houses the fully coded prototype](http://johnasp.github.io/search_nav_proto/). 
 
