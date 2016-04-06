@@ -71,31 +71,16 @@ I designed visual concepts of all screens for the new interface (in Adobe Firewo
 
 <ul id="visual-designs">
   <li>
-    <a href="#slide1"><img src="/img/portfolio/filter1.jpg" alt=""></a>
+    <a href="#slide1"><img src="/img/portfolio/home.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#slide2"><img src="/img/portfolio/filter2.jpg"  alt="This is an awesome jQuery slider plugin."></a>
+    <a href="#slide2"><img src="/img/portfolio/list-page.jpg"  alt="This is an awesome jQuery slider plugin."></a>
   </li>
   <li>
-    <a href="#slide3"><img src="/img/portfolio/filter3.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+    <a href="#slide3"><img src="/img/portfolio/filter-page.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
   </li>
   <li>
-    <a href="#slide4"><img src="/img/portfolio/filter4.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
-  </li>
-  <li>
-    <a href="#slide5"><img src="/img/portfolio/menu.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
-  </li>
-  <li>
-    <a href="#slide6"><img src="/img/portfolio/window1.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
-  </li>
-  <li>
-    <a href="#slide6"><img src="/img/portfolio/window2.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
-  </li>
-  <li>
-    <a href="#slide6"><img src="/img/portfolio/window3.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
-  </li>
-  <li>
-    <a href="#slide6"><img src="/img/portfolio/window4.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+    <a href="#slide4"><img src="/img/portfolio/filter-page2.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
   </li>
 </ul>
 
