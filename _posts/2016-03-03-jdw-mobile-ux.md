@@ -38,11 +38,13 @@ To illustrate the issues with the old site, I recorded a video of myself navigat
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/5TQih57yXrE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
+##### VIDEO - Old JD Williams mobile website in operation
+
 I also conducted a few "quick and dirty" user testing sessions in the form of getting my Mum, partner and her group of friends to attempt to follow the user journey on the existing site.   
 
 The results of which were that they all tended to struggle at the refinement stage and some couldn't even complete the user journey at all. 
 
-##### VIDEO - Old JD Williams mobile website in operation
+
 
 #### Discovery & Research
 
