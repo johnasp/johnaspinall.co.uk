@@ -1273,6 +1273,11 @@ INTRO
     font-size: 14px;
     padding: 8px;
     margin-bottom: 20px; }
+  #post .sy-caption {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px; }
+  #post .sy-controls {
+    background: black; }
 
 .contact {
   position: relative;

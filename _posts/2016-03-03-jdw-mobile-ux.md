@@ -30,23 +30,27 @@ excerpt: Improving the product search and navigation UX on mobile specific eComm
 
 On the clients' mobile specific website, the product and search user experience was poor and deemed to be causing a high bounce rate in the add to bag user journey.  This was having a detrimental affect on the sites turnover and causing a loss of revenues. 
 
-Users often struggled to both find and refine facets of products they were searching for.  Product refinements had to be made via a series of unintuitive drop down menus which didn't lend itself well to a touch screen experience.
+Users often struggled to both find and refine facets of products they were searching for.  Product refinements had to be made via a series of unintuitive drop down menus which didn't lend itself well to a touch screen experience and caused confusion.
 
-Users also tended to rely on typed search and appeared blind to the browse categories button, which afforded a more linear and touch friendly approach to product search. Additionally, typed search journeys did not always yield accurate results. 
+Users also tended to rely on typed search and appeared blind to the browse categories button, which afforded a more linear and touch friendly approach to product search. Additionally, typed search journeys did not always yield accurate results which again lead to unnecessary drop offs. 
 
 To illustrate the issues with the old site, I recorded a video of myself navigating products and making refinements, which can be viewed below:
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/5TQih57yXrE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
+I also conducted a few "quick and dirty" user testing sessions in the form of getting my Mum, partner and her group of friends to attempt to follow the user journey on the existing site.   
+
+The results of which were that they all tended to struggle at the refinement stage and some couldn't even complete the user journey at all. 
+
 ##### VIDEO - Old JD Williams mobile website in operation
 
 #### Discovery & Research
 
-To gain an understanding of how our competitors approached mobile search and navigation, I compiled a list of industry key players and followed a user search journey on each of these sites. I screen recorded each of these sessions and also took screen prints for post analysis. 
+To gain an understanding of how other mobile ecommerce websites approached  search and navigation, I compiled a list of industry key players and competitors, and then followed a user search journey on each site. I screen recorded each of these sessions and also took screen prints for post analysis. 
 
-I then presented each of these screen recording and prints to project stakeholders, along with my observations. I printed out and pinned the screen shots to the meeting room wall, the purpose of this was to further narrow down the design patterns we wanted to take advantage of. 
+I then presented each of these screen recording and prints to project stakeholders, along with my observations and recommendations.
 
-My analysis helped us craft a short list of interface design patterns to pursue in our product. 
+A combination of my analysis coupled with feedback from stakeholders, helped  craft a short list of interface design patterns to pursue in our product. 
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLb837OBwsGkXV0Cd-W7hb-EaKUBl2bgVq" frameborder="0" allowfullscreen></iframe>
 
@@ -54,37 +58,35 @@ My analysis helped us craft a short list of interface design patterns to pursue 
 
 <div class="no-margin"><img src="/img/portfolio/competition-wall.jpg" alt="Competitor research wall" /></div>
 
-##### IMAGE - Competitor research wall
-
-In addition to competitor research, I also conducted a few "quick and dirty" user testing sessions in the form of getting my Mum, partner and her group of friends to attempt to follow the user journey on the existing site.   The results of which were logged and it was noted that they all tended to struggle at the refinement stage and some couldn't even complete the user journey at all.  This observation was also validated by data in drop offs in the analytics goal funnel. 
+##### IMAGE - Competitor research wall 
 
 #### Decisions
 
-The key changes I therefore wanted to make on the new product were derived from the information obtained in the research stage and my own hunches as to what will be effective. 
+The key changes I therefore wanted to make on the new product were:
 
-1. Introduce an industry standard “burger” site menu to house the list of product categories and other navigational links.  This menu would initially be hidden off screen (to the left) and animate in to view upon touch.
+1. Introduce an industry standard “burger” site menu to house the list of product categories and other navigational links.  This site menu would initially be hidden off screen (to the left) and animate in to view upon touch.
 2. Completely change the refinement interface, remove the drop down menus and implement a refinement grid where users could easily add and remove multiple facet refinements by a single touch.  This menu would also be initially hidden off screen (to the right) and animate into view upon touch.
 
 #### Visual design & prototype
 
-I designed visual concepts of all screens for the new interface (in Adobe Fireworks), samples of which can viewed below.
+The next step was to design concepts of to bring my vision of the product to life. I subsequently designed visual concepts of all the relevant screens for the new product (using Adobe Fireworks), samples of which can viewed below:
 
 <ul id="visual-designs">
   <li>
-    <a href="#slide1"><img src="/img/portfolio/home.jpg" alt=""></a>
+    <a href="#slide1"><img src="/img/portfolio/home.jpg" alt="Product list page and off canvas site menu"></a>
   </li>
   <li>
-    <a href="#slide2"><img src="/img/portfolio/list-page.jpg"  alt="This is an awesome jQuery slider plugin."></a>
+    <a href="#slide2"><img src="/img/portfolio/list-page.jpg"  alt="One column list and filter results pages"></a>
   </li>
   <li>
-    <a href="#slide3"><img src="/img/portfolio/filter-page.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+    <a href="#slide3"><img src="/img/portfolio/filter-page.jpg" alt="Refinements off canvas menu"></a>
   </li>
   <li>
-    <a href="#slide4"><img src="/img/portfolio/filter-page2.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+    <a href="#slide4"><img src="/img/portfolio/filters-made.gif" alt="Refinements menu with selection made"></a>
   </li>
 </ul>
 
-##### Selection of visual design concepts
+##### IMAGES - Selection of visual design concepts
 
 I felt that viewing the screens in the context in which they were designed for (i.e. a mobile device) would help give stakeholders a better appreciation of what the designs would look and behave like on a device, so I created a click-able visual prototype out of the screens using Invision.  
 
