@@ -1315,7 +1315,7 @@ INTRO
   .contact:last-child {
     margin-bottom: 0; }
   .contact a {
-    font-size: 26px;
+    font-size: 2.6rem;
     font-weight: bold;
     color: black;
     display: inline-block;
@@ -1324,7 +1324,8 @@ INTRO
   .contact h3 {
     font-weight: bold;
     margin-top: 0;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    font-size: 1.8rem; }
   .contact p {
     margin-top: 4px; }
   .contact ul {
@@ -1359,43 +1360,27 @@ INTRO
 
 footer {
   background: url(../img/waves-footer.jpg);
-  background: #385469;
+  background: #1d2c37;
   color: white;
   float: left;
   width: 100%;
-  margin-bottom: 0; }
-  footer h3 {
-    padding-top: 10px;
-    font-size: 30px;
-    color: white; }
-  footer a {
-    color: #e2aa00;
-    border: 3px solid #e2aa00;
-    padding: 8px 26px 8px 26px;
-    display: inline-block;
-    margin: 0 0 20px 0;
-    border-radius: 1px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    border-radius: 1px;
-    margin-right: 12px;
-    position: relative;
-    font-size: 1.6rem;
-    font-weight: bold;
-    font-size: 22px;
-    padding: 8px 26px 8px 26px;
-    margin: 30px 0 16px 0 !important; }
-    footer a:hover {
-      color: white;
-      border: 3px solid #e2aa00;
-      background: #e2aa00;
-      text-decoration: none; }
-  footer p {
-    font-size: 14px; }
+  margin-bottom: 0;
+  text-align: left; }
+  footer p, footer a {
+    font-size: 1.4rem; }
+  footer h4 {
+    font-size: 1.8rem; }
+  footer ul {
+    list-style: none;
+    padding-left: 0; }
+  footer .left-col {
+    width: 75%; }
+  footer .right-col {
+    width: 20%; }
   footer .copyright {
     background: #383B3E;
     padding: 8px;
-    font-size: 14px; }
+    font-size: 1.4rem; }
 
 body {
   position: relative;

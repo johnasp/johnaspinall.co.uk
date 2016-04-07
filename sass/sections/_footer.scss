@@ -1,27 +1,31 @@
 footer {
 	background: url(../img/waves-footer.jpg);
-	background: #385469;	
+	background: darken(#385469,15%);	
 	color: white;
 	float: left;
 	width: 100%;
 	margin-bottom: 0;
-	h3 {
-		padding-top: 10px;
-		font-size: 30px;
-		color: white;
+	text-align: left;
+	p, a {	
+		font-size: 1.4rem;
 	}
-	a {
-		@include cta;
-		font-size: 22px;
-		padding: 8px 26px 8px 26px;
-		margin: 30px 0 16px 0!important;
+	h4 {
+		font-size: 1.8rem;
 	}
-	p {	
-		font-size: 14px;
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
+	.left-col {
+		width: 75%;
+	}
+	.right-col {
+		width: 20%;		
 	}
 	.copyright {
 		background: #383B3E;
 		padding: 8px;
-		font-size: 14px;
+		font-size: 1.4rem;
 	}
+
 }
