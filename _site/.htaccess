@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^johnaspinall.co.uk [NC]
+RewriteRule ^/?(.*)$ http://johnaspinall.co.uk/$1 [L,R=301]
