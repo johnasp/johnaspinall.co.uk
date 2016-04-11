@@ -1,0 +1,23 @@
+body, html { padding:0; margin:0;}
+
+#container {
+	background: #EDEDED;
+}
+.mockup {
+	background: url('mobile.jpg') no-repeat;
+	height: 2200px;
+	margin: 0 auto;
+	width: 350px;
+}
+@media all and (min-width: 720px) {
+.mockup {
+	background: url('tablet.jpg') no-repeat;
+	width: 720px;
+		height: 1150px;
+}
+@media all and (min-width: 900px) {
+.mockup {
+	background: url('desktop.jpg') no-repeat;
+		width: 880px;
+}
+}
