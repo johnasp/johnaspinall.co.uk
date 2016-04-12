@@ -1278,6 +1278,8 @@ INTRO
     font-size: 14px; }
   #post .sy-controls {
     background: black; }
+  #post a {
+    text-decoration: underline; }
 
 .contact {
   position: relative;

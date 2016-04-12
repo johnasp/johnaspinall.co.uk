@@ -29,33 +29,39 @@ excerpt: Morrisons/Kiddicare UX lead on a project to convert and re-design the e
 
 #### Overview
 
-Kiddicare are a multi-channel retailer specialising in baby products who Morrisons acquired in 2014.  I was placed as UX lead on a project to convert and re-design the existing Kiddicare website into a responsive site.
+Kiddicare are a multi-channel retailer specialising in baby products who Morrisons acquired in 2014.  I was placed as UX lead on a project to convert and re-design the existing Kiddicare website into a responsive/adaptive site.
 
 #### Prototype
 
-The proposed design for the layout of the new homepage involved a complicated product grid (similar to Pinterest) which was supposed to be used to display product module screen elements of different shapes and sizes.
+The proposed design for the layout of the new homepage involved a complicated product grid (similar to Pinterest) which was should display product screen elements of different sizes of rectangle.
 
-The behaviour of this layout grid at different screen sizes was proving difficult to convey to stakeholders in static wireframe form.  To resolve this problem, I decided to build a <a href="/protos/kiddicare/demo.html">working HTML prototype of the homepage</a> and demonstrate this direct in a web browser.  
+The behaviour of this layout grid, particularly at different screen sizes, was proving difficult to convey to stakeholders in static wireframe form.  To resolve this problem, I decided to build a <a href="/protos/kiddicare/demo.html">working HTML prototype of the homepage</a> and demonstrate this direct in a web browser.  This readily helped in stakeholder understanding of the interface and helped in achieving sign off at this stage. 
 
-The prototype was built using the <a href="http://foundation.zurb.com/">Foundation</a> framework and can be viewed by <a href="/protos/kiddicare/demo.html">clicking this link</a>.
+I built the prototype using the <a href="http://foundation.zurb.com/">Foundation</a> framework and my demo can be viewed by here <a href="/protos/kiddicare/demo.html">clicking this link</a>.
 
 #### Visual Design
 
-I was also responsible for producing visual design concepts for the new look and feel of the new website.  A few samples of the desktop views I designed can be seen by viewing the gallery below:
+I was responsible for producing visual design concepts for the look and feel of the new website, examples of which can be seen below.  
 
-<div class="no-margin"><img src="/img/kiddicare-prototype.jpg" alt="" /></div>
+NB - Click the images below to look at an enlarged view of each screen. 
 
+<div class="no-margin"><a href="/img/kiddicare-comp1.jpg"><img src="/img/kiddicare-comp1.jpg" alt="Kiddicare visual comp 1" /></a></div>
 
-<div class="no-margin"><img src="/img/kiddicare-visual-design.jpg" alt="" /></div>
+##### IMAGE - Kiddicare visual design comp 1, click to enlarge view.
 
-<h5 id="sample-of-my-kiddicare-visual-designs">Sample of my Kiddicare visual designs</h5>
+<div class="no-margin" style="margin-top: 60px;"><a href="/img/kiddicare-comp2.jpg"><img src="/img/kiddicare-comp2.jpg" alt="Kiddicare visual comp 2" /></a></div>
+
+#####  IMAGE - Kiddicare visual design comp 2, click to enlarge view.
 
 #### Wireframes
 
 Working in conjunction with a business analyst, I produced wireframes of all  key screens at mobile, tablet and desktop views, and also created click-able regions in order that a sample user journey could be followed in a  demonstration.
 
-I also exported the screens as JPG’s which I pinned to the walls of project design meeting, the purpose of which to encourage collaborative iterations of the positioning, prominence and inclusion of screen elements.  Samples of the wireframes I produced can be seen by viewing the gallery below:
+I also exported the screens as JPG’s which I pinned to the walls of project design meeting, the purpose of which to encourage collaborative iterations of the positioning, prominence and inclusion of screen elements.  
 
+Samples of the wireframes I produced can be seen by viewing the gallery below:
+
+<div style="background: black; padding: 4px;">
 <ul id="kid-wires">
   <li>
     <a href="#slide1"><img src="/img/wires-kid/home-d.png" alt=""></a>
@@ -91,8 +97,7 @@ I also exported the screens as JPG’s which I pinned to the walls of project de
     <a href="#slide11"><img src="/img/wires-kid/m3.png" alt=""></a>
   </li>
 </ul>
-
-##### WIREFRAMES - Mobile, tablet and desktop samples
+<</div>
 
 
 
