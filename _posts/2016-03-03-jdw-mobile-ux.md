@@ -3,7 +3,7 @@ layout: post
 title: JD Williams mobile UX
 category: UX
 tag: portfolio
-excerpt: Improving the product search and navigation UX on mobile specific eCommerce website(s) 
+excerpt: A write up of my role and achievements on mobile UX project for JD Williams.
 --- 
 <div class="featured"><img src="/img/jdw-latest.jpg" alt="Collage of screents of my JDW mobile designs"></div>
 

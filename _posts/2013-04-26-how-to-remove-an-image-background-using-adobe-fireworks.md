@@ -4,14 +4,7 @@ title: How to remove an image background using Adobe Fireworks
 date: 2013-04-26T09:17:11+00:00
 author: John Aspinall
 layout: post
-guid: http://johnaspinall.co.uk/?p=575
-permalink: /how-to-remove-an-image-background-using-adobe-fireworks/
-enclosure:
-  - |
-    http://johnaspinall.co.uk/wp-content/uploads/2013/04/test.mp3
-    1585434
-    audio/mpeg
-    a:1:{s:8:"duration";s:7:"0:01:39";}
+excerpt: A tutorial I wrote detailing a simple and effective method to remove a background from a photograph, most importantly in a none destructive manner.
 categories:
   - Designing a Website
 tags:

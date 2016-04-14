@@ -1,5 +1,5 @@
 wp-content
 config.codekit
 .DS_Store
-/_site/sass/
-/sass/.sass-cache/
+_sass/.sass-cache/
+node_modules

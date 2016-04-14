@@ -1,0 +1,1 @@
+"use strict";module.exports=function(e){require("time-grunt")(e),require("load-grunt-tasks")(e),e.initConfig({pkg:e.file.readJSON("package.json")})};

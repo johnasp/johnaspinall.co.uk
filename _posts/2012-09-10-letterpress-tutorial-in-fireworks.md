@@ -4,11 +4,7 @@ title: Letterpress tutorial in Fireworks
 date: 2012-09-10T10:07:28+00:00
 author: John Aspinall
 layout: post
-guid: http://johnaspinall.co.uk/?p=1002
-permalink: /letterpress-tutorial-in-fireworks/
-categories:
-  - Designing a Website
-  - Video Tutorial
+excerpt:  The letterpress is an effect taken from the printing world where text is machine-stamped onto the paper or card so the words are physically pressed into the surface so you can actually see and feel the indentations.  This is a video tutorial I made in Adobe Fireworks which shows you how to recreate the effect. 
 tags:
   - fireworks
   - Letterpress

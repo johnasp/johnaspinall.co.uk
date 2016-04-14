@@ -45,11 +45,11 @@ I was responsible for producing visual design concepts for the look and feel of 
 
 NB - Click the images below to look at an enlarged view of each screen. 
 
-<div class="no-margin"><a href="/img/kiddicare-comp1.jpg"><img src="/img/kiddicare-comp1.jpg" alt="Kiddicare visual comp 1" /></a></div>
+<div class="no-margin half"><a href="/img/kiddicare-thumb1.jpg"><img src="/img/kiddicare-comp1.jpg" alt="Kiddicare visual comp 1" /></a></div>
 
 ##### IMAGE - Kiddicare visual design comp 1, click to enlarge view.
 
-<div class="no-margin" style="margin-top: 60px;"><a href="/img/kiddicare-comp2.jpg"><img src="/img/kiddicare-comp2.jpg" alt="Kiddicare visual comp 2" /></a></div>
+<div class="no-margin half" style="margin-top: 60px;"><a href="/img/kiddicare-comp2.jpg"><img src="/img/kiddicare-thumb2.jpg" alt="Kiddicare visual comp 2" /></a></div>
 
 #####  IMAGE - Kiddicare visual design comp 2, click to enlarge view.
 

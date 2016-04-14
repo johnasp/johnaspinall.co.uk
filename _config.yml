@@ -1,2 +1,2 @@
-source: 			_source
-destination:	_deploy
+exclude: [‘css’, '_scss', 'node_modules']
+keep_files: ['_site/css']

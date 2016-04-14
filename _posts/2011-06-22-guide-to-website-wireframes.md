@@ -4,13 +4,7 @@ title: Guide to website wireframes and examples
 date: 2011-06-22T13:04:30+00:00
 author: John Aspinall
 layout: post
-guid: http://johnaspinall.co.uk/?p=545
-permalink: /guide-to-website-wireframes/
-categories:
-  - Planning a Website
-tags:
-  - balsamiq
-  - wireframe
+excerpt: A summary of what a style tile is, how it can help the design process and a sample template file I created in Fireworks. 
 ---
 <div id="attachment_547" style="width: 195px" class="wp-caption alignright">
   <a href="http://johnaspinall.co.uk/wp-content/uploads/2011/06/desktop-wireframe.gif"><img class="size-medium wp-image-547" title="desktop-wireframe" src="http://johnaspinall.co.uk/wp-content/uploads/2011/06/desktop-wireframe-185x300.gif" alt="" width="185" height="300" /></a>

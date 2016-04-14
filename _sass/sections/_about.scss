@@ -1,0 +1,27 @@
+.about {
+	background: url(../img/waves-grey-light.jpg) lighten(#eaeaea,5%);
+	background: black;
+	padding: 3.5em 2.5em!important;
+	color: darken($blue,10%);
+	color: white;
+	line-height: 2em;
+	padding: 40px 0;
+	p { 
+		font-size: 1.8rem;
+		margin-top: 0;
+		margin-bottom: 20px;
+		border-radius: 5px;
+		line-height: 1.4em;
+		@include breakpoint(600) {
+			float: left;
+			width: 48%;	
+			&:first-child {
+				margin-right: 4%;
+			}
+			margin: 10px 0 20px 0;
+		}
+		@include breakpoint(1000) {
+			text-align: left;	
+		}
+	}
+}
