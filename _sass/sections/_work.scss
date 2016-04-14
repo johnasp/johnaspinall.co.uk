@@ -11,7 +11,7 @@
 	}
 	.project {
 		text-align: center;
-		a {
+		div a {
 			@include cta;
 			padding: 8px 26px 8px 18px;
 			&:after {

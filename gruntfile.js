@@ -73,7 +73,6 @@ module.exports = function (grunt) {
         'sass'
     ]);
 
-    // Register build as the default task fallback
-    grunt.registerTask('default', 'build');
 
-};
+
+}; 

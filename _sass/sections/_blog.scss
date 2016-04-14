@@ -26,9 +26,14 @@
 #post {
 	margin-top: 20px;
 	font-family: georgia, serif;
-	.half {
-		width: 45%;
-		float: left;
+	.thumbs {
+		div:first-child {
+			margin-right: 5%;
+		}
+		.half {
+			width: 45%;
+			float: left;
+		}
 	}
 	table.overview {
 	  border-radius:  3px;
