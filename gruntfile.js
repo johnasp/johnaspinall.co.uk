@@ -60,6 +60,23 @@ module.exports = function (grunt) {
             }
         },
 
+        //Setup browser sync
+
+        browserSync: {
+            dev: {
+                bsFiles: {
+                    src : [
+                        '_site/css/*.css',
+                        '_site/*.html'
+                    ]
+                },
+                options: {
+                    watchTask: true,
+                    server: './app'
+                }
+            }
+        }
+
     });
 
     // Register the grunt serve task
@@ -73,6 +90,7 @@ module.exports = function (grunt) {
         'sass'
     ]);
 
-
+    // Register build as the default task fallback
+    grunt.registerTask('default', 'build', 'serve', 'browserSync');
 
 }; 
