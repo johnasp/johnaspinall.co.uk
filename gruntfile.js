@@ -72,7 +72,7 @@ module.exports = function (grunt) {
                 },
                 options: {
                     watchTask: true,
-                    server: './app'
+                    server: '127.0.0.1:4000/'
                 }
             }
         }
@@ -91,6 +91,6 @@ module.exports = function (grunt) {
     ]);
 
     // Register build as the default task fallback
-    grunt.registerTask('default', 'build', 'serve', 'browserSync');
+    grunt.registerTask('default', ['build', 'serve', 'browserSync']);
 
 }; 
