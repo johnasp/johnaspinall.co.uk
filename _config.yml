@@ -1,2 +1,2 @@
-exclude: [‘css’, '_scss', 'node_modules', 'gruntfile.js', 'package.json']
+exclude: ['_scss', 'node_modules', 'gruntfile.js', 'package.json']
 keep_files: ['_site/css']
