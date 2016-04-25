@@ -1,0 +1,58 @@
+---
+layout: post
+title: Duplicating a link href into a second link
+category: John learns Jquery
+tag: portfolio
+excerpt: On my blog homepage, I had the main image linking to the article and also wanted a text button linking to the same page, which meant I had to manually copy and paste the link href.  I used Jquery to automate the process, and this is how I did it. 
+--- 
+
+#### The problem
+
+On my portfolio homepage, I had a series of modules which were summaries of each piece of work I wanted to showcase, which contained:
+
+1. Image which links to page
+2. Article summary
+3. Button which also links to the page
+
+The main image which linked to the article contained the same HREF attribute as the button, which meant I had to manually copy and paste the HREF from one to the other.  Manually duplicating data like this is both tedious and difficult to maintain should the link HREF URL change as I would have to update the HREF in two places.  I saw this as an opportunity to use Jquery to automate the process, and this is how I did it. 
+
+#### The approach
+
+My thought process to solving this problem was as follows:
+
+<pre>
+	<div class="module portfolio">
+		<a href="link-to-page1.html">Link 1</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum architecto?</p>
+		<a>Copied link 1 href</a>  
+	</div>
+
+	<div class="module portfolio">
+		<a href="link-to-page2.html">Link 2</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum architecto?</p>
+		<a>Copied link 2 href</a>  
+	</div>
+
+	<d3v class="module portfolio">
+		<a href="link-to-page3.html">Link 3</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum architecto?</p>
+		<a>Copied link 3 href</a>  
+	</div>
+
+	<div class="module portfolio">
+		<a href="link-to-page4.html">Link 4</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum architecto?</p>
+		<a>Copied link 4 href</a>  
+	</div>
+
+</pre>
+
+#### Pseudo code
+
+* Select the the first portfolio module
+* Copy the link address from the first link
+* Paste the link address into the empty final link
+* Repeat the process with all the other modules
+
+
+
