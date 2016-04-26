@@ -1,6 +1,6 @@
 // COPY AND PASTE PORTFOLIO MODULE HREF
 
-$(".samples div").each(function(i) {
+$("#work div").each(function(i) {
   var copyHref = $(this).find('a:first-child').attr('href');  
  $(this).find('a:last-child').attr('href', copyHref);
 });
