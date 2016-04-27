@@ -34,7 +34,7 @@ The designs I created were well received by the digital team and also at the hea
 I have unfortunately misplaced the full set of concepts, although I do have the homepage which can be viewed in full screen by clicking the image below:
 
 <a href="/img/m-com-homepage-full.jpg">
-<img src="/img/m-com-homepage-thumb.jpg" alt="Morrisons homepage design">
+<img src="/img/m-com-homepage-small.jpg" alt="Morrisons homepage design">
 </a>
 
 
