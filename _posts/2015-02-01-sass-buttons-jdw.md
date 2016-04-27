@@ -27,7 +27,7 @@ excerpt: A series of SASS powered buttons with resizeable inline SVG icons
 
 #### Overview
 
-A flexible website button system I created to be used in a style guide for the client.  The main features of this button set were:
+A flexible website button system I wrote in SASS and inline SVG which was to be used as a component in a style guide for the client.  The main features of this button set were:
 
 1. The ability to be able to change the entire colour scheme by changing a single SASS variable, this included changing gradients.  This was important as each website brand the client rand had it's own distinct colours.
 2. A single base font variable could be changed to instantly change the size of the buttons
