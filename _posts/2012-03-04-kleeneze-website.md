@@ -32,7 +32,7 @@ excerpt: A fully responsive website for the public facing website of Kleeneze.
 #### What I did
 
 
-<div class="no-margin"><a href="http://www.blackpoolsupporterstrust.com"><img src="/img/bst-thumb.jpg" alt="Blackpool Supporters' Trust website screenshot" /></a></div>
+<div class="no-margin"><a href=""><img src="/img/kleeneze-thumb.jpg" alt="Kleeneze website screenshot" /></a></div>
 
 ##### Kleeneze responsive website, click image to go to site.
 
