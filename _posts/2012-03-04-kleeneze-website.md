@@ -1,10 +1,9 @@
-
 ---
 layout: post
 title: Kleeneze responsive website
 category: Responsive
 tag: portfolio
-excerpt: A fully responsive website for the public facing website of Kleeneze.  
+excerpt: A fully responsive website for the public facing website of Kleeneze
 ---   
 
 <table class="overview cols">
@@ -28,13 +27,13 @@ excerpt: A fully responsive website for the public facing website of Kleeneze.
 
 #### Overview
 
+Lead designer/developer on project to redesign the corporate website, the goal of which was to generate more website leads and optimise for mobile and tablet platforms. 
 
-#### What I did
+Tasks completed included; production of wireframes and a rapid prototype, designed site mock-ups, coded the HTML & CSS (using responsive design) and co-worked to convert into a Wordpress theme, thus making the site content managed. 
+<div class="no-margin"><a href="http://web.archive.org/web/20120304083924/http://www.kleeneze.co.uk/
+"><img src="/img/kleeneze-full.jpg" alt="Kleeneze website screenshot" /></a></div>
 
-
-<div class="no-margin"><a href=""><img src="/img/kleeneze-thumb.jpg" alt="Kleeneze website screenshot" /></a></div>
-
-##### Kleeneze responsive website, click image to go to site.
+##### Click image to go to archived view of the site.
 
 
 
