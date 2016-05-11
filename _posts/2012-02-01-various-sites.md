@@ -41,7 +41,7 @@ NB - these sites were all built in a "pre responsive era" and as such, are now n
   <li><a href=""><img src="/img/various/regency-lodge-blackpool.jpg" alt="Regency Lodge - Brochure website"></a></li>
   <li><a href=""><img src="/img/various/vienna-2008.jpg" alt="Vienna 2008 - Kleeneze distributor incentive destination website"></a></li>
   <li><a href=""><img src="/img/various/vt.jpg" alt="View Traffic - Traffic camera portal built in Wordpress "></a></li>
-</ul>
+</ul>  
 
 
 
