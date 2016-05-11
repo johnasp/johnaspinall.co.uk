@@ -1400,13 +1400,6 @@ INTRO
   top: -70px;
 }
 
-.thumbs a {
-  display: inline-block;
-  background: #ccc;
-  padding: 3px;
-  margin: 6px;
-}
-
 .blog {
   background: url(../img/waves-grey.jpg) #eaeaea;
   position: relative;
