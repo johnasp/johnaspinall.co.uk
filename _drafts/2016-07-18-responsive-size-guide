@@ -1,12 +1,22 @@
-I have been tasked with creating a responsive style guide for the suite of mobile specific website for an ecommerece client I am working with at the moment.  For shits and giggles, I thought I'd (for once!) document the whole process to map out my development workflow from start to end.  
+I have been tasked with creating a responsive style guide for the suite of mobile specific website for an ecommerece client I am working with at the moment.  For shits and giggles, I thought I'd document the whole process to map out my development workflow from start to end.  
 
 ## Analyse business requirements
 
-I work in an agile team where platform changes are released in montly sprints and the software we use to manage all our tasks and workflow is called Jira.  All the business requirements related to my task are in a ticket which has been created by an organisation business analyst so I simply login to Jira, look at the project board and open the ticket to access the requirements. Rivetting stuff so far eh, here's a pretty picture to illustrate:
+The first stop of any project is to obtain, analyse and understand the business requirements.  All the business requirements related to my task are in a Jira (a tool the team uses to faciliate Agile software releases) story, created by an business analyst. I simply login to Jira, look at the project board and open the ticket to access the requirements. 
 
 ![My taks in Jira](http:/johnaspinall.co.uk/img/my-jira-ticket.jpg)
 
-The clients problem is that they currently do not have a size guide for any of their apparel products on their mobile specific websites and they want this feature adding.  They do have them for their desktop and tablet specific websites.  
+![Business requirements in the Agile story](http:/johnaspinall.co.uk/img/size-guide-requirements.jpg)
+
+Having read the requirements contained in the ticket (see above), I can deduce the clients' problem is that they currently do not have a size guide for any products on their mobile specific ecommerce websites and they want this feature adding.  As you can see, I highlighted the specifics of the story and any areas I didn't fully understand, which I then contacted the BA directly to clarify the requirment.  
+
+At this stage I always find it useful to create a concise list of requirements, mainly for my myself just to walk through and tick off as I go.  So for this project it is as follows:
+
+1. Size guide link/button on product details page on all brands, with ability to toggle it on/off on a per brand basis. 
+2. Modal which contains size guide.
+3. List of size guide category panels, layed out in expand/collapse accordian. 
+4. Content in each panel to be in fixed width table to be scrolled horizontally when content overflows it's container. 
+5. Close modal icon.
 
 ## My approach
 
