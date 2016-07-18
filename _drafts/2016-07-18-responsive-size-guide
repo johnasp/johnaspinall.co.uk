@@ -2,5 +2,13 @@ I have been tasked with creating a responsive style guide for the suite of mobil
 
 ## Analyse business requirements
 
-I work in an agile team where platform changes are released in montly sprints and the software we use to manage all our tasks and workflow is called Jira.  All the business requirements related to my task are in a ticket which has been created by an organisation business analyst so I simply login to Jira, look at the project board and open the ticket to access the requirements. Rivetting stuff so far eh!
+I work in an agile team where platform changes are released in montly sprints and the software we use to manage all our tasks and workflow is called Jira.  All the business requirements related to my task are in a ticket which has been created by an organisation business analyst so I simply login to Jira, look at the project board and open the ticket to access the requirements. Rivetting stuff so far eh, here's a pretty picture to illustrate:
+
+![My taks in Jira](http:/johnaspinall.co.uk/img/my-jira-ticket.jpg)
+
+The clients problem is that they currently do not have a size guide for any of their apparel products on their mobile specific websites and they want this feature adding.  They do have them for their desktop and tablet specific websites.  
+
+## My approach
+
+OK so I now know what I have to do, the question now is, the best way to approach solving the problem?  So I have to make a size guide for mobile specific websites. The client currently uses [WURFL](http://wurfl.sourceforge.net/) to load a specific optimised codebase when a certain device type hits the URL i.e. when an iphone hits the URL then load a codebase for mobile, if an ipad hits the URL then load a codebase specific for tablets, yadda yadda. 
 
