@@ -18,7 +18,20 @@ At this stage I always find it useful to create a concise list of requirements, 
 4. Content in each panel to be in fixed width table to be scrolled horizontally when content overflows it's container. 
 5. Close modal icon.
 
+**Other notes**
+* This is to be a generic size guide used accross all categories
+
 ## My approach
 
-OK so I now know what I have to do, the question now is, the best way to approach solving the problem?  So I have to make a size guide for mobile specific websites. The client currently uses [WURFL](http://wurfl.sourceforge.net/) to load a specific optimised codebase when a certain device type hits the URL i.e. when an iphone hits the URL then load a codebase for mobile, if an ipad hits the URL then load a codebase specific for tablets, yadda yadda. 
+OK so I now know what I have to do, the question now, is, the best way to approach solving the problem?  So I have to make a size guide for mobile specific websites. The client currently uses [WURFL](http://wurfl.sourceforge.net/) to load a specific optimised codebase when a certain device type hits the URL i.e. when an iphone hits the URL then load a codebase for mobile, if an ipad hits the URL then load a codebase specific for tablets, yadda yadda. 
+
+This is fine then, I am only building for mobile devices, and the browser landscape on mobile devices tends to be more standards compliant than legacy desktop browsers so I can use CSS3 and HTML5 with confidence the vast majority of it will be supported.  Win. 
+
+As this is only a relatively small project, rather than waste time wireframing and sketching this out, I'm going to delve straight into code and build a prototype in the browser, the code which I write can the be used for the production solution. Again saving more time.  I'll send the intial screens out early to the business for review for feedback.  I'm going to write the coded prototpe in Codepen as it's the best tool for the job.
+
+## Prototype
+
+So I need to build and accordian element, which is loaded in a modal upon click of a link. The accordian elements are to contain the following categories 
+
+
 
