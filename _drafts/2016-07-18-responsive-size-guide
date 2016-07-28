@@ -32,12 +32,30 @@ I did a rough hand sketch of my idea and presented this to the business analysts
 
 #### Protoype
 
-I am only building for mobile devices, and the browser landscape on mobile devices tends to be more standards compliant than legacy desktop browsers so I can use CSS3 and HTML5 with confidence the vast majority of it will be supported.  Win. 
+As this is only a relatively small product, rather than waste time wireframing, I'm going to delve straight into code and build a prototype in the browser, the code which I write can the be used for the production solution. Again saving more time.  I'll send the intial screens out early to the business for review for feedback.  I'm going to write the coded prototpe in Codepen and utlise the Bootstap framework for the build. 
 
-As this is only a relatively small product, rather than waste time wireframing, I'm going to delve straight into code and build a prototype in the browser, the code which I write can the be used for the production solution. Again saving more time.  I'll send the intial screens out early to the business for review for feedback.  I'm going to write the coded prototpe in Codepen as it's the best tool for the job.
+NOTES ABOUT CODEPEN BENEFITS
+SCREESHOT OF CODEPEN SETTINGS
+
+So I need to build and accordian element, which is loaded in a modal upon click of a link. The accordian elements are to contain the following categories.
+
+### BUILD BUGS
+
+#### Scrolling tables being cut off in iOS
+So this was a weird one...the scrolling tables had worked a treat on desktop and the mobiles I tested on, but then I noticed a weird bug on iOS.  The table was literally being cut in half on two of the seven tables contained in the accordians, but the scrolling still maintained itself as if the content was still there.  But it was OK on several other tables?  WTF!?  
+
+To debug this I hooked the iPhone 6 up to my Macbook Air and fired up Safari on my Mac to use it's device web inspector tool to inspect the DOM on the iPhones render of the accordian.  Everything checked out fine, the table HTML was in the DOM, all the correct CSS was being applied, there wasn't any other Bootsrap CSS rulles causing this, in fact there was nothing obvious causing this in the code.  
+
+The net step in situation like is to refer the problem to the developers best friend, Google, to find out what the hell was going on here.  It was actually a bit of a job to gleen some accurate results given the fact the problem was so weird to describe and I had to type tings along the lines of "overflow: scrow table cut in half iOS" and the like.  I eventually came up with something, it turns on 
+
+<pre> Mobile Safari does not render the elements that are offscreen, or sometimes renders erratically, when using -webkit-overflow-scrolling: touch. Unless a translate3d is applied to all other elements that might go offscreen owing to that scroll, those elements will be chopped off after scrolling.</pre>
+
+http://stackoverflow.com/questions/26176288/webkit-overflow-scrolling-touch-breaks-in-apples-ios8
+http://stackoverflow.com/questions/9807620/ipad-safari-scrolling-causes-html-elements-to-disappear-and-reappear-with-a-dela
 
 
-So I need to build and accordian element, which is loaded in a modal upon click of a link. The accordian elements are to contain the following categories 
+### Fixed table column
+The business wants the first table to be locked when the rest of the table scrolls.  I did intitally think to the apply a postiion: fixed; attribute to the first TD, set it's wdith to 80 px and then set padding-left: 80px to the second TD in the set.  I knew in my heart of hearts this is a bit hacky and it seemed to work like a charm in Chrome but when I tested it on an iPhone the layout of the table was totally screwed, so back to the drawing board.  
 
 
 
