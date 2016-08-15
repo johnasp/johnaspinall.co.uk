@@ -1,3 +1,11 @@
+---
+layout: post
+title: Mobile web clothing size guide UX/UI
+category: UX
+tag: portfolio
+excerpt: Designed and built the UX and UI for a brand new size guide component for the clients' mobile specific eCommerce website. 
+---  
+
 I have been tasked with creating a responsive style guide for the suite of mobile specific website for an ecommerece client I am working with at the moment.  For shits and giggles, I thought I'd document the whole process to map out my development workflow from start to end.  
 
 ## Analyse business requirements
