@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile web clothing size guide UX/UI
+title: Mobile clothing size guide UX/UI
 category: UX
 tag: portfolio
 excerpt: Designed and built the UX and UI for a brand new size guide component for the clients' mobile specific eCommerce website. 
@@ -12,7 +12,7 @@ I have been tasked with creating a responsive style guide for the suite of mobil
 
 The first stop of any project is to obtain, analyse and understand the business requirements.  All the business requirements related to my task are in a Jira (a tool the team uses to faciliate Agile software releases) story, created by an business analyst. I simply login to Jira, look at the project board and open the ticket to access the requirements. 
 
-![My taks in Jira](http:/johnaspinall.co.uk/img/my-jira-ticket.jpg)
+![My taks in Jira](http://johnasp.github.io/img/my-jira-ticket.JPG)
 
 ![Business requirements in the Agile story](http:/johnaspinall.co.uk/img/size-guide-requirements.jpg)
 
