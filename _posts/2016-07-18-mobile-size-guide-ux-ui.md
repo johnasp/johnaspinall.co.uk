@@ -6,23 +6,23 @@ tag: portfolio
 excerpt: Designed and built the UX and UI for a brand new size guide component for the clients' mobile specific eCommerce website. 
 ---  
 
-I have been tasked with creating a responsive style guide for the suite of mobile specific website for an ecommerece client I am working with at the moment.  For shits and giggles, I thought I'd document the whole process to map out my development workflow from start to end.  
+I have been tasked with creating a responsive style guide for the suite of mobile specific website for an ecommerece client I am working with at the moment. I thought I'd document the whole process to map out my design and development workflow and processes, from start to end.  
 
-#### Analyse business requirements
+#### Requirements analysis
 
-The first stop of any project is to obtain, analyse and understand the business requirements.  All the business requirements related to my task are in a Jira (a tool the team uses to faciliate Agile software releases) story, created by an business analyst. I simply login to Jira, look at the project board and open the ticket to access the requirements. 
+The first stop in any project is to obtain, analyse and understand the business requirements.  All the  requirements related to my task are in a Jira (a tool to faciliate Agile software releases) story, created by an business analyst. I simply login to Jira, look at the project board and open my ticket to access the requirements. 
 
 ![My taks in Jira](http://johnasp.github.io/img/my-jira-ticket.JPG)
 
-Having read the requirements contained in the ticket, I can deduce the clients' problem is that they currently do not have a size guide for any products on their mobile specific ecommerce websites and they want this feature adding. I highlighted the specifics of the story and contacted the projects' Business Analyst to clarify the requirments I didn't fully understand 
+Having read the requirements contained in the ticket, I can deduce the clients' problem is that they currently do not have a size guide for any products on their mobile specific ecommerce websites and they want this feature adding. I highlighted the specifics of the story and contacted the projects' Business Analyst to clarify the requirments I didn't fully understand.
 
-At this stage I always find it useful to create my own "to do list" when I have understood the project requirements, so for this project it is, as follows:
+At this stage I always find it useful to create my own "to do list" when I have fully understood the project requirements, so for this project it is, as follows:
 
 1. A Size guide link on the product details page, with ability to toggle it on/off on a per brand basis. 
 2. The size guide content will appear in a modal upon click of the link above.
-3. List of size guide category panels, layed out in expand/collapse accordian. 
+3. List of size guide content category panels.
 4. Content in each panel to be in fixed width table to be scrolled horizontally when content overflows it's container. 
-5. Close modal icon.
+5. Close modal icon and button
 
 OK so I now know what I have to do, the question now, is, the best way to approach solving the problem?  
 
@@ -30,11 +30,11 @@ OK so I now know what I have to do, the question now, is, the best way to approa
 
 We are to be presenting wide and deep tables of data to the user who we know is to be acessing the content on a mobile device.  And there are to be five seperate sections of content.  As we are limited in screen width on a mobile device, it seems to me the best way to present this content is to split up each section into an accordian, and further split each sub-section of content into tabs. 
 
-### Sketching
+#### Sketching
 
 I did a rough hand sketch of my idea and presented this to the business analysts. There were happy with this design pattern so my next taks is to build this out into a working prototype and get this into the hands of the business and users relatively early in the process in order to validate the product. 
 
-!My sketch of proposed size guide modal](http://johnasp.github.io/img/size-guide-sketch.jpg)
+![My sketch of proposed size guide modal](http://johnasp.github.io/img/size-guide-sketch.jpg)
 
 
 I'll send the intial screens out early to the business for review for feedback to ensure we are "Singing from the same hymn sheet" I'm going to write the coded prototpe in Codepen and utlise the Bootstap amd Jquery frameworks for the build. 
