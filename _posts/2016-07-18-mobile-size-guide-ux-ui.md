@@ -8,13 +8,13 @@ excerpt: Designed and built the UX and UI for a brand new size guide component f
 
 I have been tasked with creating a responsive style guide for the suite of mobile specific website for an ecommerece client I am working with at the moment.  For shits and giggles, I thought I'd document the whole process to map out my development workflow from start to end.  
 
-## Analyse business requirements
+###Analyse business requirements
 
 The first stop of any project is to obtain, analyse and understand the business requirements.  All the business requirements related to my task are in a Jira (a tool the team uses to faciliate Agile software releases) story, created by an business analyst. I simply login to Jira, look at the project board and open the ticket to access the requirements. 
 
 ![My taks in Jira](http://johnasp.github.io/img/my-jira-ticket.JPG)
 
-![Business requirements in the Agile story](http://johnasp.github.io/size-guide-requirements.jpg)
+![Business requirements in the Agile story](http://johnasp.github.io/img/size-guide-requirements.jpg)
 
 Having read the requirements contained in the ticket (see above), I can deduce the clients' problem is that they currently do not have a size guide for any products on their mobile specific ecommerce websites and they want this feature adding.  As you can see, I highlighted the specifics of the story and any areas I didn't fully understand, which I then contacted the BA directly to clarify the requirment.  
 
