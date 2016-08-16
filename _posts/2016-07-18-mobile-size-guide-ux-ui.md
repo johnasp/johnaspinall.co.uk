@@ -47,7 +47,7 @@ As this is only a relatively small product, rather than waste time wireframing, 
 
 As I'm quite experienced with Bootstrap, the protototype only took a few days to put together and is embedded for below:
 
-<p data-height="608" data-theme-id="dark" data-slug-hash="LkQWva" data-default-tab="result" data-user="johnasp" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/johnasp/pen/LkQWva/">Responsive size guide modal & accordian</a> by John Aspinall (<a href="http://codepen.io/johnasp">@johnasp</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="531" data-theme-id="dark" data-slug-hash="LkQWva" data-default-tab="result" data-user="johnasp" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/johnasp/pen/LkQWva/">Responsive size guide modal & accordian</a> by John Aspinall (<a href="http://codepen.io/johnasp">@johnasp</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 
