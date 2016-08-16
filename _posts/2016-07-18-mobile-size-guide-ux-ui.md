@@ -14,7 +14,7 @@ The first stop of any project is to obtain, analyse and understand the business 
 
 ![My taks in Jira](http://johnasp.github.io/img/my-jira-ticket.JPG)
 
-![Business requirements in the Agile story](http:/johnaspinall.co.uk/img/size-guide-requirements.jpg)
+![Business requirements in the Agile story](http://johnasp.github.io/size-guide-requirements.jpg)
 
 Having read the requirements contained in the ticket (see above), I can deduce the clients' problem is that they currently do not have a size guide for any products on their mobile specific ecommerce websites and they want this feature adding.  As you can see, I highlighted the specifics of the story and any areas I didn't fully understand, which I then contacted the BA directly to clarify the requirment.  
 
@@ -36,7 +36,7 @@ We are to be presenting wide and deep tables of data to the user who we know is 
 
 I did a rough hand sketch of my idea and presented this to the business analysts. There were happy with this design pattern so my next taks is to build this out into a working prototype and get this into the hands of the business and users relatively early in the process in order to validate the product. 
 
-!My sketch of proposed size guide modal](http:/johnaspinall.co.uk/img/size-guide-sketch.jpg)
+!My sketch of proposed size guide modal](http://johnasp.github.io/size-guide-sketch.jpg)
 
 #### Protoype
 
