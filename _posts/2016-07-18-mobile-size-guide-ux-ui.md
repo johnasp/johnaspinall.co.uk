@@ -8,9 +8,9 @@ excerpt: Designed and built the UX and UI for a brand new size guide component f
 
 I have been tasked with creating a responsive style guide for the suite of mobile specific website for an ecommerece client I am working with at the moment. I thought I'd document the whole process to map out my design and development workflow and processes, from start to end.  
 
-#### Requirements analysis
+### Requirements analysis
 
-The first stop in any project is to obtain, analyse and understand the business requirements.  All the  requirements related to my task are in a Jira (a tool to faciliate Agile software releases) story, created by an business analyst. I simply login to Jira, look at the project board and open my ticket to access the requirements. 
+The first stop in any project is to obtain, analyse and understand the business requirements.  All the  requirements related to my task are in a Jira (a tool to faciliate Agile software releases) story, created by a business analyst. I simply login to Jira, look at the project board and open my ticket to access the requirements. 
 
 ![My taks in Jira](http://johnasp.github.io/img/my-jira-ticket.JPG)
 
@@ -21,38 +21,36 @@ At this stage I always find it useful to create my own "to do list" when I have 
 1. A Size guide link on the product details page, with ability to toggle it on/off on a per brand basis. 
 2. The size guide content will appear in a modal upon click of the link above.
 3. List of size guide content category panels.
-4. Content in each panel to be in fixed width table to be scrolled horizontally when content overflows it's container. 
-5. Close modal icon and button
+4. Content in each panel to be in fixed width table.
+5. Close modal icon and button.
 
-OK so I now know what I have to do, the question now, is, the best way to approach solving the problem?  
+OK so I now know what I have to do, the question now is, what's the best way to approach solving the problem?  
 
 ### My approach 
 
-We are to be presenting wide and deep tables of data to the user who we know is to be acessing the content on a mobile device.  And there are to be five seperate sections of content.  As we are limited in screen width on a mobile device, it seems to me the best way to present this content is to split up each section into an accordian, and further split each sub-section of content into tabs. 
+We are to be presenting wide and deep tables of data to the user who we know is to be acessing the content on a mobile device and there are to be five seperate sections of content.  As we are limited in screen height on a mobile device, it seems to me the best way to present this content is to split up each section into an accordian, and further split each sub-section of content into tabbed panels.
 
-#### Sketching
+### Sketching
 
-I did a rough hand sketch of my idea and presented this to the business analysts. There were happy with this design pattern so my next taks is to build this out into a working prototype and get this into the hands of the business and users relatively early in the process in order to validate the product. 
+I did a rough hand sketch of my idea and presented this to the business. There were happy with this solution, so my next tasks is to build this out into a working prototype and get this into the hands of the business and users early in the process.  I feel it's crucial to get it in the hands of users early in the process in order to validate the product effectiveness and so it solves the business problem..    
 
 ![My sketch of proposed size guide modal](http://johnasp.github.io/img/size-guide-sketch.jpg)
 
+I'll now move onto building a prototype.
 
-I'll send the intial screens out early to the business for review for feedback to ensure we are "Singing from the same hymn sheet" I'm going to write the coded prototpe in Codepen and utlise the Bootstap amd Jquery frameworks for the build. 
+### Protoype
 
-#### Protoype
+As this is only a relatively small product, I'd consider wireframing uneessary and ultimately a waste of time, so I'm going to delve straight into code and build a HTML prototype in the browser.  
 
-As this is only a relatively small product, rather than waste time wireframing, I'm going to delve straight into code and build a prototype in the browser, the code which I write can the be used for the production solution. Again saving more time.  
+I'm going to build the prototype with the Bootstrap and Jquery frameworks, the added bonus of using which is that the code can then be used for the final product which will shorten the development cycle.
 
-As I'm quite experienced with Bootstrap, the protototype only took a few days to put together and is embedded for below:
+The protototype only took a few days to put together and is embedded for viewing below:
 
 <p data-height="531" data-theme-id="dark" data-slug-hash="LkQWva" data-default-tab="result" data-user="johnasp" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/johnasp/pen/LkQWva/">Responsive size guide modal & accordian</a> by John Aspinall (<a href="http://codepen.io/johnasp">@johnasp</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 
-
-
-
-### BUILD BUGS
+### Build bugs
 
 #### Scrolling tables being cut off in iOS
 So this was a weird one...the scrolling tables had worked a treat on desktop and the mobiles I tested on, but then I noticed a weird bug on iOS.  The table was literally being cut in half on two of the seven tables contained in the accordians, but the scrolling still maintained itself as if the content was still there.  But it was OK on several other tables?  WTF!?  
@@ -67,8 +65,10 @@ http://stackoverflow.com/questions/26176288/webkit-overflow-scrolling-touch-brea
 http://stackoverflow.com/questions/9807620/ipad-safari-scrolling-causes-html-elements-to-disappear-and-reappear-with-a-dela
 
 
-### Fixed table column
+#### Fixed table column
 The business wants the first table to be locked when the rest of the table scrolls.  I did intitally think to the apply a postiion: fixed; attribute to the first TD, set it's wdith to 80 px and then set padding-left: 80px to the second TD in the set.  I knew in my heart of hearts this is a bit hacky and it seemed to work like a charm in Chrome but when I tested it on an iPhone the layout of the table was totally screwed, so back to the drawing board.  
+
+
 
 
 
