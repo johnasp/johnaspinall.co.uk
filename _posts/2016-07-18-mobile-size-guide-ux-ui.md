@@ -42,7 +42,7 @@ I'll now move onto building a prototype.
 
 As this is only a relatively small product, I'd consider wireframing uneessary and ultimately a waste of time, so I'm going to delve straight into code and build a HTML prototype in the browser.  
 
-I'm going to build the prototype with the Bootstrap and Jquery frameworks, the added bonus of using which is that the code can then be used for the final product which will shorten the development cycle.  I'm also going to build it in ![Codepen]{http://www.codepen.io} which is great product for building prototypes in the browser.
+I'm going to build the prototype with the Bootstrap and Jquery frameworks, the added bonus of using which is that the code can then be used for the final product which will shorten the development cycle.  I'm also going to build it in [Codepen]{http://www.codepen.io} which is great product for building prototypes in the browser.
 
 Codepen also facilitates having a live URL on the web also which meant I could get the prototype out and into the hands of the business and the users, directly on a mobile device.  
 
@@ -55,7 +55,7 @@ As previously mentioned, I ran into a couple of device specific bugs on iOS, whi
 
 ### Testing
 
-I sent the ![Codepen live URL]{http://codepen.io/johnasp/full/LkQWva/} around to the business and added to the JIRA ticket comments sections.  The business analysts then tested the product in their teams, made a few small iterative changes which I did as when they were requested.  
+I sent the [Codepen live URL]{http://codepen.io/johnasp/full/LkQWva/} around to the business and added to the JIRA ticket comments sections.  The business analysts then tested the product in their teams, made a few small iterative changes which I did as when they were requested.  
 
 I also "guerrilla tested" the product by getting my Mum and partner to complete a set of user tasks, observed these tasks taking place and noted down any difficulties they had completing a particular task.  I was pleased to observe they didn't have any problems!  
 
