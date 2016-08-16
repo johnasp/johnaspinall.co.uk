@@ -42,13 +42,26 @@ I'll now move onto building a prototype.
 
 As this is only a relatively small product, I'd consider wireframing uneessary and ultimately a waste of time, so I'm going to delve straight into code and build a HTML prototype in the browser.  
 
-I'm going to build the prototype with the Bootstrap and Jquery frameworks, the added bonus of using which is that the code can then be used for the final product which will shorten the development cycle.
+I'm going to build the prototype with the Bootstrap and Jquery frameworks, the added bonus of using which is that the code can then be used for the final product which will shorten the development cycle.  I'm also going to build it in ![Codepen]{http://www.codepen.io} which is great product for building prototypes in the browser.
 
-The protototype only took a few days to put together and is embedded for viewing below:
+Codepen also facilitates having a live URL on the web also which meant I could get the prototype out and into the hands of the business and the users, directly on a mobile device.  
+
+A built the prototype in just over a week which I thought was a decent turnaround.  I am reasonably experienced in Bootstrap and Jquery so putting it together was pretty quick, the main time taken was fixing a couple of device specific bugs! The prototype can be viewed here:
 
 <p data-height="531" data-theme-id="dark" data-slug-hash="LkQWva" data-default-tab="result" data-user="johnasp" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/johnasp/pen/LkQWva/">Responsive size guide modal & accordian</a> by John Aspinall (<a href="http://codepen.io/johnasp">@johnasp</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
+As previously mentioned, I ran into a couple of device specific bugs on iOS, which I will detail at the end of this document.
+
+### Testing
+
+I sent the ![Codepen live URL]{http://codepen.io/johnasp/full/LkQWva/} around to the business and added to the JIRA ticket comments sections.  The business analysts then tested the product in their teams, made a few small iterative changes which I did as when they were requested.  
+
+I also "guerrilla tested" the product by getting my Mum and partner to complete a set of user tasks, observed these tasks taking place and noted down any difficulties they had completing a particular task.  I was pleased to observe they didn't have any problems!  
+
+### Integration
+
+This is currently ongoing although we are almost at the end of the sprint and then product release is imminent.   I have integrated all my code into the main shop application, all testing has been completed successfully.  I'll add a link to the live version when it becomes available.  
 
 ### Build bugs
 
@@ -57,7 +70,7 @@ So this was a weird one...the scrolling tables had worked a treat on desktop and
 
 To debug this I hooked the iPhone 6 up to my Macbook Air and fired up Safari on my Mac to use it's device web inspector tool to inspect the DOM on the iPhones render of the accordian.  Everything checked out fine, the table HTML was in the DOM, all the correct CSS was being applied, there wasn't any other Bootsrap CSS rulles causing this, in fact there was nothing obvious causing this in the code.  
 
-The net step in situation like is to refer the problem to the developers best friend, Google, to find out what the hell was going on here.  It was actually a bit of a job to gleen some accurate results given the fact the problem was so weird to describe and I had to type tings along the lines of "overflow: scrow table cut in half iOS" and the like.  I eventually came up with something, it turns on 
+The next step in situation like is to refer the problem to the developers best friend, Google, to find out what the hell was going on here.  It was actually a bit of a job to gleen some accurate results given the fact the problem was so weird to describe and I had to type tings along the lines of "overflow: scrow table cut in half iOS" and the like.  I eventually came up with something, it turns on 
 
 <pre> Mobile Safari does not render the elements that are offscreen, or sometimes renders erratically, when using -webkit-overflow-scrolling: touch. Unless a translate3d is applied to all other elements that might go offscreen owing to that scroll, those elements will be chopped off after scrolling.</pre>
 
