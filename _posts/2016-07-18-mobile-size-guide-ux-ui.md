@@ -8,7 +8,7 @@ excerpt: Designed and built the UX and UI for a brand new size guide component f
 
 I have been tasked with creating a responsive style guide for the suite of mobile specific website for an ecommerece client I am working with at the moment.  For shits and giggles, I thought I'd document the whole process to map out my development workflow from start to end.  
 
-###Analyse business requirements
+### Analyse business requirements
 
 The first stop of any project is to obtain, analyse and understand the business requirements.  All the business requirements related to my task are in a Jira (a tool the team uses to faciliate Agile software releases) story, created by an business analyst. I simply login to Jira, look at the project board and open the ticket to access the requirements. 
 
@@ -28,7 +28,7 @@ At this stage I always find it useful to create an ![Evernote t0-to list ](http:
 
 OK so I now know what I have to do, the question now, is, the best way to approach solving the problem?  
 
-## My approach 
+### My approach 
 
 We are to be presenting wide and deep tables of data to the user who we know is to be acessing the content on a mobile device.  And there are to be five seperate sections of content.  As we are limited in screen width on a mobile device, it seems to me the best way to present this content is to split up each section into an accordian, and further split each sub-section of content into tabs. 
 
@@ -36,16 +36,24 @@ We are to be presenting wide and deep tables of data to the user who we know is 
 
 I did a rough hand sketch of my idea and presented this to the business analysts. There were happy with this design pattern so my next taks is to build this out into a working prototype and get this into the hands of the business and users relatively early in the process in order to validate the product. 
 
-!My sketch of proposed size guide modal](http://johnasp.github.io/size-guide-sketch.jpg)
+!My sketch of proposed size guide modal](http://johnasp.github.io/img/size-guide-sketch.jpg)
+
+
+I'll send the intial screens out early to the business for review for feedback to ensure we are "Singing from the same hymn sheet" I'm going to write the coded prototpe in Codepen and utlise the Bootstap amd Jquery frameworks for the build. 
 
 #### Protoype
 
-As this is only a relatively small product, rather than waste time wireframing, I'm going to delve straight into code and build a prototype in the browser, the code which I write can the be used for the production solution. Again saving more time.  I'll send the intial screens out early to the business for review for feedback.  I'm going to write the coded prototpe in Codepen and utlise the Bootstap framework for the build. 
+As this is only a relatively small product, rather than waste time wireframing, I'm going to delve straight into code and build a prototype in the browser, the code which I write can the be used for the production solution. Again saving more time.  
 
-NOTES ABOUT CODEPEN BENEFITS
-SCREESHOT OF CODEPEN SETTINGS
+As I'm quite experienced with Bootstrap, the protototype only took a few days to put together and is embedded for below:
 
-So I need to build and accordian element, which is loaded in a modal upon click of a link. The accordian elements are to contain the following categories.
+<p data-height="265" data-theme-id="dark" data-slug-hash="LkQWva" data-default-tab="html,result" data-user="johnasp" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/johnasp/pen/LkQWva/">Responsive size guide modal & accordian</a> by John Aspinall (<a href="http://codepen.io/johnasp">@johnasp</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+
+
+
+
 
 ### BUILD BUGS
 
