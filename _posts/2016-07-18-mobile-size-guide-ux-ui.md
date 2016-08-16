@@ -70,9 +70,7 @@ So this was a weird one...the scrolling tables had worked a treat on desktop and
 
 To debug this I hooked the iPhone 6 up to my Macbook Air and fired up Safari on my Mac to use it's device web inspector tool to inspect the DOM on the iPhones render of the accordion.  Everything checked out fine, the table HTML was in the DOM, all the correct CSS was being applied, there wasn't any other Bootsrap CSS rulles causing this, in fact there was nothing obvious causing this in the code.  
 
-The next step in situation like is to refer the problem to the developers best friend, Google, to find out what the hell was going on here.  It was actually a bit of a job to glean some accurate results given the fact the problem was so weird to describe and I had to type tings along the lines of "overflow: scroll table cut in half iOS" and the like.  I eventually came up with something, it turns on 
-
-<pre> Mobile Safari does not render the elements that are off screen, or sometimes renders erratically, when using -webkit-overflow-scrolling: touch. Unless a translate3d is applied to all other elements that might go offscreen owing to that scroll, those elements will be chopped off after scrolling.</pre>
+The next step in situation like is to refer the problem to the developers best friend, Google, to find out what the hell was going on here.  It was actually a bit of a job to glean some accurate results given the fact the problem was so weird to describe and I had to type tings along the lines of "overflow: scroll table cut in half iOS" and the like.  I eventually came up with something, it turns out Mobile Safari does not render the elements that are off screen, or sometimes renders erratically, when using -webkit-overflow-scrolling: touch. Unless a translate3d is applied to all other elements that might go offscreen owing to that scroll, those elements will be chopped off after scrolling.
 
 http://stackoverflow.com/questions/26176288/webkit-overflow-scrolling-touch-breaks-in-apples-ios8
 http://stackoverflow.com/questions/9807620/ipad-safari-scrolling-causes-html-elements-to-disappear-and-reappear-with-a-dela
