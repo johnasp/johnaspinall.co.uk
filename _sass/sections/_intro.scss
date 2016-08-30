@@ -13,6 +13,7 @@ INTRO
 	@include breakpoint(1024) {
 			background: url(../img/us-desktop.jpg) 50% -100px no-repeat ;
 			padding-bottom: 80px;
+			background-size: 100%;
 	} 
 	nav {
 		padding-bottom: 80px;

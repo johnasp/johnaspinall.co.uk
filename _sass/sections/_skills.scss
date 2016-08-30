@@ -10,13 +10,12 @@
 		}
 		li {
 			display: inline-block;
-			background: lighten(#eaeaea,15%);
-			@include shadow();
+			background: white;
 			margin-bottom: 4px;
-			padding: 6px;
+			padding: 12px;
 			margin-right: 4px;
 			margin-bottom: 6px;
-			font-size: 14px;
+			font-size: 16px;
 		}
 		a {
 			display: inline-block;
