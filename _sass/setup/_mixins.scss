@@ -1,6 +1,6 @@
   @mixin heading($colour) {
   position: relative;
-  h2 {
+  h2.homepage {
     background: ($colour);
     font-size: 2rem;         
     font-family: serif;
@@ -19,7 +19,7 @@
     border-radius: 3px;
     margin-bottom: 20px;
    }   
-  h2:after {
+  h2.homepage:after {
     @include triangle($colour);
   }
 }

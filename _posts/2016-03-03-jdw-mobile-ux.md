@@ -14,7 +14,7 @@ excerpt: A write up of my role and achievements on mobile UX project for JD Will
   </tr>  
     <tr>
     <td>My role:</td>
-    <td>UX lead</td>
+    <td>UX/UI Designer</td>
   </tr> 
   <tr>
     <td>Client:</td>
@@ -27,17 +27,25 @@ excerpt: A write up of my role and achievements on mobile UX project for JD Will
 </table>
 
 
-#### PROJECT OVERVIEW
+## Project overview
 
 Analytics data revealed that on JD Williams' suite of mobile specific websites, the product and search user journies had an unacceptably high add to bag abandonment rate.  
 
-I was tasked with the role of UX lead, the goal of which was to increase the abandonment rate in the "product search - add to bag" user journey.  
+I was tasked with the role of UX lead, the goal of which was to increase the abandonment rate in the "product search - add to bag" user journey. 
 
-#### User testing
+### Problem 1
 
-Although we had data to tell us that users were often abandoning the user journey when searching for a product, I needed to know exactly the reasons why.
+Users were often abandoning the "search user journey" when searching for a product. 
 
-To achieve this, I organised and ran a user testing session with a specialist company called "What Users Do".  I sat in on all the testing sessions and observed users often struggled to both find and also refine, facets of products they were searching for.  
+### Problem 2 
+
+Users were abandoning the "product refine user journey" when trying to refine facets of a product.  
+
+## User testing
+
+Although we had data to tell us what the problems where, I needed to verify exactly the reasons why.  To achieve this, I mapped out the two problematic user journies and organised a user testing session to run tests on with real users.   
+
+ with a specialist company called "What Users Do".  I sat in on all the testing sessions and observed users often struggled to both find and also refine, facets of products they were searching for.  
 
 Product refinements had to be made via a series of unintuitive drop down menus (which didn't lend itself well to a touch screen experience) and often caused confusion and a lot users dropped out of the journey at this stage.
 
@@ -47,15 +55,15 @@ To illustrate the issues with the old site, I recorded a video of myself navigat
 
 ##### VIDEO - Old JD Williams mobile website in operation
 
-##### Problems with typed search
+### Problems with typed search
 
-Analytics data also indicated that users tended to rely on the typed search box when searching for a product and there was a high drop off rate within this product search user journey.  Using the "browse categories" button was the optimum route the business wanted users to take for browsing products as it yielded the user with better results and subsequently, higher add to bag conversions. 
+Analytics data also indicated that when a user was searching for a particular product, they tended to rely on the typed search box as opposed to using the "browse categories" button.  Button searching  was the optimum and preferred route the business wanted users to take in their search journey as it yielded more accurate results and subsequently, higher add to bag conversions. 
 
 Users probably dropped off at this stage of the search journey due to frustration at not getting the results they wanted but I didn't want to just assume this, so I ran some product search user journey tests in the testing sessions. 
 
 The results of which, were that users appeared blind to the browse categories button as in almost 85% of the cases, users ignored it and relied on typed search.
 
-#### Discovery & Research
+## Discovery & Research
 
 To gain an understanding of how other mobile ecommerce websites approached  search and navigation, I compiled a list of industry key players and competitors, and then followed a user search journey on each site. I screen recorded each of these sessions and also took screen prints for post analysis. 
 
@@ -71,14 +79,14 @@ A combination of my analysis coupled with feedback from stakeholders, helped  cr
 
 ##### IMAGE - Competitor research wall 
 
-#### Decisions
+## Decisions
 
 The key changes I therefore wanted to make on the new product were:
 
 1. Introduce an industry standard “burger” site menu to house the list of product categories and other navigational links.  This site menu would initially be hidden off screen (to the left) and animate in to view upon touch.
 2. Completely change the refinement interface, remove the drop down menus and implement a refinement grid where users could easily add and remove multiple facet refinements by a single touch.  This menu would also be initially hidden off screen (to the right) and animate into view upon touch.
 
-#### Visual design & prototype
+## Visual design & prototype
 
 The next step was to design concepts of to bring my vision of the product to life. I subsequently designed visual concepts of all the relevant screens for the new product (using Adobe Fireworks), samples of which can viewed below:
 
@@ -113,7 +121,7 @@ Follow the journey below to interact with the [visual prototype](https://invis.i
 <iframe src="//invis.io/9Z1SDBZTD" width="396" height="770" frameborder="0" allowfullscreen="allowfullscreen" class="invision"></iframe> 
 
 
-#### Working prototype
+## Working prototype
 
 I have learnt through experience that the only way to accurately see how a mobile web page will both look and perform on a mobile web browser, is to view a complete coded web page direct on a mobile device.
 
@@ -133,7 +141,7 @@ This work-flow formed a User Centred Design (UCD) feedback loop, as I got the pr
 
 The front end code I wrote was used directly in the final product.  I had to pair program with a Java developer who integrated my front end code into the Websphere shop application. 
 
-#### The final result
+## The final result
 
 Three month following release, financial figures (released from the projects' business analyst) revealed that the new burger-menu product search, yielded an annual revenue increase of £2,960,000, at the accepted demand level.
 

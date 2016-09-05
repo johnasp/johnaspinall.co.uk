@@ -1148,7 +1148,7 @@ INTRO
   position: relative;
 }
 
-.skills h2 {
+.skills h2.homepage {
   background: #275d87;
   font-size: 2rem;
   font-family: serif;
@@ -1166,12 +1166,12 @@ INTRO
 }
 
 @media (min-width: 768px) {
-  .skills h2 {
+  .skills h2.homepage {
     top: -20px;
   }
 }
 
-.skills h2:after {
+.skills h2.homepage:after {
   position: absolute;
   width: 0;
   height: 0;
@@ -1266,7 +1266,7 @@ INTRO
   margin-bottom: 20px;
 }
 
-.clients h2 {
+.clients h2.homepage {
   background: #3073A7;
   font-size: 2rem;
   font-family: serif;
@@ -1284,12 +1284,12 @@ INTRO
 }
 
 @media (min-width: 768px) {
-  .clients h2 {
+  .clients h2.homepage {
     top: -20px;
   }
 }
 
-.clients h2:after {
+.clients h2.homepage:after {
   position: absolute;
   width: 0;
   height: 0;
@@ -1317,7 +1317,7 @@ INTRO
   padding-bottom: 20px;
 }
 
-.work h2 {
+.work h2.homepage {
   background: #3073A7;
   font-size: 2rem;
   font-family: serif;
@@ -1335,12 +1335,12 @@ INTRO
 }
 
 @media (min-width: 768px) {
-  .work h2 {
+  .work h2.homepage {
     top: -20px;
   }
 }
 
-.work h2:after {
+.work h2.homepage:after {
   position: absolute;
   width: 0;
   height: 0;
@@ -1410,7 +1410,7 @@ INTRO
   padding-bottom: 20px;
 }
 
-.blog h2 {
+.blog h2.homepage {
   background: #3073A7;
   font-size: 2rem;
   font-family: serif;
@@ -1428,12 +1428,12 @@ INTRO
 }
 
 @media (min-width: 768px) {
-  .blog h2 {
+  .blog h2.homepage {
     top: -20px;
   }
 }
 
-.blog h2:after {
+.blog h2.homepage:after {
   position: absolute;
   width: 0;
   height: 0;
@@ -1509,15 +1509,30 @@ INTRO
   padding-left: 14px;
 }
 
-#post h3 {
+#post h1 {
+  font-size: 22px;
   font-weight: normal;
-  font-size: 2.2rem;
+  margin-bottom: 0;
 }
 
 @media (min-width: 600px) {
-  #post h3 {
-    font-size: 3.2rem;
+  #post h1 {
+    font-size: 36px;
   }
+}
+
+#post h2 {
+  font-size: 22px;
+}
+
+@media (min-width: 600px) {
+  #post h2 {
+    font-size: 26px;
+  }
+}
+
+#post h3 {
+  font-size: 18px;
 }
 
 #post h4 {
@@ -1612,7 +1627,7 @@ INTRO
   background: url(../img/waves-grey-light.jpg) #f7f7f7;
 }
 
-.contact h2 {
+.contact h2.homepage {
   background: #275d87;
   font-size: 2rem;
   font-family: serif;
@@ -1630,12 +1645,12 @@ INTRO
 }
 
 @media (min-width: 768px) {
-  .contact h2 {
+  .contact h2.homepage {
     top: -20px;
   }
 }
 
-.contact h2:after {
+.contact h2.homepage:after {
   position: absolute;
   width: 0;
   height: 0;
