@@ -26,13 +26,20 @@ excerpt: A write up of my role and achievements on mobile UX project for JD Will
   </tr> 
 </table>
 
-#### Overview
 
-On the clients' mobile specific website, the product and search user experience was poor and deemed to be causing a high bounce rate in the add to bag user journey.  This was having a detrimental affect on the sites turnover and causing a loss of revenues. 
+#### PROJECT OVERVIEW
 
-Users often struggled to both find and refine facets of products they were searching for.  Product refinements had to be made via a series of unintuitive drop down menus which didn't lend itself well to a touch screen experience and caused confusion.
+Analytics data revealed that on JD Williams' suite of mobile specific websites, the product and search user journies had an unacceptably high add to bag abandonment rate.  
 
-Users also tended to rely on typed search and appeared blind to the browse categories button, which afforded a more linear and touch friendly approach to product search. Additionally, typed search journeys did not always yield accurate results which again lead to unnecessary drop offs. 
+I was tasked with the role of UX lead, the goal of which was to increase the abandonment rate in the "product search - add to bag" user journey.  
+
+#### User testing
+
+Although we had data to tell us that users were often abandoning the user journey when searching for a product, I needed to know exactly the reasons why.
+
+To achieve this, I organised and ran a user testing session with a specialist company called "What Users Do".  I sat in on all the testing sessions and observed users often struggled to both find and also refine, facets of products they were searching for.  
+
+Product refinements had to be made via a series of unintuitive drop down menus (which didn't lend itself well to a touch screen experience) and often caused confusion and a lot users dropped out of the journey at this stage.
 
 To illustrate the issues with the old site, I recorded a video of myself navigating products and making refinements, which can be viewed below:
 
@@ -40,11 +47,13 @@ To illustrate the issues with the old site, I recorded a video of myself navigat
 
 ##### VIDEO - Old JD Williams mobile website in operation
 
-I also conducted a few "quick and dirty" user testing sessions in the form of getting my Mum, partner and her group of friends to attempt to follow the user journey on the existing site.   
+##### Problems with typed search
 
-The results of which were that they all tended to struggle at the refinement stage and some couldn't even complete the user journey at all. 
+Analytics data also indicated that users tended to rely on the typed search box when searching for a product and there was a high drop off rate within this product search user journey.  Using the "browse categories" button was the optimum route the business wanted users to take for browsing products as it yielded the user with better results and subsequently, higher add to bag conversions. 
 
+Users probably dropped off at this stage of the search journey due to frustration at not getting the results they wanted but I didn't want to just assume this, so I ran some product search user journey tests in the testing sessions. 
 
+The results of which, were that users appeared blind to the browse categories button as in almost 85% of the cases, users ignored it and relied on typed search.
 
 #### Discovery & Research
 
