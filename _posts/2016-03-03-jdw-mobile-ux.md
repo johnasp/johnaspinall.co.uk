@@ -29,41 +29,46 @@ excerpt: A write up of my role and achievements on mobile UX project for JD Will
 
 ## Project overview
 
-Analytics data revealed that on JD Williams' suite of mobile specific websites, the product and search user journies had an unacceptably high add to bag abandonment rate.  
-
-I was tasked with the role of UX lead, the goal of which was to increase the abandonment rate in the "product search - add to bag" user journey. 
+Analytics data revealed that on JD Williams' suite of mobile specific websites, the product refine and search user journeys had an unacceptably high add to bag abandonment rate.  I was assigned the role of UX & UI designer on a project to improve conversion rates, improve the user interface and make products more easily found on the mobile web sites. 
 
 ### Problem 1
 
-Users were often abandoning the "search user journey" when searching for a product. 
+Users were often abandoning the *product search user journey* when looking for a product.
 
 ### Problem 2 
 
-Users were abandoning the "product refine user journey" when trying to refine facets of a product.  
+An unacceptably high number of users were dropping out of the *product refine user journey* when trying to refine facets of a product.  
 
 ## User testing
 
-Although we had data to tell us what the problems where, I needed to verify exactly the reasons why.  To achieve this, I mapped out the two problematic user journies and organised a user testing session to run tests on with real users.   
+Although we had data to tell us what the problems were, I needed to verify exactly the reasons why.  To achieve this, I mapped out the two problematic user journeys and organised a user testing session to run tests on with real users.   
 
- with a specialist company called "What Users Do".  I sat in on all the testing sessions and observed users often struggled to both find and also refine, facets of products they were searching for.  
+I setup several remote testing sessions and tasks with target users of each of the three main JD Williams "power brands".  The testing service I used was through a company called "What Users Do", which records the screen and voice 
+ of the user as they go through the tasks they are set. 
 
-Product refinements had to be made via a series of unintuitive drop down menus (which didn't lend itself well to a touch screen experience) and often caused confusion and a lot users dropped out of the journey at this stage.
+Following completion of all the testing sessions, I observed users often struggled to both find and also refine, facets of products they were told to search for.  I then noted down specific pain points in the interface into a document which was circulated to the business analysts on the project. 
 
-To illustrate the issues with the old site, I recorded a video of myself navigating products and making refinements, which can be viewed below:
+## Discovery
+
+### Drop down menu refinements
+
+The results of the user testing session revealed that the the product refinements user interface was causing a lot of problems.  To refine the facets of a product, the user had to operate a series of unintuitive drop down menus and I observed a lot of users struggling with this in user testing videos.  Analytics also reported that there was a high number of drop offs at this point in this user journey so this design pattern was the cause of the problems here. 
+
+To illustrate these issues with the old site, I recorded a video of myself navigating products and making refinements, which can be viewed below:
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/5TQih57yXrE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ##### VIDEO - Old JD Williams mobile website in operation
 
-### Problems with typed search
+### Button blindness
 
-Analytics data also indicated that when a user was searching for a particular product, they tended to rely on the typed search box as opposed to using the "browse categories" button.  Button searching  was the optimum and preferred route the business wanted users to take in their search journey as it yielded more accurate results and subsequently, higher add to bag conversions. 
+My user testing observations revealed that when a user was told to search for a particular product, they tended to rely on the typed search box and appeared to be blind to the browse categories button.  
 
-Users probably dropped off at this stage of the search journey due to frustration at not getting the results they wanted but I didn't want to just assume this, so I ran some product search user journey tests in the testing sessions. 
+Due to the search results algorithm ingrained in the platform, typed search results did not always provide the user with the results they were looking for.Due to this fact, button searching was the businesses optimum and preferred route for users to search for products as this method yielded the user with more accurate results which ultimately led to higher add to bag conversions. 
 
-The results of which, were that users appeared blind to the browse categories button as in almost 85% of the cases, users ignored it and relied on typed search.
+ The results of which, were that users appeared blind to the browse categories button as in almost 85% of the cases, users ignored it and relied on typed search.
 
-## Discovery & Research
+## Research
 
 To gain an understanding of how other mobile ecommerce websites approached  search and navigation, I compiled a list of industry key players and competitors, and then followed a user search journey on each site. I screen recorded each of these sessions and also took screen prints for post analysis. 
 
