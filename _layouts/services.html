@@ -11,14 +11,25 @@
 			</nav>
 			
 			<div>
-				<p class="ja">Portfolio</p>
+				<p class="ja">Services</p>
 			</div>
-			<p class="jobTitle">{{ post.title }}</p>
+
 		</section>
 
 		<div class="content portfolio">
 			 
-			 {{ content }}
+			<section id="post" class="blog">   
+			  <div class="inner">  
+				  <div class="module">
+				  	<div class="internal">
+					  	<h1>{{ page.title }}</h1>
+					    <p class="date"> {{ page.date | date: '%B %d, %Y' }} </p>
+					    {{ content }}
+				 	 </div>
+				  </div>
+				</div>
+			</section>
+
 
 {% include footer.html %}
 	
