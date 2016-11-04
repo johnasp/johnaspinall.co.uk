@@ -1,6 +1,6 @@
 .contact {
 	@include heading(darken($blue,8%));
-	background: url(../img/waves-grey-light.jpg) lighten(#eaeaea,5%);
+	background: #fff;
 		&:last-child {
 		margin-bottom: 0;
 	}

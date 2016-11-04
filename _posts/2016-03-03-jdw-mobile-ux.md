@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: JD Williams mobile UX
 category: UX
 tag: portfolio

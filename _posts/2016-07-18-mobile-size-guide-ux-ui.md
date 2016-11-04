@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: Mobile clothing size guide UX/UI
 category: UX
 tag: portfolio

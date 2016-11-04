@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: Seasiders podcast responsive website
 category: Responsive
 tag: portfolio

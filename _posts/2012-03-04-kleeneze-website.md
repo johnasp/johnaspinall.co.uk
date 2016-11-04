@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: Kleeneze responsive website
 category: Responsive
 tag: portfolio

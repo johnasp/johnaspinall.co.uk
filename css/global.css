@@ -1144,7 +1144,7 @@ INTRO
 }
 
 .skills {
-  background: url(../img/waves-grey-light.jpg) #eaeaea;
+  background: #fff;
   padding-bottom: 40px;
   position: relative;
 }
@@ -1258,7 +1258,7 @@ INTRO
 
 .clients {
   padding-bottom: 40px;
-  background: url(../img/waves-grey.jpg) #f7f7f7;
+  background: #eaeaea;
   position: relative;
 }
 
@@ -1311,7 +1311,7 @@ INTRO
 }
 
 .work {
-  background: url(../img/waves-grey.jpg) #eaeaea;
+  background: #eaeaea;
   position: relative;
   padding: 0;
   clear: both;
@@ -1403,8 +1403,17 @@ INTRO
   top: -70px;
 }
 
+.project.module {
+  padding: 0;
+}
+
+.project.module div p {
+  padding: 0 0.8em;
+  text-align: left;
+}
+
 .blog {
-  background: url(../img/waves-grey.jpg) #eaeaea;
+  background: #eaeaea;
   position: relative;
   padding: 0;
   clear: both;
@@ -1626,7 +1635,7 @@ INTRO
 
 .contact {
   position: relative;
-  background: url(../img/waves-grey-light.jpg) #f7f7f7;
+  background: #fff;
 }
 
 .contact h2.homepage {
@@ -1728,8 +1737,7 @@ INTRO
 }
 
 footer {
-  background: url(../img/waves-footer.jpg);
-  background: #1d2c37;
+  background: #0c1116;
   color: white;
   float: left;
   width: 100%;

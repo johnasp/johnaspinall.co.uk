@@ -1,8 +1,7 @@
 ---
 layout: services
 title: Business web site design services in Blackpool
-category: UX
-tag: services
+tag: services 
 excerpt: A page detailing the web site packages I can offer your business. 
 ---    
 
