@@ -1029,7 +1029,7 @@ INTRO
 }
 
 .intro nav a {
-  box-shadow: 1px 1px 1px #333;
+  box-shadow: 1px 1px 1px #3073A7;
   color: #0c314e;
   margin-right: 1em;
   display: inline-block;
@@ -1061,7 +1061,7 @@ INTRO
 }
 
 .intro nav a:hover {
-  background: white;
+  background: #fffaec;
 }
 
 .intro p {
@@ -1364,9 +1364,9 @@ INTRO
 }
 
 .work .project div a {
-  color: white;
+  color: #e2aa00;
   border: 3px solid #e2aa00;
-  background: #e2aa00;
+  background: white;
   padding: 8px 26px 8px 26px;
   display: inline-block;
   margin: 0 0 20px 0;
@@ -1382,9 +1382,9 @@ INTRO
 }
 
 .work .project div a:hover {
-  color: #e2aa00;
+  color: white;
   border: 3px solid #e2aa00;
-  background: white;
+  background: #e2aa00;
 }
 
 .work .project div a:after {
@@ -1714,9 +1714,9 @@ INTRO
 }
 
 .contact .email {
-  color: white;
+  color: #e2aa00;
   border: 3px solid #e2aa00;
-  background: #e2aa00;
+  background: white;
   padding: 8px 26px 8px 26px;
   display: inline-block;
   margin: 0 0 20px 0;
@@ -1731,9 +1731,9 @@ INTRO
 }
 
 .contact .email:hover {
-  color: #e2aa00;
+  color: white;
   border: 3px solid #e2aa00;
-  background: white;
+  background: #e2aa00;
 }
 
 footer {

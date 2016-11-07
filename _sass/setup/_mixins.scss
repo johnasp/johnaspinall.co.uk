@@ -27,10 +27,13 @@
 @mixin shadow() {
   box-shadow: 1px 1px 1px #ccc;
 }
+
+$ctaBut: darken($yellow, 4%); 
+
 @mixin cta() {
-  color: white;
-  border: 3px solid darken($yellow, 4%);
-  background: darken($yellow, 4%);
+  color: $ctaBut;
+  border: 3px solid $ctaBut;
+  background: white;
   padding: 8px 26px 8px 26px;
   display: inline-block;
   margin: 0 0 20px 0;
@@ -43,15 +46,11 @@
   font-size: 1.6rem;
   font-weight: bold;
   &:hover {
-    color: darken($yellow, 4%);
-    border: 3px solid darken($yellow, 4%);
-    background: white;     
+    color: white;
+    border: 3px solid $ctaBut;
+    background: $ctaBut;     
   }
-}
-
- 
-
- 
+} 
 @mixin triangle($colour) {
   position: absolute;
   width: 0; 

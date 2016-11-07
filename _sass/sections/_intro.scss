@@ -22,7 +22,7 @@ INTRO
 		}
 		text-align: center;
 		a {
-			box-shadow: 1px 1px 1px #333;
+			box-shadow: 1px 1px 1px $blue;
 			color: #0c314e;
 			margin-right: 1em;
 			display: inline-block;
@@ -45,7 +45,7 @@ INTRO
 			}
 			text-decoration: none;
 			&:hover {
-				background: white;
+				background: $lYellow;
 			}
 		}
 	}
