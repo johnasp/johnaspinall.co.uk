@@ -997,7 +997,7 @@ header.links a:last-child {
 INTRO
 ********************/
 .intro {
-  padding: 20px 0 50px 0;
+  padding: 20px 0 0 0;
   background: url(../img/us-mob.jpg) 50% 0 no-repeat;
   position: relative;
 }
@@ -1018,7 +1018,7 @@ INTRO
 }
 
 .intro nav {
-  padding-bottom: 80px;
+  padding-bottom: 60px;
   text-align: center;
 }
 
@@ -1029,18 +1029,13 @@ INTRO
 }
 
 .intro nav a {
-  box-shadow: 1px 1px 1px #3073A7;
   color: #0c314e;
-  margin-right: 1em;
+  margin-right: 1px;
   display: inline-block;
   background: white;
   padding: 6px 8px;
-  border-radius: 100px;
-  font-size: 1.6rem;
-  margin-right: 5px;
-  margin-bottom: 6px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-size: 12px;
+  font-family: sans-serif;
   text-decoration: none;
 }
 
@@ -1073,7 +1068,7 @@ INTRO
   position: relative;
 }
 
-.intro p.ja {
+.intro p.banner {
   font-family: 'Lobster', cursive;
   font-size: 8.2rem;
   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000,  1px 1px 0 #000;
@@ -1081,7 +1076,7 @@ INTRO
 }
 
 @media (min-width: 768px) {
-  .intro p.ja {
+  .intro p.banner {
     margin-top: -40px;
     font-size: 11rem;
     padding-bottom: 20px;
@@ -1089,23 +1084,24 @@ INTRO
 }
 
 @media (min-width: 1024px) {
-  .intro p.ja {
+  .intro p.banner {
     padding-top: 30px;
     font-size: 14rem;
   }
 }
 
-.intro p.jobTitle {
-  background: rgba(5, 5, 8, 0.5);
+.job-title {
+  background: #1c415f;
+  background: rgba(28, 65, 95, 0.5);
   padding: 12px;
-  bottom: 0;
-  text-align: center;
-  display: inline;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 @media (min-width: 1024px) {
-  .intro p.jobTitle {
-    font-size: 3.8rem;
+  .job-title {
+    font-size: 42px !important;
   }
 }
 
@@ -1413,7 +1409,6 @@ INTRO
 
 .project.module div p {
   padding: 0 0.8em;
-  text-align: left;
 }
 
 .blog {
@@ -1484,7 +1479,7 @@ INTRO
 }
 
 #post {
-  margin-top: 20px;
+  margin-top: 0;
   font-family: georgia, serif;
   /*img, iframe {
 		-webkit-box-shadow: 1px 1px 9px 1px rgba(133,130,133,1);
@@ -1563,7 +1558,7 @@ INTRO
 #post p {
   margin-top: 6px;
   margin-bottom: 20px;
-  line-height: 1.3em;
+  line-height: 1.4em;
 }
 
 #post li {
@@ -1634,6 +1629,18 @@ INTRO
 }
 
 #post a {
+  text-decoration: underline;
+}
+
+.internal h2 {
+  background: #eaeaea;
+  padding: 8px;
+  font-weight: normal;
+}
+
+.internal h3 {
+  text-transform: uppercase;
+  font-weight: normal;
   text-decoration: underline;
 }
 

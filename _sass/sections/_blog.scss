@@ -25,7 +25,7 @@
 }
 
 #post {
-	margin-top: 20px;
+	margin-top: 0;
 	font-family: georgia, serif;
 	.thumbs {
 		div:first-child {
@@ -91,7 +91,7 @@
 	p {
 		margin-top: 6px;
 		margin-bottom: 20px;
-		line-height: 1.3em;
+		line-height: 1.4em;
 	}
 	li {
 		line-height: 1.5em;
@@ -147,5 +147,17 @@
 	}
 	a {
 		text-decoration: underline;
+	}
+}
+.internal {
+	h2 {
+			background: #eaeaea;
+			padding: 8px;
+			font-weight: normal;
+	}
+	h3 {
+		  text-transform: uppercase;
+    	font-weight: normal;
+    	text-decoration: underline;
 	}
 }

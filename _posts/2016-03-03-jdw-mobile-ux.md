@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: JD Williams mobile UX
+title: JD Williams mobile website UX
 category: UX
 tag: portfolio
 excerpt: A write up of my role and achievements on mobile UX project for JD Williams.
@@ -70,6 +70,8 @@ Due to the search results algorithm ingrained in the platform, typed search resu
 
 ## Research
 
+<div class="no-margin"><img src="/img/portfolio/competition-wall.jpg" alt="Competitor research wall" /></div>
+
 To gain an understanding of how other mobile ecommerce websites approached  search and navigation, I compiled a list of industry key players and competitors, and then followed a user search journey on each site. I screen recorded each of these sessions and also took screen prints for post analysis. 
 
 I then presented each of these screen recording and prints to project stakeholders, along with my observations and recommendations.
@@ -80,10 +82,6 @@ A combination of my analysis coupled with feedback from stakeholders, helped  cr
 
 ##### VIDEO - Competitors screen recording play-list
 
-<div class="no-margin"><img src="/img/portfolio/competition-wall.jpg" alt="Competitor research wall" /></div>
-
-##### IMAGE - Competitor research wall 
-
 ## Decisions
 
 The key changes I therefore wanted to make on the new product were:
@@ -93,7 +91,7 @@ The key changes I therefore wanted to make on the new product were:
 
 ## Visual design & prototype
 
-The next step was to design concepts of to bring my vision of the product to life. I subsequently designed visual concepts of all the relevant screens for the new product (using Adobe Fireworks), samples of which can viewed below:
+The next step was to design concepts of to bring my vision of the product to the screen. I subsequently designed visual concepts of all the relevant screens for the new product (using Adobe Fireworks), samples of which can viewed below:
 
 <ul id="visual-designs">
   <li>
@@ -109,8 +107,6 @@ The next step was to design concepts of to bring my vision of the product to lif
     <a href="#slide4"><img src="/img/portfolio/filters-made.gif" alt="Refinements menu with selection made"></a>
   </li>
 </ul>
-
-##### IMAGES - Selection of visual design concepts
 
 I felt that viewing the screens in the context in which they were designed for (i.e. a mobile device) would help give stakeholders a better appreciation of what the designs would look and behave like on a device, so I created a click-able visual prototype out of the screens using Invision.  
 
@@ -146,7 +142,7 @@ This work-flow formed a User Centred Design (UCD) feedback loop, as I got the pr
 
 The front end code I wrote was used directly in the final product.  I had to pair program with a Java developer who integrated my front end code into the Websphere shop application. 
 
-## The final result
+## The result
 
 Three month following release, financial figures (released from the projects' business analyst) revealed that the new burger-menu product search, yielded an annual revenue increase of £2,960,000, at the accepted demand level.
 
