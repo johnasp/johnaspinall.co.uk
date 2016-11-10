@@ -12,6 +12,9 @@ INTRO
 		background: url(../img/us-desktop.jpg) 50% -100px no-repeat ;
 		background-size: 100%;
 	} 
+	@include breakpoint(1400) {
+		background: url(../img/us-desktop.jpg) 50% -180px no-repeat ;
+	} 
 	nav {
 		text-align: center;
 		text-decoration: none;
