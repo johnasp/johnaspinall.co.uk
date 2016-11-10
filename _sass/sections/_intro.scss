@@ -9,11 +9,11 @@ INTRO
 		background: url(../img/us-tablet.jpg) 50% -80px no-repeat;
 	}
 	@include breakpoint(1024) {
-		background: url(../img/us-desktop.jpg) 50% -100px no-repeat ;
+		background: url(../img/us-desktop.jpg) 50% -100px no-repeat;
 		background-size: 100%;
 	} 
 	@include breakpoint(1400) {
-		background: url(../img/us-desktop.jpg) 50% -180px no-repeat ;
+		background: url(../img/us-desktop.jpg) 50% -180px no-repeat;
 	} 
 	nav {
 		text-align: center;
@@ -28,6 +28,9 @@ INTRO
 			font-size: 14px;
 			font-family: sans-serif; 
 			margin-bottom: 2px;
+			&:hover {
+				text-decoration: text-decoration: underline;
+			}
 			@include breakpoint(768) {
 				font-size: 1.6rem;
 				padding: 10px 14px;
