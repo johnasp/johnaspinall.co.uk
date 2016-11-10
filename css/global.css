@@ -1014,13 +1014,13 @@ INTRO
   }
 }
 
-.intro nav {
+nav {
   text-align: center;
   text-decoration: none;
   padding: 12px 0;
 }
 
-.intro nav a {
+nav a {
   color: #fff;
   border: 2px solid #fff;
   margin-right: 1px;
@@ -1031,8 +1031,12 @@ INTRO
   margin-bottom: 2px;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 768px) {
-  .intro nav a {
+  nav a {
     font-size: 1.6rem;
     padding: 10px 14px;
     margin-right: 12px;
@@ -1040,7 +1044,7 @@ INTRO
 }
 
 @media (min-width: 1300px) {
-  .intro nav a {
+  nav a {
     font-size: 2.4rem;
     padding: 12px 24px;
     margin-right: 26px;
@@ -1075,6 +1079,13 @@ h1.banner {
   }
 }
 
+@media (min-width: 768px) {
+  #inner-page h1.banner {
+    font-size: 12rem;
+    padding: 16px 0 66px 0;
+  }
+}
+
 h2.job-title {
   background: #1c415f;
   background: rgba(28, 65, 95, 0.5);
@@ -1092,6 +1103,10 @@ h2.job-title {
   h2.job-title {
     font-size: 32px !important;
   }
+}
+
+.content.portfolio {
+  margin-top: 34px;
 }
 
 .about {
@@ -1401,7 +1416,6 @@ h2.job-title {
 }
 
 .blog {
-  background: #eaeaea;
   position: relative;
   padding: 0;
   clear: both;
@@ -1574,9 +1588,9 @@ h2.job-title {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #post .internal {
-    padding: 2em 15%;
+    padding: 2em 12%;
   }
 }
 
@@ -1785,7 +1799,7 @@ footer .copyright {
 
 body {
   position: relative;
-  background: #e2dfdf;
+  background: #eaeaea;
   text-align: center;
 }
 

@@ -142,14 +142,24 @@ This work-flow formed a User Centred Design (UCD) feedback loop, as I got the pr
 
 The front end code I wrote was used directly in the final product.  I had to pair program with a Java developer who integrated my front end code into the Websphere shop application. 
 
-## The result
+## The final result £££
 
-Three month following release, financial figures (released from the projects' business analyst) revealed that the new burger-menu product search, yielded an annual revenue increase of £2,960,000, at the accepted demand level.
+Three months following release, analytics data revealed that our changes had indeed had a positive effect on the product search on mobile journies. There had been the following changes in the product search user journey:
 
-The new product refinement system was also estimated to have yielded an increase of £322,000 per annum, at the accepted demand level. 
+* A marked decrease in bounce rate (drops offs)  
+* More add to bag journey completions
+* Increased number of multiple products added to bag
 
-The project was therefore deemed a great financial success as conversion rates had been measured to increase in total by £3.3 million per annum, at the accepted demand level.
+Figures released from the project business analyst revealed the following financial benefits from the implemented UX improvements:
 
-[View the live mobile site here](http://www.jdwilliams.co.uk/)
+1. The new off canvas product search menu was directly attributed to an increase of revenue to the figure of £322,000 (at the accepted demand level).
+2. The new product refinement system was  estimated to have yielded an increase of £2,960,000 per annum, at the accepted demand level. 
+
+The project was therefore deemed a great financial success and the users  liked it too! 
+
+<a href="http://www.jdwilliams.co.uk/">[View the live mobile site here]</a> - please note you need to be viewing this link on a mobile device or via a mobile emulator on a desktop/laptop.
+
+
+
 
 

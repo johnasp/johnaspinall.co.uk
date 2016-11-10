@@ -1,5 +1,4 @@
 .blog {
-	background: #eaeaea;
 	@include heading($blue);
 	padding: 0;
 	clear: both;
@@ -112,8 +111,8 @@
 		@include breakpoint(600) {
 			padding: 2em 10%;
 		}
-	  @include breakpoint(768) {
-			padding: 2em 15%;
+	  @include breakpoint(1024) {
+			padding: 2em 12%;
 		}
 		.featured {
 			background: lighten(#e1e1e1, 5%);
