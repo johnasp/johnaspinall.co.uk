@@ -997,57 +997,49 @@ header.links a:last-child {
 INTRO
 ********************/
 .intro {
-  padding: 20px 0 0 0;
   background: url(../img/us-mob.jpg) 50% 0 no-repeat;
   position: relative;
 }
 
 @media (min-width: 768px) {
   .intro {
-    background: url(../img/us-tablet.jpg) 50% -40px no-repeat;
-    padding-bottom: 40px;
+    background: url(../img/us-tablet.jpg) 50% -80px no-repeat;
   }
 }
 
 @media (min-width: 1024px) {
   .intro {
     background: url(../img/us-desktop.jpg) 50% -100px no-repeat;
-    padding-bottom: 80px;
     background-size: 100%;
   }
 }
 
 .intro nav {
-  padding-bottom: 60px;
   text-align: center;
-}
-
-@media (min-width: 768px) {
-  .intro nav {
-    padding-bottom: 170px;
-  }
+  text-decoration: none;
+  padding: 12px 0;
 }
 
 .intro nav a {
-  color: #0c314e;
+  color: #fff;
+  border: 2px solid #fff;
   margin-right: 1px;
   display: inline-block;
-  background: white;
-  padding: 6px 8px;
-  font-size: 12px;
+  padding: 6px;
+  font-size: 14px;
   font-family: sans-serif;
-  text-decoration: none;
+  margin-bottom: 2px;
 }
 
 @media (min-width: 768px) {
   .intro nav a {
-    font-size: 2.0rem;
+    font-size: 1.6rem;
     padding: 10px 14px;
     margin-right: 12px;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1300px) {
   .intro nav a {
     font-size: 2.4rem;
     padding: 12px 24px;
@@ -1055,53 +1047,50 @@ INTRO
   }
 }
 
-.intro nav a:hover {
-  background: #fffaec;
-}
-
-.intro p {
+h1.banner {
   color: white;
-  font-size: 2.8rem;
   margin: 0;
-  line-height: 1em;
   text-align: center;
   position: relative;
-}
-
-.intro p.banner {
   font-family: 'Lobster', cursive;
   font-size: 8.2rem;
-  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000,  1px 1px 0 #000;
-  margin-bottom: 30px;
+  text-shadow: 2px 2px 1px #000;
+  font-weight: normal;
+  z-index: 1;
+  padding: 70px 0 55px 0;
+  line-height: 1em;
 }
 
 @media (min-width: 768px) {
-  .intro p.banner {
-    margin-top: -40px;
-    font-size: 11rem;
-    padding-bottom: 20px;
+  h1.banner {
+    font-size: 10rem;
+    padding: 110px 0 60px 0;
   }
 }
 
 @media (min-width: 1024px) {
-  .intro p.banner {
-    padding-top: 30px;
-    font-size: 14rem;
+  h1.banner {
+    font-size: 12rem;
+    padding: 260px 0 66px 0;
   }
 }
 
-.job-title {
+h2.job-title {
   background: #1c415f;
   background: rgba(28, 65, 95, 0.5);
   padding: 12px;
   color: white;
-  font-weight: bold;
   font-size: 24px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
 }
 
 @media (min-width: 1024px) {
-  .job-title {
-    font-size: 42px !important;
+  h2.job-title {
+    font-size: 32px !important;
   }
 }
 
@@ -1808,10 +1797,6 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 10px;
-}
-
-section {
-  padding-bottom: 30px;
 }
 
 img {
