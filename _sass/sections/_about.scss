@@ -3,7 +3,7 @@
 	padding: 1.5em;
 	color: #313131;
 	line-height: 2em;
-	padding: 40px 0;
+	padding: 20px 0;
 	text-align: center;
 		@include breakpoint(1000) {
 			padding: 2.5em;
@@ -24,8 +24,8 @@
 		}
 				*/
 
-		@include breakpoint(1000) {
-			font-size: 2.4rem;
+		@include breakpoint(1024) {
+			font-size: 2.2rem;
 		}
 	}
 }

@@ -1078,7 +1078,7 @@ h1.banner {
 h2.job-title {
   background: #1c415f;
   background: rgba(28, 65, 95, 0.5);
-  padding: 12px;
+  padding: 6px;
   color: white;
   font-size: 24px;
   position: absolute;
@@ -1099,7 +1099,7 @@ h2.job-title {
   padding: 1.5em;
   color: #313131;
   line-height: 2em;
-  padding: 40px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -1126,9 +1126,9 @@ h2.job-title {
 				*/
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .about p {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 }
 
