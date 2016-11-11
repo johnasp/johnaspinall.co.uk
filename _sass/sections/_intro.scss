@@ -63,8 +63,13 @@ h1.banner {
 	}
 	@include breakpoint(1024) {
 		font-size: 12rem;
-		padding: 260px 0 66px 0;
+		padding: 100px 0 200px 0;
 	} 
+	@include breakpoint(1300) {
+		font-size: 12rem;
+		padding: 184px 0 141px 0;
+	} 
+
 }
 #inner-page h1.banner {
 		@include breakpoint(768) {

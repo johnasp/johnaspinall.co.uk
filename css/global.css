@@ -1075,7 +1075,14 @@ h1.banner {
 @media (min-width: 1024px) {
   h1.banner {
     font-size: 12rem;
-    padding: 260px 0 66px 0;
+    padding: 100px 0 200px 0;
+  }
+}
+
+@media (min-width: 1300px) {
+  h1.banner {
+    font-size: 12rem;
+    padding: 184px 0 141px 0;
   }
 }
 
