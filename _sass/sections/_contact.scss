@@ -31,4 +31,8 @@
 	.email {
 		@include cta ();
 	}
+	.inner {
+		max-width: 900px;
+		padding-bottom: 40px;
+	}
 }

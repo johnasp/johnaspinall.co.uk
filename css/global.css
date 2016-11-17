@@ -1753,6 +1753,11 @@ h2.job-title {
   background: #e2aa00;
 }
 
+.contact .inner {
+  max-width: 900px;
+  padding-bottom: 40px;
+}
+
 footer {
   background: #0c1116;
   color: white;
