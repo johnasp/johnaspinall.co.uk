@@ -61,13 +61,11 @@ To illustrate these issues with the old site, I recorded a video of myself navig
 
 ### Button blindness
 
-My user testing observations revealed that when a user was told to search for a particular product, they tended to rely on the typed search box and appeared to be blind to the browse categories button.  
+My user testing observations revealed that when a user was told to search for a particular product, they tended to rely on the typed search box and appeared to be blind to the browse categories button (in 85% of tests, users ignored the button and relied on typed search.) and due to the search results algorithm ingrained in the platform, typed search results did not always provide the user with the results they were looking for. 
 
-Due to the search results algorithm ingrained in the platform, typed search results did not always provide the user with the results they were looking for.Due to this fact, button searching was the businesses optimum and preferred route for users to search for products as this method yielded the user with more accurate results which ultimately led to higher add to bag conversions. 
+"Button categorry button searching" was therefore the businesses preferred route for users to search for products, as this method yielded the user with more accurate results which ultimately led to higher add to bag conversions. 
 
- The results of which, were that users appeared blind to the browse categories button as in almost 85% of the cases, users ignored it and relied on typed search.
-
-## Research
+## 3. Competitopr Research
 
 <div class="no-margin"><img src="/img/portfolio/competition-wall.jpg" alt="Competitor research wall" /></div>
 
