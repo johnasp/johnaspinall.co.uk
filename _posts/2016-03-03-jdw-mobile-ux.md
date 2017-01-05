@@ -39,14 +39,14 @@ Users were often abandoning the *product search user journey* when looking for a
 
 An unacceptably high number of users were dropping out of the *product refine user journey* when trying to refine facets of a product.  
 
-## User testing
+## 1. User Research
 
-Although we had data to tell us what the problems were, I needed to verify exactly the reasons why.  To achieve this, I mapped out the two problematic user journeys and organised a user testing session to run tests on with real users.   
+Although we had data to tell us what the problems were, I needed to verify exactly the reasons why.  To achieve this, I mapped out the two problematic user journeys and organised a user testing session with real users from within the target user persona groups.     
 
-I setup several remote testing sessions and tasks with target users of each of the three main JD Williams "power brands".  The testing service I used was through a company called "What Users Do", which records the screen and voice 
+I setup several remote testing sessions and tasks with expected users of each of the three main JD Williams "power brands".  The testing service I used was through a company called "What Users Do", which records the screen and voice 
  of the user as they go through the tasks they are set. 
 
-Following completion of all the testing sessions, I observed users often struggled to both find and also refine, facets of products they were told to search for.  I then noted down specific pain points in the interface into a document which was circulated to the business analysts on the project. 
+Following completion of all the testing sessions, I observed users often struggled to both find and also refine, facets of products they were told to search for.  I then noted down specific pain points in the interface into a document which was circulated to the business analysts for review.
 
 ## Discovery
 
