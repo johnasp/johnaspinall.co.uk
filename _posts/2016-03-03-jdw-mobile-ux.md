@@ -1,4 +1,4 @@
----
+i---
 layout: portfolio
 title: JD Williams mobile website UX
 category: UX
@@ -29,7 +29,7 @@ excerpt: A write up of my role and achievements on mobile UX project for JD Will
 
 ## Project overview
 
-Analytics data revealed that on JD Williams' suite of mobile specific websites, the product refine and search user journeys had an unacceptably high add to bag abandonment rate.  I was assigned the role of UX & UI designer on a project to improve conversion rates, improve the user interface and make products more easily found on the mobile web sites. 
+Analytics data revealed that on JD Williams' suite of mobile specific websites, the product refine and search user journeys had an unacceptably high add to bag abandonment rate.  I was assigned the role of UX design lead on a project to grow conversion rates and revenues via improvements to the product search and navigation user experience.   
 
 ### Problem 1
 
@@ -39,16 +39,15 @@ Users were often abandoning the *product search user journey* when looking for a
 
 An unacceptably high number of users were dropping out of the *product refine user journey* when trying to refine facets of a product.  
 
-## 1. User Research
+## 1. User Research & Testing
 
-Although we had data to tell us what the problems were, I needed to verify exactly the reasons why.  To achieve this, I mapped out the two problematic user journeys and organised a user testing session with real users from within the target user persona groups.     
+Although we had data to tell us where the problems were, I needed to verify exactly the reasons why.  To achieve this I conducted some user research and testing using pre-existing user personas.
 
-I setup several remote testing sessions and tasks with expected users of each of the three main JD Williams "power brands".  The testing service I used was through a company called "What Users Do", which records the screen and voice 
- of the user as they go through the tasks they are set. 
+I mapped out the probablematic user journies and wrote user tasks which were to be performed on the existing mobile site by real users in remote user testing sessions.  I booked sessions with users whose demographic came in the persona groups for the clients "Power Brands" (JD WIlliams, Jacamo and Simply Be).  For the remote user testing I used a company called "What Users Do". 
 
-Following completion of all the testing sessions, I observed users often struggled to both find and also refine, facets of products they were told to search for.  I then noted down specific pain points in the interface into a document which was circulated to the business analysts for review.
+Following completion of all the user testing sessions, I observed users often struggled to both find and also refine, facets of products they were told to search for.  I then noted down all the specific pain points in the interface into a document which was circulated to the business analysts for review.
 
-## Discovery
+## 2. Discovery
 
 ### Drop down menu refinements
 
