@@ -1,8 +1,8 @@
 .blog {
-	background: url(../img/waves-grey.jpg) #eaeaea;
 	@include heading($blue);
 	padding: 0;
 	clear: both;
+	margin-top: 40px;
 	padding-bottom: 20px;
 	h3 {
 			margin: 0 0 -3px 0;
@@ -24,7 +24,7 @@
 }
 
 #post {
-	margin-top: 20px;
+	margin-top: 0;
 	font-family: georgia, serif;
 	.thumbs {
 		div:first-child {
@@ -53,12 +53,22 @@
 		  padding-left: 14px; 
 		}
 	}
-	h3 {
+	h1 {
+		font-size: 22px;
 		font-weight: normal;
-		font-size: 2.2rem;
+		margin-bottom: 0;
 		@include breakpoint(600) {
-			font-size: 3.2rem;	
+			font-size: 36px;
 		}
+	}
+	h2 {
+		font-size: 22px;
+		@include breakpoint(600) {
+			font-size: 26px;
+		}
+	}
+	h3 {
+		font-size: 18px;
 	}
 	h4 {
 		font-weight: bold;
@@ -80,7 +90,7 @@
 	p {
 		margin-top: 6px;
 		margin-bottom: 20px;
-		line-height: 1.3em;
+		line-height: 1.4em;
 	}
 	li {
 		line-height: 1.5em;
@@ -101,8 +111,8 @@
 		@include breakpoint(600) {
 			padding: 2em 10%;
 		}
-	  @include breakpoint(768) {
-			padding: 2em 15%;
+	  @include breakpoint(1024) {
+			padding: 2em 12%;
 		}
 		.featured {
 			background: lighten(#e1e1e1, 5%);
@@ -136,5 +146,17 @@
 	}
 	a {
 		text-decoration: underline;
+	}
+}
+.internal {
+	h2 {
+			background: #eaeaea;
+			padding: 8px;
+			font-weight: normal;
+	}
+	h3 {
+		  text-transform: uppercase;
+    	font-weight: normal;
+    	text-decoration: underline;
 	}
 }

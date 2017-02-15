@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: Kiddicare mobile app login forms
 category: UX
 tag: portfolio

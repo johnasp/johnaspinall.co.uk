@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: Kiddicare responsive redesign UX
 category: UX
 tag: portfolio

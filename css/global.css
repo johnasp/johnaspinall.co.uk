@@ -968,12 +968,13 @@ header.links a {
   padding: 4px 0;
   font-size: 1rem;
   width: 33.33%;
+  padding: 5px 0;
   text-decoration: none;
   color: white;
   text-transform: uppercase;
   font-weight: normal;
   letter-spacing: 0.2em;
-  background: #1f4a6c;
+  background: #333333;
   position: relative;
 }
 
@@ -996,122 +997,138 @@ header.links a:last-child {
 INTRO
 ********************/
 .intro {
-  padding: 20px 0 50px 0;
   background: url(../img/us-mob.jpg) 50% 0 no-repeat;
   position: relative;
 }
 
 @media (min-width: 768px) {
   .intro {
-    background: url(../img/us-tablet.jpg) 50% -40px no-repeat;
-    padding-bottom: 40px;
+    background: url(../img/us-tablet.jpg) 50% -80px no-repeat;
   }
 }
 
 @media (min-width: 1024px) {
   .intro {
     background: url(../img/us-desktop.jpg) 50% -100px no-repeat;
-    padding-bottom: 80px;
+    background-size: 100%;
   }
 }
 
-.intro nav {
-  padding-bottom: 80px;
+nav {
   text-align: center;
-}
-
-@media (min-width: 768px) {
-  .intro nav {
-    padding-bottom: 170px;
-  }
-}
-
-.intro nav a {
-  margin-right: 1em;
-  display: inline-block;
-  background: white;
-  padding: 6px 8px;
-  border-radius: 100px;
-  font-size: 1.6rem;
-  margin-right: 5px;
-  margin-bottom: 6px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   text-decoration: none;
+  padding: 12px 0;
+}
+
+nav a {
+  color: #fff;
+  border: 2px solid #fff;
+  margin-right: 1px;
+  display: inline-block;
+  padding: 6px;
+  font-size: 14px;
+  font-family: verdana, tahoma, arial, sans-serif;
+  margin-bottom: 2px;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 768px) {
-  .intro nav a {
-    font-size: 2.0rem;
+  nav a {
+    font-size: 1.6rem;
     padding: 10px 14px;
     margin-right: 12px;
   }
 }
 
-@media (min-width: 1024px) {
-  .intro nav a {
+@media (min-width: 1300px) {
+  nav a {
     font-size: 2.4rem;
     padding: 12px 24px;
     margin-right: 26px;
   }
 }
 
-.intro nav a:hover {
-  background: white;
-}
-
-.intro p {
+h1.banner {
   color: white;
-  font-size: 2.8rem;
   margin: 0;
-  line-height: 1em;
   text-align: center;
   position: relative;
-}
-
-.intro p.ja {
   font-family: 'Lobster', cursive;
   font-size: 8.2rem;
-  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000,  1px 1px 0 #000;
-  margin-bottom: 30px;
+  text-shadow: 2px 2px 1px #000;
+  font-weight: normal;
+  z-index: 1;
+  padding: 70px 0 55px 0;
+  line-height: 1em;
 }
 
 @media (min-width: 768px) {
-  .intro p.ja {
-    margin-top: -40px;
-    font-size: 11rem;
-    padding-bottom: 20px;
+  h1.banner {
+    font-size: 10rem;
+    padding: 110px 0 60px 0;
   }
 }
 
 @media (min-width: 1024px) {
-  .intro p.ja {
-    padding-top: 30px;
-    font-size: 14rem;
+  h1.banner {
+    font-size: 12rem;
+    padding: 100px 0 200px 0;
   }
 }
 
-.intro p.jobTitle {
-  background: rgba(5, 5, 8, 0.5);
-  padding: 12px;
+@media (min-width: 1300px) {
+  h1.banner {
+    font-size: 12rem;
+    padding: 184px 0 141px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #inner-page h1.banner {
+    font-size: 12rem;
+    padding: 16px 0 66px 0;
+  }
+}
+
+h2.job-title {
+  background: #1c415f;
+  background: rgba(28, 65, 95, 0.5);
+  padding: 6px;
+  color: white;
+  font-size: 24px;
+  position: absolute;
   bottom: 0;
-  text-align: center;
-  display: inline;
+  left: 0;
+  right: 0;
+  margin: 0;
 }
 
 @media (min-width: 1024px) {
-  .intro p.jobTitle {
-    font-size: 3.8rem;
+  h2.job-title {
+    font-size: 32px !important;
   }
+}
+
+.content.portfolio {
+  margin-top: 34px;
 }
 
 .about {
-  background: url(../img/waves-grey-light.jpg) #f7f7f7;
-  background: #96CDEC;
-  padding: 3.5em 2.5em !important;
-  color: #173F5F;
+  background: #fff;
+  padding: 1.5em;
+  color: #313131;
   line-height: 2em;
-  padding: 40px 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .about {
+    padding: 5em 2.5em;
+  }
 }
 
 .about p {
@@ -1122,30 +1139,30 @@ INTRO
   line-height: 1.4em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1024px) {
   .about p {
-    float: left;
-    width: 48%;
-    margin: 10px 0 20px 0;
-  }
-  .about p:first-child {
-    margin-right: 4%;
+    font-size: 2.2rem;
   }
 }
 
-@media (min-width: 768px) {
-  .about p {
-    text-align: left;
+.about a {
+  text-decoration: underline;
+  font-size: 1.8rem;
+}
+
+@media (min-width: 1024px) {
+  .about a {
+    font-size: 2.2rem;
   }
 }
 
 .skills {
-  background: url(../img/waves-grey-light.jpg) #eaeaea;
+  background: #eaeaea;
   padding-bottom: 40px;
   position: relative;
 }
 
-.skills h2 {
+.skills h2.homepage {
   background: #275d87;
   font-size: 2rem;
   font-family: serif;
@@ -1163,12 +1180,12 @@ INTRO
 }
 
 @media (min-width: 768px) {
-  .skills h2 {
+  .skills h2.homepage {
     top: -20px;
   }
 }
 
-.skills h2:after {
+.skills h2.homepage:after {
   position: absolute;
   width: 0;
   height: 0;
@@ -1193,12 +1210,11 @@ INTRO
 .skills li {
   display: inline-block;
   background: white;
-  box-shadow: 1px 1px 1px #ccc;
   margin-bottom: 4px;
-  padding: 6px;
+  padding: 12px;
   margin-right: 4px;
   margin-bottom: 6px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .skills a {
@@ -1250,12 +1266,11 @@ INTRO
 
 .skillsGrid {
   margin-top: 30px;
-  max-width: 950px;
 }
 
 .clients {
   padding-bottom: 40px;
-  background: url(../img/waves-grey.jpg) #f7f7f7;
+  background: #fff;
   position: relative;
 }
 
@@ -1264,7 +1279,7 @@ INTRO
   margin-bottom: 20px;
 }
 
-.clients h2 {
+.clients h2.homepage {
   background: #3073A7;
   font-size: 2rem;
   font-family: serif;
@@ -1282,12 +1297,12 @@ INTRO
 }
 
 @media (min-width: 768px) {
-  .clients h2 {
+  .clients h2.homepage {
     top: -20px;
   }
 }
 
-.clients h2:after {
+.clients h2.homepage:after {
   position: absolute;
   width: 0;
   height: 0;
@@ -1308,14 +1323,14 @@ INTRO
 }
 
 .work {
-  background: url(../img/waves-grey.jpg) #eaeaea;
+  background: #eaeaea;
   position: relative;
   padding: 0;
   clear: both;
   padding-bottom: 20px;
 }
 
-.work h2 {
+.work h2.homepage {
   background: #3073A7;
   font-size: 2rem;
   font-family: serif;
@@ -1333,12 +1348,12 @@ INTRO
 }
 
 @media (min-width: 768px) {
-  .work h2 {
+  .work h2.homepage {
     top: -20px;
   }
 }
 
-.work h2:after {
+.work h2.homepage:after {
   position: absolute;
   width: 0;
   height: 0;
@@ -1363,6 +1378,7 @@ INTRO
 .work .project div a {
   color: #e2aa00;
   border: 3px solid #e2aa00;
+  background: white;
   padding: 8px 26px 8px 26px;
   display: inline-block;
   margin: 0 0 20px 0;
@@ -1381,7 +1397,6 @@ INTRO
   color: white;
   border: 3px solid #e2aa00;
   background: #e2aa00;
-  text-decoration: none;
 }
 
 .work .project div a:after {
@@ -1400,15 +1415,23 @@ INTRO
   top: -70px;
 }
 
+.project.module {
+  padding: 0;
+}
+
+.project.module div p {
+  padding: 0 0.8em;
+}
+
 .blog {
-  background: url(../img/waves-grey.jpg) #eaeaea;
   position: relative;
   padding: 0;
   clear: both;
+  margin-top: 40px;
   padding-bottom: 20px;
 }
 
-.blog h2 {
+.blog h2.homepage {
   background: #3073A7;
   font-size: 2rem;
   font-family: serif;
@@ -1426,12 +1449,12 @@ INTRO
 }
 
 @media (min-width: 768px) {
-  .blog h2 {
+  .blog h2.homepage {
     top: -20px;
   }
 }
 
-.blog h2:after {
+.blog h2.homepage:after {
   position: absolute;
   width: 0;
   height: 0;
@@ -1467,7 +1490,7 @@ INTRO
 }
 
 #post {
-  margin-top: 20px;
+  margin-top: 0;
   font-family: georgia, serif;
   /*img, iframe {
 		-webkit-box-shadow: 1px 1px 9px 1px rgba(133,130,133,1);
@@ -1507,15 +1530,30 @@ INTRO
   padding-left: 14px;
 }
 
-#post h3 {
+#post h1 {
+  font-size: 22px;
   font-weight: normal;
-  font-size: 2.2rem;
+  margin-bottom: 0;
 }
 
 @media (min-width: 600px) {
-  #post h3 {
-    font-size: 3.2rem;
+  #post h1 {
+    font-size: 36px;
   }
+}
+
+#post h2 {
+  font-size: 22px;
+}
+
+@media (min-width: 600px) {
+  #post h2 {
+    font-size: 26px;
+  }
+}
+
+#post h3 {
+  font-size: 18px;
 }
 
 #post h4 {
@@ -1531,7 +1569,7 @@ INTRO
 #post p {
   margin-top: 6px;
   margin-bottom: 20px;
-  line-height: 1.3em;
+  line-height: 1.4em;
 }
 
 #post li {
@@ -1558,9 +1596,9 @@ INTRO
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #post .internal {
-    padding: 2em 15%;
+    padding: 2em 12%;
   }
 }
 
@@ -1605,12 +1643,24 @@ INTRO
   text-decoration: underline;
 }
 
-.contact {
-  position: relative;
-  background: url(../img/waves-grey-light.jpg) #f7f7f7;
+.internal h2 {
+  background: #eaeaea;
+  padding: 8px;
+  font-weight: normal;
 }
 
-.contact h2 {
+.internal h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.contact {
+  position: relative;
+  background: #fff;
+}
+
+.contact h2.homepage {
   background: #275d87;
   font-size: 2rem;
   font-family: serif;
@@ -1628,12 +1678,12 @@ INTRO
 }
 
 @media (min-width: 768px) {
-  .contact h2 {
+  .contact h2.homepage {
     top: -20px;
   }
 }
 
-.contact h2:after {
+.contact h2.homepage:after {
   position: absolute;
   width: 0;
   height: 0;
@@ -1651,15 +1701,6 @@ INTRO
   margin-bottom: 0;
 }
 
-.contact a {
-  font-size: 2.6rem;
-  font-weight: bold;
-  color: black;
-  display: inline-block;
-  margin-bottom: 20px;
-  padding: 6px;
-}
-
 .contact h3 {
   font-weight: bold;
   margin-top: 0;
@@ -1669,6 +1710,10 @@ INTRO
 
 .contact p {
   margin-top: 4px;
+}
+
+.contact a.blurb {
+  text-decoration: underline;
 }
 
 .contact ul {
@@ -1688,6 +1733,7 @@ INTRO
 .contact .email {
   color: #e2aa00;
   border: 3px solid #e2aa00;
+  background: white;
   padding: 8px 26px 8px 26px;
   display: inline-block;
   margin: 0 0 20px 0;
@@ -1705,12 +1751,15 @@ INTRO
   color: white;
   border: 3px solid #e2aa00;
   background: #e2aa00;
-  text-decoration: none;
+}
+
+.contact .inner {
+  max-width: 900px;
+  padding-bottom: 40px;
 }
 
 footer {
-  background: url(../img/waves-footer.jpg);
-  background: #1d2c37;
+  background: #0c1116;
   color: white;
   float: left;
   width: 100%;
@@ -1758,23 +1807,25 @@ footer .copyright {
 
 body {
   position: relative;
-  background: #e2dfdf;
+  background: #eaeaea;
   text-align: center;
 }
 
 .wrapper {
-  max-width: 1600px;
   margin: 0 auto;
 }
 
 .inner {
-  max-width: 1000px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 10px;
+  width: 95%;
 }
 
-section {
-  padding-bottom: 30px;
+@media (min-width: 1000px) {
+  .inner {
+    width: 80%;
+  }
 }
 
 img {

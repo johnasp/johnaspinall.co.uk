@@ -14,7 +14,7 @@ BREAKPOINTS
     @media (min-width: 768px) { @content; }
   } 
   @if $point == 1000 {
-    @media (min-width: 768px) { @content; }
+    @media (min-width: 1000px) { @content; }
   } 
   @if $point == 1300 {
     @media (min-width: 1300px) { @content; }

@@ -17,20 +17,20 @@
 
 body {
 	position: relative;
-	background: #e2dfdf;
+	background: #eaeaea;
 	text-align: center;
 }
 .wrapper {
-	max-width: 1600px;
 	margin: 0 auto;
 }
 .inner {
-	max-width: 1000px;
+	max-width: $mw;
 	margin: 0 auto;
 	padding: 0 10px;
-}
-section {
-	padding-bottom: $spacer;
+	width: 95%;
+	@include breakpoint(1000) {
+		width: 80%;
+	}
 }
 img {
   max-width: 100%; 

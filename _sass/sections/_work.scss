@@ -1,5 +1,5 @@
 .work {
-	background: url(../img/waves-grey.jpg) #eaeaea;
+	background: #eaeaea;
 	@include heading($blue);
 	padding: 0;
 	clear: both;
@@ -29,6 +29,12 @@
 }
 .portfolio .module {
 	top: -70px;
+}
+.project.module {
+	padding: 0;
+	div p {
+		padding: 0 0.8em;
+	}
 }
 
 

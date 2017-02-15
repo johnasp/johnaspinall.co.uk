@@ -3,85 +3,95 @@ INTRO
 ********************/ 
 
 .intro {
-	padding: 20px 0 50px 0;
 	background: url(../img/us-mob.jpg) 50% 0 no-repeat;
 	position: relative;
 	@include breakpoint(768) {
-			background: url(../img/us-tablet.jpg) 50% -40px no-repeat;
-			padding-bottom: 40px;
+		background: url(../img/us-tablet.jpg) 50% -80px no-repeat;
 	}
 	@include breakpoint(1024) {
-			background: url(../img/us-desktop.jpg) 50% -100px no-repeat ;
-			padding-bottom: 80px;
+		background: url(../img/us-desktop.jpg) 50% -100px no-repeat;
+		background-size: 100%;
 	} 
-	nav {
-		padding-bottom: 80px;
-		@include breakpoint(768) {
-		padding-bottom: 170px;
+	@include breakpoint(1400) {
+		background: url(../img/us-desktop.jpg) 50% -180px no-repeat;
+	} 
+}
+
+nav {
+	text-align: center;
+	text-decoration: none;
+	padding: 12px 0;
+	a {
+		color: #fff;
+		border: 2px solid #fff;
+		margin-right: 1px;
+		display: inline-block;
+		padding: 6px;
+		font-size: 14px;
+		font-family: verdana, tahoma, arial, sans-serif; 
+		margin-bottom: 2px;
+		&:hover {
+			text-decoration: underline;
 		}
-		text-align: center;
-		a {
-			margin-right: 1em;
-			display: inline-block;
-			background: rgba(255,255,255,1);
-			padding: 6px 8px;
-			border-radius: 100px;
+		@include breakpoint(768) {
 			font-size: 1.6rem;
-			margin-right: 5px;
-			margin-bottom: 6px;
-		  font-family: "Roboto", sans-serif; font-weight: 400;
-			@include breakpoint(768) {
-			font-size: 2.0rem;
 			padding: 10px 14px;
 			margin-right: 12px;
-			}
-			@include breakpoint(1024) {
-				font-size: 2.4rem;
-				padding: 12px 24px;
-				margin-right: 26px;
-			}
-			text-decoration: none;
-			&:hover {
-				background: white;
-			}
+		}
+		@include breakpoint(1300) {
+			font-size: 2.4rem;
+			padding: 12px 24px;
+			margin-right: 26px;
 		}
 	}
-	p {
-		color: white;
-		font-size: 2.8rem;
-		margin: 0;
-		line-height: 1em;
-		text-align: center;
-		position: relative;
-		&.ja {
-			font-family: 'Lobster', cursive;
-			font-size: 8.2rem;
-  	  text-shadow:
-        3px 3px 0 #000,
-       -1px -1px 0 #000,  
-    	  1px -1px 0 #000,
-     	 -1px 1px 0 #000, 
-        1px 1px 0 #000;
-			@include breakpoint(768) {
-				margin-top: -40px;
-				font-size: 11rem;
-				padding-bottom: 20px;
-			}
-			@include breakpoint(1024) {
-				padding-top: 30px;
-				font-size: 14rem;
-			} 
-			margin-bottom: 30px;
-		}
-		&.jobTitle {
-			background: rgba(5,5,8,0.5);
-			padding: 12px;
-			bottom: 0;
-			text-align: center;
-			display: inline;
-			@include breakpoint(1024) {
-				font-size: 3.8rem;
-			}
-		}
+}
+h1.banner {
+	color: white;
+	margin: 0;
+	text-align: center;
+	position: relative;
+	font-family: 'Lobster', cursive;
+	font-size: 8.2rem;
+  text-shadow: 2px 2px 1px #000;
+  font-weight: normal;
+  z-index: 1;
+  padding: 70px 0 55px 0;
+  line-height: 1em;
+	@include breakpoint(768) {
+		font-size: 10rem;
+		padding: 110px 0 60px 0;
 	}
+	@include breakpoint(1024) {
+		font-size: 12rem;
+		padding: 100px 0 200px 0;
+	} 
+	@include breakpoint(1300) {
+		font-size: 12rem;
+		padding: 184px 0 141px 0;
+	} 
+
+}
+#inner-page h1.banner {
+		@include breakpoint(768) {
+		font-size: 12rem;
+		padding: 16px 0 66px 0;
+	} 
+}
+h2.job-title {   
+	background: #1c415f;
+	background: rgba(28,65,95,0.5);
+	padding: 6px;
+	color: white;
+	font-size: 24px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	@include breakpoint(1024) {
+		font-size: 32px!important;
+	} 
+}
+.content.portfolio {
+	margin-top: 34px;
 }

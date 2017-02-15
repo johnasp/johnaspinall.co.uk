@@ -1,5 +1,6 @@
 .clients {
 	padding-bottom: 40px;
+	background: #fff;	
 	p {
 		&:first-child {
 			margin-top: 0;
@@ -9,7 +10,6 @@
 			
 		}
 	}
-	background: url(../img/waves-grey.jpg) lighten(#eaeaea,5%);	
 	@include heading($blue);  
 	img {
 		background-color: white;

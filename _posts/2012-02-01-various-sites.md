@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: Various web site designs
 category: design
 tag: portfolio

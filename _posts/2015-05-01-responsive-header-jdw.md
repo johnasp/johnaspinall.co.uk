@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: Responsive header prototype for ecommerce website
 category: Responsive
 tag: portfolio

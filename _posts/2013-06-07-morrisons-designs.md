@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: Morrisons.com design concepts
 category: UX
 tag: portfolio

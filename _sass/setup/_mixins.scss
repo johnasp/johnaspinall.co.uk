@@ -1,6 +1,6 @@
   @mixin heading($colour) {
   position: relative;
-  h2 {
+  h2.homepage {
     background: ($colour);
     font-size: 2rem;         
     font-family: serif;
@@ -19,7 +19,7 @@
     border-radius: 3px;
     margin-bottom: 20px;
    }   
-  h2:after {
+  h2.homepage:after {
     @include triangle($colour);
   }
 }
@@ -27,9 +27,13 @@
 @mixin shadow() {
   box-shadow: 1px 1px 1px #ccc;
 }
+
+$ctaBut: darken($yellow, 4%); 
+
 @mixin cta() {
-  color: darken($yellow, 4%);
-  border: 3px solid darken($yellow, 4%);
+  color: $ctaBut;
+  border: 3px solid $ctaBut;
+  background: white;
   padding: 8px 26px 8px 26px;
   display: inline-block;
   margin: 0 0 20px 0;
@@ -43,15 +47,10 @@
   font-weight: bold;
   &:hover {
     color: white;
-    border: 3px solid darken($yellow, 4%);
-    background: darken($yellow, 4%);
-    text-decoration: none;        
+    border: 3px solid $ctaBut;
+    background: $ctaBut;     
   }
-}
-
- 
-
- 
+} 
 @mixin triangle($colour) {
   position: absolute;
   width: 0; 
