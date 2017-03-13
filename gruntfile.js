@@ -60,14 +60,14 @@ module.exports = function (grunt) {
                 relativeAssets: false,
                 outputStyle: 'expanded',
                 sassDir: '_sass',
-                cssDir: '_site/css'
+                cssDir: '_includes/css'
             },
             build: {
                 files: [{
                     expand: true,
                     cwd: '_sass/',
                     src: ['**/*.{scss,sass}'],
-                    dest: '_site/css',
+                    dest: '_includes/css',
                     ext: '.css'
                 }]
             }
