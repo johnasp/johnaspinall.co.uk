@@ -1,29 +1,16 @@
 ---
-layout: portfolio
-title: Seasiders podcast responsive website
+layout: default
+modal-id: 7
+date: 2015-06-01
+img-thumb: seasiders-podcast-thumb.png
+img-full: seasiders-podcast.jpg
+alt: Screenshot of Seasiders Podcast website
+project-date: 
+client: Me
 category: Responsive
-tag: portfolio
-excerpt: A hand coded responsive website and conversion to a Wordpress theme for a podcast I created and presented. 
----   
-
-<table class="overview cols">
-  <tr>
-    <td>Project:</td>
-    <td>Responsive website</td>  
-  </tr>  
-  <tr>
-    <td>My role:</td>
-    <td>Designer/Developer</td>
-  </tr> 
-  <tr>
-    <td>Client:</td>
-    <td>Me!</td>  
-  </tr> 
-  <tr>
-    <td>Tasks:</td>
-    <td>HTML, CSS, SASS, Jquery, design, Wordpress theming, Wordpress installation/management, podcast production  </td>
-  </tr> 
-</table>
+tasks: HTML, CSS, SASS, Jquery, design, custom Wordpress theming, Wordpress installation/management, podcast production 
+caption: Responsive, Wordpress
+---
 
 #### Overview
 

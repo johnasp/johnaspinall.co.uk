@@ -1,0 +1,16 @@
+.post-content {
+	padding-top: 0;
+	text-align: left!important;
+	li {
+		font-size: 20px;
+	}
+}
+#about {
+	.statement p:first-child {
+		font-size: 24px;
+	}
+}
+img {
+	max-width: 100%;
+	height: auto;
+}

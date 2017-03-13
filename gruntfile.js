@@ -25,7 +25,32 @@ module.exports = function (grunt) {
             sass: {
                 files: ['_sass/**/*.{scss,sass}'],
                 tasks: ['sass']
-            }
+            },
+            options: {
+                livereload: true,
+            },              
+            css: {
+                files: ['css/**/*.scss'],
+                tasks: ['sass'],
+                options: {
+                    spawn: false,
+                    livereload: true,
+                }
+            },            
+            scripts: {
+                files: ['js/*.js'],
+                tasks: ['concat', 'uglify'],
+                options: {
+                    spawn: false,
+                    livereload: true,                    
+                },
+            },
+            html: {
+                files : ['**/*.{html,htm}'],
+                options: {
+                    livereload: true,
+                }
+            } 
         },
 
         // sass (libsass) config
@@ -35,14 +60,14 @@ module.exports = function (grunt) {
                 relativeAssets: false,
                 outputStyle: 'expanded',
                 sassDir: '_sass',
-                cssDir: 'css'
+                cssDir: '_site/css'
             },
             build: {
                 files: [{
                     expand: true,
                     cwd: '_sass/',
                     src: ['**/*.{scss,sass}'],
-                    dest: 'css',
+                    dest: '_site/css',
                     ext: '.css'
                 }]
             }
@@ -60,23 +85,6 @@ module.exports = function (grunt) {
             }
         },
 
-        //Setup browser sync
-
-        browserSync: {
-            dev: {
-                bsFiles: {
-                    src : [
-                        '_site/css/*.css',
-                        '_site/*.html'
-                    ]
-                },
-                options: {
-                    watchTask: true,
-                    server: '127.0.0.1:4000/'
-                }
-            }
-        }
-
     });
 
     // Register the grunt serve task
@@ -91,6 +99,6 @@ module.exports = function (grunt) {
     ]);
 
     // Register build as the default task fallback
-    grunt.registerTask('default', ['build', 'serve', 'browserSync']);
+    grunt.registerTask('default', 'build');
 
-}; 
+};

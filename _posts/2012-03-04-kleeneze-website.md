@@ -1,29 +1,17 @@
 ---
-layout: portfolio
-title: Kleeneze responsive website
-category: Responsive
-tag: portfolio
-excerpt: A fully responsive website for the public facing website of Kleeneze
----   
-
-<table class="overview cols">
-  <tr>
-    <td>Project:</td>
-    <td>Responsive website</td>  
-  </tr>  
-  <tr>
-    <td>My role:</td>
-    <td>Designer/Developer</td>
-  </tr> 
-  <tr>
-    <td>Client:</td>
-    <td>Findel plc</td>  
-  </tr> 
-  <tr>
-    <td>Tasks:</td>
-    <td>HTML, CSS, Jquery, design,  </td>
-  </tr> 
-</table>
+layout: default
+modal-id: 11
+date: 2015-06-01
+img-thumb: kleeneze-thumb.jpg
+img-full: kleeneze.jpg
+alt: Screenshot of Kleeneze website
+project-date: June 2015
+client: Findel plc
+category: Responsive web
+tasks: HTML, CSS, Jquery, PHP, Apache, MySQL, Design, Wordpress, Wireframes
+description: Responsive redesign of Kleeneze public facing website
+caption: Responsive, Wordpress
+---
 
 #### Overview
 
