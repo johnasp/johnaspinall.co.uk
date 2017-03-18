@@ -35,3 +35,10 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+//Enable Fitvids plugin
+$(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $(".post-content").fitVids();
+});
+
