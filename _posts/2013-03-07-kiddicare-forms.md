@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 9
 date: 2015-06-01
 img-thumb: kiddicare-forms-thumb.png
@@ -9,11 +9,9 @@ project-date: June 2015
 client: Morrisons
 category: Mobile web
 tasks: HTML, CSS, SASS, design
-description: Front end login and registration forms for Kiddicare app
+excerpt: Front end login and registration forms for Kiddicare app
 caption: Front-End Dev
 ---
-
-
 
 #### Overview
 

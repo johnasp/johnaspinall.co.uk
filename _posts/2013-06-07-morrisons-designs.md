@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 8
 date: 2015-06-01
 img-full: morrisons.jpg
@@ -10,6 +10,7 @@ client: Morrisons
 category: UX Developer
 tasks: Concepts
 caption: Visual Design
+excerpt: Visual design concepts of Morrisons.com website
 ---
 
 #### Project Overview

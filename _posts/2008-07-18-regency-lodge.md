@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 16
 date: 2015-06-01
 img-thumb: regency-lodge-blackpool-thumb.jpg
@@ -9,7 +9,7 @@ project-date: 2008
 client: Regency Lodge Hospital
 category: Web Design
 tasks: Visual design, HTML, CSS, JS
-description: Brochure web site for company
+excerpt: Brochure web site for private mental health hospital in Blackpool.  Custom design and front end build.
 caption: Web Design
 ---
 

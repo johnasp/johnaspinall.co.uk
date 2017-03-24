@@ -1,6 +1,6 @@
 ---
+layout: post
 title: eCommerce website responsive header
-layout: default
 modal-id: 5
 date: 2015-06-01
 img-thumb: jdw-responsive-header-thumb.jpg
@@ -10,7 +10,7 @@ project-date: June 2015
 client: JD Williams
 role: Front end developer
 tasks: HTML, SASS, JQuery
-description: A fully functioning responsive header prototype to be used for the new proposed eCommerce site template. 
+excerpt: A fully functioning responsive header prototype to be used for the new proposed eCommerce site template. 
 caption: Responsive Design
 ---  
 

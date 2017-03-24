@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 3
 date: 2015-06-01
 img-full: kiddicare-wire.png
@@ -10,6 +10,7 @@ client: Morrisons
 role: UX Designer
 tasks: Wireframes, visual design, prototypes
 caption: UX Design
+excerpt: UX lead on a project to convert and re-design the existing Kiddicare website into a responsive site. 
 ---
 
 ## Project Overview

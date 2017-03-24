@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 13
 date: 2010-06-01
 img-thumb: kleeneze-dsa-thumb.jpg
@@ -9,7 +9,7 @@ project-date: 2010
 client: Kleeneze
 category: Wordpress Web Design
 tasks: Visual design, HTML, CSS, JS, Wordpress child theme
-description: Private extranet website and CMS powered by Wordpress built for company distributor network
+excerpt: Private extranet website and CMS powered by Wordpress built for company distributor network
 caption: Wordpress Web Design
 ---
 

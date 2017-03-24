@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 18
 date: 2007-06-01
 img-thumb: marrakech-thumb.jpg
@@ -9,7 +9,7 @@ project-date: July 2008
 client: Kleeneze
 category: Web Design
 tasks: Visual design, HTML, CSS, JS
-description: Website to support distributor incetive desination to Marrakech
+excerpt:  Website to support distributor incetive desination to Marrakech
 caption: Web Design
 ---
 

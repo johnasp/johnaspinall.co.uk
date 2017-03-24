@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 11
 date: 2015-06-01
 img-thumb: kleeneze-thumb.jpg
@@ -9,7 +9,7 @@ project-date: June 2015
 client: Findel plc
 category: Responsive web
 tasks: HTML, CSS, Jquery, PHP, Apache, MySQL, Design, Wordpress, Wireframes
-description: Responsive redesign of Kleeneze public facing website
+excerpt: Responsive redesign of Kleeneze public facing website
 caption: Responsive, Wordpress
 ---
 

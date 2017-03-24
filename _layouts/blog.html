@@ -2,11 +2,11 @@
 <html>
     {% include head.html %}
     <body id="page-top" class="index">
-    {% include nav-post.html %}                         
-    <div class="container blog">
-        <h2>{{ post.title }}</h2>
-        {{ content }}    
-    </div>
+    {% include nav.html %}
+    {% include header.html %}
+    {% include blogs.html %}
+    {% include about.html %}
+
     {% if site.contact == "static" %}
     {% include contact_static.html %}
     {% elsif site.contact == "disqus" %}
@@ -16,6 +16,7 @@
     {% endif %}
 
     {% include footer.html %}
+
     {% include js.html %}
     </body>
 </html>

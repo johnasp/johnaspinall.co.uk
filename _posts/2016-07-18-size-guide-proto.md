@@ -1,6 +1,6 @@
 ---
+layout: post
 title: Mobile clothing size guide
-layout: default
 modal-id: 2
 date: 2015-06-01
 img-thumb: size-guide-thumb.png
@@ -11,6 +11,7 @@ client: JD Williams
 role: UX/UI Designer
 caption: UX/UI Design
 tasks: Responsive design, bootstrap, css, html
+excerpt: A clothing size guide I created using Bootstrap for JD Williams' mobile specific website. 
 ---
 
 ## Project Overview

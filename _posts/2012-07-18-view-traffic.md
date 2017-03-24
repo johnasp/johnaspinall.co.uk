@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 10
 date: 2015-06-01
 img-thumb: vt-thumb.jpg
@@ -9,7 +9,7 @@ project-date: 2008
 client: Pulse Media
 category: Web Design
 tasks: Visual design, Wordpress HTML, CSS, JS
-description: Custom themed Wordpress website
+excerpt: Custom themed Wordpress website
 caption: Wordpress Web Design
 ---
 

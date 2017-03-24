@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 6
 date: 2015-06-01
 img-thumb: jdw-mob-thumb.jpg
@@ -9,7 +9,7 @@ project-date: June 2015
 client: JD Williams
 category: UX/UI Designer
 tasks: Competitor analysis, user journeys, user testing, wireframes, visual design, prototypes, front-end build (HTML,CSS, JQuery), stakeholder management.
-description: Product search and navigation UX redesign on mobile specific website
+excerpt: Product search and navigation UX redesign on mobile specific website
 caption: UX & UI Design
 ---
 
