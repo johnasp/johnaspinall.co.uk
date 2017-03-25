@@ -1,4 +1,6 @@
-/* Johns custom styles */
+/********************
+BREAKPOINTS
+********************/
 .post-content {
   padding-top: 0;
   text-align: left !important;
@@ -107,9 +109,16 @@ img {
   }
 }
 
+.blog-page {
+  margin-top: 50px;
+}
+
 @media all and (min-width: 768px) {
   .blogh2 {
     margin-top: 40px;
+  }
+  .blog-page {
+    margin-top: 120px !important;
   }
 }
 

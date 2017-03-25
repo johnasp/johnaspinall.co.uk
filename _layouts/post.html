@@ -3,8 +3,25 @@
     {% include head.html %}
     <body id="page-top" class="index">
     {% include nav-blog.html %}                         
-    <div class="container blog">
-        <h2>{{ post.title }}</h2>
+    <div class="container blog-page">
+    <h2 class="text-center">{{ page.title }}</h2>
+        <hr class="star-primary">
+        <img src="/img/portfolio/{{ page.img-full }}" class="img-responsive img-centered" alt="{{ page.alt }}">
+        <p>{{ page.description }}</p>
+        <ul class="list-inline item-details text-center">
+            <li>Client:
+                <strong>{{ page.client }}</strong>
+            </li>
+            <li>Date:
+                <strong>{{ page.project-date }}</strong>
+            </li>
+            <li>Role:
+                <strong>{{ page.role }}</strong>
+            </li>
+            <li>Tasks:
+                <strong>{{ page.tasks }}</strong>
+            </li>
+        </ul>
         {{ content }}    
     </div>
     {% if site.contact == "static" %}

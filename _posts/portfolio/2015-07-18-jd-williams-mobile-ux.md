@@ -1,4 +1,5 @@
 ---
+title: JD Williams Mobile UX/UI
 layout: post
 modal-id: 6
 date: 2015-06-01
@@ -13,7 +14,7 @@ excerpt: Product search and navigation UX redesign on mobile specific website
 caption: UX & UI Design
 ---
 
-## Project overview
+### Project overview
 
 Analytics data revealed that on JD Williams' suite of mobile specific websites, the product refine and search user journeys had an unacceptably high add to bag abandonment rate.  I was assigned the role of UX design lead on a project to grow conversion rates and revenues via improvements to the product search and navigation user experience.   
 
