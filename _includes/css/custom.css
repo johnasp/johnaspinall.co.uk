@@ -107,4 +107,10 @@ img {
   }
 }
 
+@media all and (min-width: 768px) {
+  .blogh2 {
+    margin-top: 40px;
+  }
+}
+
 /*# sourceMappingURL=custom.css.map */
