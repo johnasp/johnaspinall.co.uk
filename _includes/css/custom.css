@@ -109,10 +109,6 @@ img {
   }
 }
 
-.blog-page {
-  margin-top: 50px;
-}
-
 @media all and (min-width: 768px) {
   .blogh2 {
     margin-top: 40px;
@@ -120,6 +116,24 @@ img {
   .blog-page {
     margin-top: 120px !important;
   }
+}
+
+.blog-page {
+  margin-top: 50px;
+}
+
+.blog-page .item-details {
+  margin: 30px 0;
+}
+
+.blog-page p:first-of-type {
+  border-top: 1px solid #2c3e50;
+  padding: 30px 0;
+  border-bottom: 1px solid #2c3e50;
+}
+
+.blog-page li {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=custom.css.map */

@@ -14,31 +14,25 @@ tasks: Responsive design, bootstrap, css, html
 excerpt: A clothing size guide I created using Bootstrap for JD Williams' mobile specific website. 
 ---
 
-## Project Overview
+The UX and front end development process I took when designing and developing a clothing size guide for JD Williams' suite of mobile specific websites. I documented the whole UX process from start to end and have detailed this below. 
 
-Tasked with creating a clothing size guide for a mobile specific website eCommerce retail site. 
-
-*Directly responsible for:*
+*In this project, I was directly responsible for:*
 
 * Gathering requirements 
 * Sketching
 * Built working prototype in Bootstrap 
 * User testing
 * Wrote HTML, CSS, Jquery and SASS for the prototype.
-* Integrated front end code into main shop application 
+* Integrating front end code into main shop application - in conjuction with a Java dev. 
 
 Here is a link to <a href="http://codepen.io/johnasp/full/KrBjaq/">view the the prototype</a> and below is a deeper dive explanation around the UX work I completed on this project. 
-
-
-## UX Process
-
-I documented the whole UX process from start to end and have detailed this below. 
 
 ### Requirements analysis
 
 The first stop in any project is to obtain, analyze and understand the business requirements.  All the  requirements related to my task are in a Jira (a tool to facilitate Agile software releases) story, created by a business analyst. I simply login to Jira, look at the project board and open my ticket to access the requirements. 
 
-![My taks in Jira](http://johnasp.github.io/img/my-jira-ticket.JPG)
+
+<img src="{{ base }}/img/my-jira-ticket.jpg" alt="My tasks in Jira">
 
 Having read the requirements contained in the ticket, I can deduce the clients' problem is that they currently do not have a size guide for any products on their mobile specific ecommerce websites and they want this feature adding. I highlighted the specifics of the story and contacted the projects' Business Analyst to clarify the requirements I didn't fully understand.
 
@@ -53,14 +47,14 @@ At this stage I always find it useful to create my own "to do list" when I have 
 OK so I now know what I have to do, the question now is, what's the best way to approach solving the problem?  
 
 ### My approach 
-
+ 
 We are to be presenting wide and deep tables of data to the user who we know is to be accessing the content on a mobile device and there are to be five separate sections of content.  As we are limited in screen height on a mobile device, it seems to me the best way to present this content is to split up each section into an accordion, and further split each sub-section of content into tabbed panels.
 
 ### Sketching
 
-I did a rough hand sketch of my idea and presented this to the business. There were happy with this solution, so my next tasks is to build this out into a working prototype and get this into the hands of the business and users early in the process.  I feel it's crucial to get it in the hands of users early in the process in order to validate the product effectiveness and so it solves the business problem..    
+I did a rough hand sketch of my idea and presented this to the business. There were happy with this solution, so my next tasks is to build this out into a working prototype and get this into the hands of the business and users early in the process.  I feel it's crucial to get it in the hands of users early in the process in order to validate the product effectiveness and so it solves the business problem.
 
-![My sketch of proposed size guide modal](http://johnasp.github.io/img/size-guide-sketch.jpg)
+<img src="{{ base }}/img/size-guide-sketch.jpg" alt="My sketch of proposed size guide modal">   
 
 I'll now move onto building a prototype.
 
