@@ -16,13 +16,11 @@ caption: UX & UI Design
 
 ### Project overview
 
-Analytics data revealed that on JD Williams' suite of mobile specific websites, the product refine and search user journeys had an unacceptably high add to bag abandonment rate.  I was assigned the role of UX design lead on a project to grow conversion rates and revenues via improvements to the product search and navigation user experience.   
-
-Users were often abandoning the *product search user journey* and were dropping out of the *product refine user journey*.   
+Assigned to the role of <strong>UX design lead</strong> on a project to improve conversion rates via UX changes to the mobile website product search and navigation user experience.  
 
 ### User Research & Testing
 
-Although we had data to tell us where the problems were, I needed to verify exactly the reasons why.  To achieve this I conducted some user research and testing using pre-existing user personas.
+Users were often abandoning the *product search user journey* and were dropping out of the *product refine user journey*.   Although we had data to tell us where the problems were, I needed to verify exactly the reasons why.  To achieve this I conducted some user research and testing using pre-existing user personas.
 
 I mapped out the probablematic user journies and wrote user tasks which were to be performed on the existing mobile site by real users in remote user testing sessions.  I booked sessions with users whose demographic came in the persona groups for the clients "Power Brands" (JD WIlliams, Jacamo and Simply Be).
 
@@ -42,7 +40,7 @@ My user testing observations also revealed that when a user was told to search f
 
 ### Competitor Benchmarking
 
-To gain an understanding of how other mobile ecommerce websites approached search and navigation, I compiled a list of industry key competitors and decided to benchmark user test our user journies on their sites, again with real users via the WhatUserDo service. 
+To gain an understanding of how other mobile ecommerce websites approached search and navigation, I compiled a list of industry key competitors and decided to benchmark user test our user journies on their sites, again with real users via the WhatUsersDo service. 
 
 This enabled me to learn from their positives and also avoid their negatives and all with reports from real users in our target demographic.  I then presented these screen recording to project stakeholders, along with users comments and my observations.   
 
@@ -59,7 +57,7 @@ The key changes I therefore wanted to make on the new product were:
 1. Introduce an industry standard “burger” site menu to house the list of product categories and other navigational links.  This site menu would initially be hidden off screen (to the left) and animate in to view upon touch.
 2. Completely change the refinement interface, remove the drop down menus and implement a refinement grid where users could easily add and remove multiple facet refinements by a single touch.  This menu would also be initially hidden off screen (to the right) and animate into view upon touch.
 
-### Visual concepts
+### Rapid Visual Prototype
 
 I sketched on paper and then designed digital visual concepts of all the relevant screens for the new product and with these screens created a click-able prototype using Invision prototype tool.  
 
@@ -75,7 +73,7 @@ Follow the journey below to interact with the prototype:
 <iframe src="//invis.io/9Z1SDBZTD" width="396" height="770" frameborder="0" allowfullscreen="allowfullscreen" class="invision"></iframe> 
 
 
-### Working prototype
+###  Front end code
 
 I have learnt through experience that the only way to accurately see how a mobile web page will both look and perform on a mobile web browser, is to view a complete coded web page direct on a mobile device.  With this in mind, I decided to code a production ready prototype written in HTML, CSS (SASS) and Jquery, whilst utilising Grunt for a build system and Github for source control and Github pages for web hosting. 
 

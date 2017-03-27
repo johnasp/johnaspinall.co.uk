@@ -39,6 +39,6 @@ $('.navbar-collapse ul li a').click(function() {
 //Enable Fitvids plugin
 $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
-    $(".post-content").fitVids();
+    $(".container").fitVids();
 });
 

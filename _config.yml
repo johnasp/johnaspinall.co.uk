@@ -1,11 +1,12 @@
 # Site settings
 title: John Aspinall
 email: john.aspinall73@gmail.com
-url: https://example.github.io
+url: https://johnasp.github.io
 description: "The peronal website, blog and portfolio of work for John Aspinall."
 skills: "Front end developer - UX Designer - Podcaster "
 meta_author: Aspinall John
 permalink: title.html
+
 
 # Google webmaster tools
 google_verify:
@@ -52,8 +53,6 @@ social:
 address:
   - line: Poulton-le-Fylde
   - line: Lancashire, UK
-
-
 
 # Build settings
 markdown: kramdown

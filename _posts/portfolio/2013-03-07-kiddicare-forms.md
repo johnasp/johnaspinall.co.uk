@@ -13,9 +13,7 @@ excerpt: Front end login and registration forms for Kiddicare app
 caption: Front-End Dev
 ---
 
-#### Overview
-
-The client was developing a mobile application for it's e-commerce store and I was tasked with designing the front end login and registration forms.  
+<strong>Front end developer</strong> building the web view login and registration forms used on the Kiddicare iOS and Android apps.
 
 This was only a small piece of work but was quite a useful exercise learning nonetheless, as this was a standalone piece of code to write, it allowed me to put the new SASS and Compass framework skills I had been learning, into practice.  
 
@@ -23,16 +21,21 @@ This was only a small piece of work but was quite a useful exercise learning non
 
 Click each of the two images below to load the respective form page in a browser.  This demo is hosted on this site.  
 
-<a href="/kiddicare-login-screens/register.htm"><img src="/img/kiddicare-register.png" alt="Kiddicare mobile registeration screen"></a>
+<div class="row">
+	<div class="col-xs-6">
+		<a href="{{ base }}/kiddicare-login-screens/register.htm"><img src="{{ base }}/img/portfolio/kiddicare-forms-thumb.png" alt="Kiddicare mobile registeration screen"></a>
+	</div>
+	<div class="col-xs-6">
+		<a href="{{ base }}/kiddicare-login-screens/login.htm">
+		<img src="{{ base }}/img/portfolio/kk-login-thumb.jpg" alt="Kiddicare mobile login screen"></a>
+	</div>
+</div>
 
-<a href="/kiddicare-login-screens/login.htm">
-<img src="/img/kiddicare-login.png" alt="Kiddicare mobile login screen"></a>
-
-
+The forms were both used as a webview on the Kiddicare apps created for iOS and Android.
 
 #### View project code
 
-You can view all source files and code I wrote on the [Github repo I created for the project](https://github.com/johnasp/login-screens).  
+You can view all source files and code I wrote on the [Github repo](https://github.com/johnasp/login-screens) I created for the project.  
 
 
 

@@ -14,11 +14,10 @@ excerpt: A fully functioning responsive header prototype to be used for the new 
 caption: Responsive Design
 ---  
 
-### Project Overview
+The client was in the process of exploring the possible conversion of it's suite of silod (mobile-tablet-desktop) websites into a single responsive site.  I was tasked with the <strong>front end development</strong> of a responsive prototype of the site header. 
 
-The client was in the process of exploring the possible conversion of it's suite of silod (mobile-tablet-desktop) websites into a single responsive site.  
+ A requirement was to observe performance on mobile device so I decided the best way to achieve this was to build a prototype in the browser using the "mobile first" philosophy.  I coded the prototype direct in the browser using HTML, SASS and Jquery. 
 
-I was asked to build a fully functioning responsive prototype of the site header.  A requirement was to observe performance on mobile device so I decided the best way to achieve this was to build a prototype in the browser using the "mobile first" philosophy.  I coded the prototype direct in the browser using HTML, SASS and Jquery.  
 
 #### Final result 
 

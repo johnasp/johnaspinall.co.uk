@@ -13,15 +13,13 @@ caption: Visual Design
 excerpt: Visual design concepts of Morrisons.com website
 ---
 
-#### Project Overview
-
-I joined the Morrisons Digital team in Manchester as an innovation UX developer to work on the brand new eCommerece platform and website the company was about to create. 
+I joined the Morrisons Digital team in Manchester as an <strong>innovation UX developer</strong> to work on the brand new eCommerece platform and website the company was about to create. 
 
 I worked on creating the visual designs and front end development code of the new site, in addition to working on the Kiddicare brand. 
 
 The designs and code were unfortunately never put into production as mid project, the business made a decision to acquire Ocado and use their existing platform. 
 
-I have unfortunately misplaced the full set of concepts, although I do have the homepage which can be viewed above.  After a few iterations, the designs were well received at Bradford HQ and met with board approval. 
+I have  misplaced the full set of concepts, although I do have the homepage which can be viewed above.  After a few iterations, the designs were well received at Bradford HQ and met with board approval. 
 
 
 

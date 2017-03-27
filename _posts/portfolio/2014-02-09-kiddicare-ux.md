@@ -13,14 +13,14 @@ caption: UX Design
 excerpt: UX lead on a project to convert and re-design the existing Kiddicare website into a responsive site. 
 ---
 
-## Project Overview
+<strong>UX lead</strong> on a project to convert and re-design the existing Kiddicare website into a responsive site.   
 
-UX lead on a project to convert and re-design the existing Kiddicare website into a responsive site.  Kiddicare are a multi-channel retailer specialising in baby products who Morrisons acquired in 2014, for whom I was working for at the time. 
+Kiddicare are a multi-channel retailer specialising in baby products who Morrisons acquired in 2014, for whom I was working for at the time. 
 
 *Directly responsible for:*
 
-* Wireframe production
-* Homepage prototype
+* Converting business requirements into wireframes
+* Homepage rapid prototype
 * Visual design for web page concepts
 
 ### Wireframes
