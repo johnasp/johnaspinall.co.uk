@@ -17,7 +17,9 @@ excerpt: A responsive website I built from scratch to delivery the podcast conte
 
 A responsive website I built from scratch to delivery the podcast content I produced for a show I created about Blackpool FC.  This was third iteration of the site design for the podcast I started in 2010.  The initial site I built was fixed width so I decided to make the site responsive in 2014. 
 
-I just read a great book called <a href="https://www.packtpub.com/web-development/sass-and-compass-designers">SASS and Compass by Ben Frain</a> before I performed this site redesign which also provided me with a great insight as to what can be achieved with CSS pre-processors and Frameworks. 
+I just read a great book called <a href="https://www.packtpub.com/web-development/sass-and-compass-designers">SASS and Compass by Ben Frain</a> before I performed this site redesign.  This book, in addition to his also provided me with a great insight as to what can be achieved with CSS pre-processors and Frameworks. 
+
+Ben's other book titled <a href="https://www.amazon.co.uk/gp/product/1784398934/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=1784398934&linkCode=as2&tag=eborearevroo-21">Responsive Web Design with HTML5 & CSS3</a> also provides a great insight into build modern, responsive sites. 
 
 I was keen to learn more about SASS and how to build a responsive site from the ground up and so purchased and followed this <a href="https://css-tricks.com/lodge/v10/">excellent full site build tutorial</a> from Chris Coyier of CSS Tricks. 
 
