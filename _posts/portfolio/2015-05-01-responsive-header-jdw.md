@@ -7,6 +7,7 @@ img-thumb: jdw-responsive-header-thumb.jpg
 img-full: jdw-responsive-header.jpg
 alt: Screenshot of responsive header prototype
 project-date: June 2015
+category: Portfolio
 client: JD Williams
 role: Front end developer
 tasks: HTML, SASS, JQuery

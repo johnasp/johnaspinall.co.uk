@@ -8,7 +8,11 @@
         <div class="col-lg-8 col-lg-offset-2">
         <h2 class="text-center">{{ page.title }}</h2>
             <hr class="star-primary">
+
+            {% if post.category == "Portfolio" %}
+
             <img src="/img/portfolio/{{ page.img-full }}" class="img-responsive img-centered" alt="{{ page.alt }}">
+           
             <ul class="list-inline item-details text-center">
                 <li>Client:
                     <strong>{{ page.client }}</strong>
@@ -23,6 +27,12 @@
                     <strong>{{ page.tasks }}</strong>
                 </li>
             </ul>
+
+            {% else if %}
+
+            {% endif %}
+
+
 
             {{ content }}  
             </div>

@@ -7,7 +7,7 @@ img-full: vt.jpg
 alt: Screenshot of View Traffic website
 project-date: 2010
 client: Pulse Media
-category: Web Design
+category: Portfolio
 tasks: Visual design, Wordpress HTML, CSS, JS
 excerpt: Custom themed Wordpress website
 caption: Wordpress Web Design

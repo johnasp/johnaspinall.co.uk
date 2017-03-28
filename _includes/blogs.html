@@ -4,12 +4,16 @@
     <hr class="star-primary">  
         <div class="row">  	
             {% for post in site.posts %}
-            <div class="col-sm-6 col-md-4">   
-                <div class="panel panel-default"> 
-                    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-                    <p>{{ post.excerpt }}</p>
+                {% if post.category == "Portfolio" %}
+                    
+                {% else if %}
+                <div class="col-sm-6 col-md-4">   
+                    <div class="panel panel-default"> 
+                        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                        <p>{{ post.excerpt }}</p>
+                    </div>
                 </div>
-            </div>
+                {% endif %}
              {% endfor %}
         
         </div>

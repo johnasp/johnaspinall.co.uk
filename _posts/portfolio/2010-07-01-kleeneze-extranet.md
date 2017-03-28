@@ -7,7 +7,7 @@ img-full: kleeneze-dsa.jpg
 alt: Screenshot of Kleeneze DSA
 project-date: 2010
 client: Kleeneze
-category: Wordpress Web Design
+category: Portfolio
 tasks: Visual design, HTML, CSS, JS, Wordpress child theme
 excerpt: Private extranet website and CMS powered by Wordpress built for company distributor network
 caption: Wordpress Web Design

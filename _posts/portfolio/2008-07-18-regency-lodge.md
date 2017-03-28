@@ -7,7 +7,7 @@ img-full: regency-lodge-blackpool.jpg
 alt: Screenshot of Regency Lodge website
 project-date: 2008
 client: Regency Lodge Hospital
-category: Web Design
+category: Portfolio
 tasks: Visual design, HTML, CSS, JS
 excerpt: Brochure web site for private mental health hospital in Blackpool.  Custom design and front end build.
 caption: Web Design

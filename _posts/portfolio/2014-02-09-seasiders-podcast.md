@@ -7,7 +7,7 @@ img-full: seasiders-podcast.jpg
 alt: Screenshot of Seasiders Podcast website
 project-date: 
 client: Me
-category: Responsive
+category: Portfolio
 tasks: HTML, CSS, SASS, Jquery, design, custom Wordpress theming, Wordpress installation/management, podcast production 
 caption: Responsive, Wordpress
 excerpt: A responsive website I built from scratch to delivery the podcast content I produced for a show I created about Blackpool FC. 

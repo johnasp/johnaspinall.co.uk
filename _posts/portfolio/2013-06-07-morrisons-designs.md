@@ -7,7 +7,7 @@ img-thumb: morrisons-thumb.jpg
 alt: Screenshot of Morrisons website
 project-date: 2015-06-01
 client: Morrisons
-category: UX Developer
+category: Portfolio
 tasks: Concepts
 caption: Visual Design
 excerpt: Visual design concepts of Morrisons.com website

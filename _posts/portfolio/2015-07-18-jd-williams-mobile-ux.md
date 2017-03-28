@@ -8,7 +8,7 @@ img-full: jdw-mob.jpg
 alt: Screenshot of mobile web site
 project-date: June 2015
 client: JD Williams
-category: UX/UI Designer
+category: Portfolio
 tasks: Competitor analysis, user journeys, user testing, wireframes, visual design, prototypes, front-end build (HTML,CSS, JQuery), stakeholder management.
 excerpt: Product search and navigation UX redesign on mobile specific website
 caption: UX & UI Design

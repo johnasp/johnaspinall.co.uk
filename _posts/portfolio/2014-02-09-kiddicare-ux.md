@@ -10,6 +10,7 @@ client: Morrisons
 role: UX Designer
 tasks: Wireframes, visual design, prototypes
 caption: UX Design
+category: Portfolio
 excerpt: UX lead on a project to convert and re-design the existing Kiddicare website into a responsive site. 
 ---
 

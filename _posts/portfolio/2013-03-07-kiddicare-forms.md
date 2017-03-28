@@ -7,7 +7,7 @@ img-full: kiddicare-forms.png
 alt: Screenshot of Kiddicare app web forms
 project-date: June 2015
 client: Morrisons
-category: Mobile web
+category: Portfolio
 tasks: HTML, CSS, SASS, design
 excerpt: Front end login and registration forms for Kiddicare app
 caption: Front-End Dev

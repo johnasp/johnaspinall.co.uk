@@ -7,7 +7,7 @@ img-full: marrakech.jpg
 alt: Screenshot of Marrakech 2007 website
 project-date: July 2008
 client: Kleeneze
-category: Web Design
+category: Portfolio
 tasks: Visual design, HTML, CSS, JS
 excerpt:  Website to support distributor incetive desination to Marrakech
 caption: Web Design

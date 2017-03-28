@@ -7,7 +7,7 @@ img-full: kleeneze.jpg
 alt: Screenshot of Kleeneze website
 project-date: June 2011
 client: Findel plc
-category: Responsive web
+category: Portfolio
 tasks: HTML, CSS, Jquery, PHP, Apache, MySQL, Design, Wordpress, Wireframes
 excerpt: Responsive redesign of Kleeneze public facing website
 caption: Responsive, Wordpress

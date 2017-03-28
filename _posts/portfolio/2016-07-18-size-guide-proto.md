@@ -8,6 +8,7 @@ img-full: size-guide.png
 alt: Screenshot of size guide prototype
 project-date: 2015-06-01
 client: JD Williams
+category: Portfolio
 role: UX/UI Designer
 caption: UX/UI Design
 tasks: Responsive design, bootstrap, css, html
