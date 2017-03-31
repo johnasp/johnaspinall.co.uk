@@ -6,7 +6,12 @@ tag: Javascript
 excerpt: A brief write up of the procedure I use to debug Javascript errors when an event is fired.
 ---
 
-A brief write up of the procedure I use to debug Javascript errors when an event is fired.  Will do a screencast to illustrate this shortly.
+A brief write up of the procedure I use to debug Javascript errors when an event is fired.  
+
+<ul id="kid-wires" class="list-unstyled">
+  <a href="#" class="btn btn-primary">Click me</a>
+</ul>
+
 
 If you are looking to debug a javascript which runs when an event fires (e.g. A link is clicked, a key pressed, mouse pointer goes over an element, etc) then a good debugging technique is to set a break point in the function and step through each line of the script and watch what is happening at every line in the script.  Here's how to do this:
 
@@ -27,3 +32,4 @@ ID or other element attribute is being used to select it to bind the event liste
 ### Watch a video
 
 I'll post a screencast video of this in action soon as I think this makes it a bit easier to understand how this works. 
+

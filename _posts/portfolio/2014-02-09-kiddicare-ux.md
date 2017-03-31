@@ -30,34 +30,13 @@ Working in conjunction with a business analyst, I produced wireframes of all  ke
 
 I also exported the screens as JPG’s which I pinned to the walls of project design meeting, the purpose of which to encourage collaborative iterations of the positioning, prominence and inclusion of screen elements.  
 
-Samples of the wireframes I produced can be viewed below:
+Samples of the wireframes I produced can be viewed by clicking the button below:
 
-<ul id="kid-wires" class="list-unstyled">
-  <li>
-    <img src="/img/portfolio/wires-kid/home-d.png" alt="">
-  </li>
-    <li>
-    <img src="/img/portfolio/wires-kid/home-t.png" alt="">
-  </li>
-    <li>
-    <img src="/img/portfolio/wires-kid/home-m.png" alt="">
-  </li>
-    <li>
-    <img src="/img/portfolio/wires-kid/off-canvas.png" alt="">
-  </li>
-    <li>
-    <img src="/img/portfolio/wires-kid/pdp.png" alt="">
-  </li>
-    <li>
-    <img src="/img/portfolio/wires-kid/pdp-t.png" alt="">
-  </li>
-    <li>
-    <img src="/img/portfolio/wires-kid/plp-d.png" alt="">
-  </li>
-    <li>
-    <img src="/img/portfolio/wires-kid/plp-t.png" alt="">
-  </li>
-</ul>
+
+<div class="wires">
+	<a href="#" class="btn btn-default loadwires">Load wireframes</a>
+</div>
+
 
 ### Prototype
 

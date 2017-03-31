@@ -42,3 +42,14 @@ $(document).ready(function(){
     $(".container").fitVids();
 });
 
+//Ajax 
+
+$('.loadwires').on('click', function() {
+    event.preventDefault();
+    $.get('/wires.html', function(data) {
+        $('.wires').html(data).hide().fadeIn(1500);
+        console.log ('Im a success callback')
+    })
+});
+
+
