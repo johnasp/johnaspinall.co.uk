@@ -158,7 +158,7 @@ section {
     font-size: 20px; }
 
 .jumbotron {
-  background-image: url(img/bg.jpg);
+  background-image: url(../img/bg.jpg);
   margin-bottom: 0; }
   .jumbotron a {
     margin-right: 12px; }
