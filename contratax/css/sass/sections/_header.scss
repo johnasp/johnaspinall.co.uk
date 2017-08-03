@@ -1,0 +1,109 @@
+.nav-top {
+    background: $color3;
+}
+.nav-bottom {
+    background: $color5;
+    margin-bottom: 0;
+}
+
+header {
+    padding-top: 6px;
+	background: #efefef;
+    border-radius: 0;
+    margin-bottom: 0;
+    ul {
+        padding: 0;
+        a {
+            color: #color3;
+            font-size: 16px;
+            @include breakpoint(768) {
+                font-size: 22px;
+            }
+            &:hover {
+                color: $color2;
+            }
+        }
+        li ul li a {
+            font-size: 14px;
+            color: #000;
+            @include breakpoint(768) {
+                font-size: 18px;
+            }
+        }
+    }
+    .navbar .navbar-nav {
+        float: none;
+        @include breakpoint(768) {
+                    display: inline-block;
+        }
+    }
+    .navbar.navbar-collapse {
+        text-align: left;
+        @include breakpoint(768) {
+            text-align: center;
+        }
+    }
+    .dropdown-menu ul li {
+        text-align: left;
+    }
+} 
+.enquire, .sign-up {
+	margin-right: 6px;
+}
+.logo {
+    padding: 10px 0;
+    width: 26%;    
+	display: block;
+    margin: 0 auto;
+    @include breakpoint(768) {
+        width: 24%;
+        padding: 20px 0;
+    }
+}
+
+.site-nav li  { 
+    top: 3px;
+    @include breakpoint(768) {
+        margin-right: 16px;
+        display: inline-block;
+    }
+    @include breakpoint(1024) {
+        margin-right: 36px;
+    }
+}
+.call-us {
+	font-size: 1.5em;
+}
+.phone-btn {
+	margin-right: 8px;
+}
+
+#enquire {
+	background: #eaeaea;
+	padding: $sectionPad 0;
+}
+.navbar-toggle {
+    background: white;
+}
+.nav-top .container {
+    position: relative;
+}
+.buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.btn-bd-off {
+    border: 0;
+    border: 1px solid $color1;
+    &:hover {
+           border: 1px solid darken($color1,10%); 
+    }
+}
+.phone-btn:hover {
+    color: black;
+    background: white;
+}
+.icon-bar {
+    background: $color3;
+}

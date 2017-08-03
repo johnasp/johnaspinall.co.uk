@@ -1,0 +1,69 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background: white;
+}
+section {
+    padding: 60px 0;
+    p, li {
+        font-size: 20px;
+    }
+}
+
+.jumbotron {
+    background-image: url(/img/bg.jpg);
+    margin-bottom: 0;
+	a {
+		margin-right: 12px;
+	}
+    .container {
+        min-height: 340px;
+    }
+} 
+
+.info {
+    background: $color5;
+	text-align: center;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        .box {
+            background: #fff;
+            border-radius: 6px;
+            padding: 12px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            @include breakpoint(768) {
+               width: 31%;
+                margin-bottom: 0;
+            }
+        }
+    }
+    h2 {
+    margin: 0;
+	}
+	.glyphicon {
+		font-size: 30px;
+	}
+    .well {
+        margin-bottom: 0;
+    }
+
+}
+.benefits {
+       background: $color6; 
+}
+.enquiry-form {
+    background: $color5;
+}
+label {
+	width: 80px;
+}
+.fa-stack.fa-lg {
+	font-size: 1.8em;
+}
+
