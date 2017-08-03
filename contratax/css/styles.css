@@ -40,15 +40,29 @@ BREAKPOINTS
 /********************
 MIXINS
 ********************/
-footer {
-  background: #2C1F33;
+.innerfoot {
+  background: #2f2036;
   padding: 20px 0;
-  color: #efefef;
-  font-size: 16px; }
-  footer .container {
-    padding: 30px 0; }
-  footer h4 {
-    font-size: 24px; }
+  font-size: 16px;
+  color: whitesmoke;
+  font-weight: 100; }
+  .innerfoot h4 {
+    font-size: 24px;
+    color: #a28176;
+    padding-bottom: 2px; }
+  .innerfoot a {
+    color: whitesmoke; }
+
+.outerfoot {
+  background: #130d16;
+  text-align: center; }
+  .outerfoot p {
+    margin: 0;
+    padding: 8px 0;
+    color: #e8dfec; }
+
+.navbar-toggle {
+  padding: 6px; }
 
 .nav-top {
   background: #745086; }
@@ -157,6 +171,9 @@ section {
   section p, section li {
     font-size: 20px; }
 
+h3 {
+  font-size: 42px; }
+
 .jumbotron {
   background-image: url(../img/bg.jpg);
   margin-bottom: 0; }
@@ -168,24 +185,26 @@ section {
 .info {
   background: #efefef;
   text-align: center; }
-  .info .container {
-    display: flex;
-    justify-content: space-between;
-    padding: 0; }
-    .info .container .box {
-      background: #fff;
-      border-radius: 6px;
-      padding: 12px;
-      width: 100%;
+  @media (min-width: 768px) {
+    .info .container {
       display: flex;
-      flex-direction: column;
-      align-items: center;
       justify-content: space-between;
-      margin-bottom: 20px; }
-      @media (min-width: 768px) {
-        .info .container .box {
-          width: 31%;
-          margin-bottom: 0; } }
+      padding: 0; } }
+  .info .container .box {
+    background: #fff;
+    border-radius: 6px;
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 20px; }
+    @media (min-width: 768px) {
+      .info .container .box {
+        width: 31%;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px; } }
   .info h2 {
     margin: 0; }
   .info .glyphicon {
@@ -194,7 +213,7 @@ section {
     margin-bottom: 0; }
 
 .benefits {
-  background: #e6e6e6; }
+  background: rgba(162, 129, 118, 0.23); }
 
 .enquiry-form {
   background: #efefef; }
