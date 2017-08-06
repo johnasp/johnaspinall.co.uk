@@ -8,7 +8,9 @@ section {
         font-size: 20px;
     }
 }
-
+h3 {
+    font-size: 42px;
+}
 .jumbotron {
     background-image: url(/img/bg.jpg);
     margin-bottom: 0;
@@ -18,28 +20,39 @@ section {
     .container {
         min-height: 340px;
     }
+    @include breakpoint(768) {
+    p { 
+        width: 60%;
+    }
+}
+
 } 
 
 .info {
     background: $color5;
+    color: #555;
 	text-align: center;
     .container {
-        display: flex;
-        justify-content: space-between;
-        padding: 0;
+        @include breakpoint(768) {
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+        }
         .box {
-            background: #fff;
-            border-radius: 6px;
             padding: 12px;
             width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
             margin-bottom: 20px;
+            background: #e9e2df;
+            border-radius: 2px;
             @include breakpoint(768) {
-               width: 31%;
+                padding: 24px;
+                width: 28%;
                 margin-bottom: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 20px;
             }
         }
     }
@@ -55,15 +68,16 @@ section {
 
 }
 .benefits {
-       background: $color6; 
+       background: rgba(162, 129, 118, 0.23); 
 }
 .enquiry-form {
-    background: $color5;
+    background: #efefef;
 }
 label {
 	width: 80px;
 }
 .fa-stack.fa-lg {
-	font-size: 1.8em;
+	font-size: 28px;
+    color: #555;
 }
 

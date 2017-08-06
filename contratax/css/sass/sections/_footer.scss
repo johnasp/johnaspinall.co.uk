@@ -1,12 +1,25 @@
-footer {
-	background: #2C1F33;
+.innerfoot {
+	background: darken($color3,25%);
 	padding: $sectionPad 0;
-    color: $color5;
     font-size: 16px;
-    .container {
-        padding: 30px 0;    
-    }
+    color: whitesmoke;
+    font-weight: 100;
     h4 {
         font-size: 24px;
+        color: $color2;
+
+        padding-bottom: 2px;
+    }
+    a {
+        color: whitesmoke;
+    }
+}
+.outerfoot {
+	background: darken($color3,35%);
+    text-align: center;
+    p {
+        margin: 0;
+        padding: 8px 0;
+        color: lighten($color3,48%);
     }
 }

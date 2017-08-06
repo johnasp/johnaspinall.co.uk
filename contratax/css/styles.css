@@ -6,8 +6,7 @@ BREAKPOINTS
   background: #969696;
   color: #fff;
   border: 0;
-  border-bottom: 1px solid #898989;
-  border-right: 1px solid #898989; }
+  border-bottom: 2px solid #828282; }
   .btn-default:hover {
     background: #7d7d7d;
     color: #fff; }
@@ -16,8 +15,7 @@ BREAKPOINTS
   background: #a7b30a;
   color: #fff;
   border: 0;
-  border-bottom: 1px solid #909b09;
-  border-right: 1px solid #909b09; }
+  border-bottom: 2px solid #838c08; }
   .btn-primary:hover {
     background: #7a8307;
     color: #fff; }
@@ -26,8 +24,7 @@ BREAKPOINTS
   background: #745086;
   color: #fff;
   border: 0;
-  border-bottom: 1px solid #664676;
-  border-right: 1px solid #664676; }
+  border-bottom: 2px solid #5e416c; }
   .btn-secondary:hover {
     background: #583d66;
     color: #fff; }
@@ -68,8 +65,11 @@ MIXINS
   background: #745086; }
 
 .nav-bottom {
-  background: #efefef;
   margin-bottom: 0; }
+
+.navbar-default {
+  background: none;
+  border: none; }
 
 header {
   padding-top: 6px;
@@ -110,12 +110,12 @@ header {
 
 .logo {
   padding: 10px 0;
-  width: 26%;
+  width: 40%;
   display: block;
   margin: 0 auto; }
   @media (min-width: 768px) {
     .logo {
-      width: 24%;
+      width: 33%;
       padding: 20px 0; } }
 
 .site-nav li {
@@ -175,15 +175,19 @@ h3 {
   font-size: 42px; }
 
 .jumbotron {
-  background-image: url(../img/bg.jpg);
+  background-image: url(/img/bg.jpg);
   margin-bottom: 0; }
   .jumbotron a {
     margin-right: 12px; }
   .jumbotron .container {
     min-height: 340px; }
+  @media (min-width: 768px) {
+    .jumbotron p {
+      width: 60%; } }
 
 .info {
-  background: #efefef;
+  background: rgba(233, 226, 223, 0.73);
+  color: #555;
   text-align: center; }
   @media (min-width: 768px) {
     .info .container {
@@ -191,14 +195,15 @@ h3 {
       justify-content: space-between;
       padding: 0; } }
   .info .container .box {
-    background: #fff;
-    border-radius: 6px;
     padding: 12px;
     width: 100%;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    background: #e9e2df;
+    border-radius: 2px; }
     @media (min-width: 768px) {
       .info .container .box {
-        width: 31%;
+        padding: 24px;
+        width: 28%;
         margin-bottom: 0;
         display: flex;
         flex-direction: column;
@@ -222,6 +227,7 @@ label {
   width: 80px; }
 
 .fa-stack.fa-lg {
-  font-size: 1.8em; }
+  font-size: 28px;
+  color: #555; }
 
 /*# sourceMappingURL=styles.css.map */

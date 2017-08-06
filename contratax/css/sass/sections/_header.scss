@@ -1,11 +1,16 @@
+.navbar-toggle {
+    padding: 6px;
+}
 .nav-top {
     background: $color3;
 }
 .nav-bottom {
-    background: $color5;
     margin-bottom: 0;
 }
-
+.navbar-default {
+    background: none;
+    border: none;
+}
 header {
     padding-top: 6px;
 	background: #efefef;
@@ -52,11 +57,11 @@ header {
 }
 .logo {
     padding: 10px 0;
-    width: 26%;    
+    width: 40%;    
 	display: block;
     margin: 0 auto;
     @include breakpoint(768) {
-        width: 24%;
+        width: 33%;
         padding: 20px 0;
     }
 }
