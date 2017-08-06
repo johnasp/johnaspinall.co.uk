@@ -175,7 +175,7 @@ h3 {
   font-size: 42px; }
 
 .jumbotron {
-  background-image: url(/img/bg.jpg);
+  background-image: url(../img/bg.jpg);
   margin-bottom: 0; }
   .jumbotron a {
     margin-right: 12px; }
