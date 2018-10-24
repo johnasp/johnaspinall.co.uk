@@ -13,7 +13,7 @@ tags:
   - wordpress
   - wp_get_archives()
 ---
-<img class="alignright size-medium wp-image-472" title="wp-get-archives()" src="http://johnaspinall.co.uk/wp-content/uploads/2011/01/codex.wordpress.org-screen-capture-2011-1-18-13-1-24-300x93.png" alt="add 'cat=5' (with the number “5″ being the id of the category you want to include)" width="300" height="93" />I&#8217;m currently creating an archives page for the new [Seasiders Podcast](http://www.seasiderspodcast.co.uk) wordpress theme and  on this page I wanted to display a list of all the previous podcast episodes.  I have assigned a category of &#8216;podcasts&#8217; to each blog post I published which contained podcast episode content.
+I wanted to display a list of all the previous episodes on my podcast website.  I have assigned a category of &#8216;podcasts&#8217; to each blog post I published which contained podcast episode content.
 
 I thought to myself, &#8220;This should be quite straighfoward to achieve by using WordPress function [wp\_get\_archives()](http://codex.wordpress.org/Function_Reference/wp_get_archives)&#8221; &#8211; wrong!!!  For some reason, this function doesn&#8217;t support this functionality (no pun intended!) of allowing us to include or exclude categories by default.
 

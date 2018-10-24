@@ -14,7 +14,7 @@ A flexible website button system I wrote in SASS and inline SVG which was to be 
 2. A single base font variable could be changed to instantly change the size of the buttons
 3. The buttons icons were created with inline SVG which meant the icons were fluid and resized in situ according to size of their bounding container. 
 
-<div class="no-margin"><a href="http://codepen.io/johnasp/full/zvmEy/"><img src="/img/responsive-buttons.jpg" alt="SASS powered buttons screenshot" /></a></div>
+<div class="no-margin"><a href="http://codepen.io/johnasp/full/zvmEy/">View on Codepen</a></div>
 
 ##### Click image to go to Codepen demo
 
