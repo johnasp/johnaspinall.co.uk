@@ -8,11 +8,6 @@ excerpt: A brief write up of the procedure I use to debug Javascript errors when
 
 A brief write up of the procedure I use to debug Javascript errors when an event is fired.  
 
-<ul id="kid-wires" class="list-unstyled">
-  <a href="#" class="btn btn-primary">Click me</a>
-</ul>
-
-
 If you are looking to debug a javascript which runs when an event fires (e.g. A link is clicked, a key pressed, mouse pointer goes over an element, etc) then a good debugging technique is to set a break point in the function and step through each line of the script and watch what is happening at every line in the script.  Here's how to do this:
 
 1. In the browser with your page open, hit F12 to open Web Inspector
