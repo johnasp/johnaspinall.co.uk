@@ -10,13 +10,12 @@ tags:
   - Letterpress
   - screencast
 ---
-<div id="attachment_1032" style="width: 580px" class="wp-caption alignnone">
-  <img class="size-full wp-image-1032  " title="letterpress effect fireworks tutorial" src="http://johnaspinall.co.uk/wp-content/uploads/2012/09/letterpress-effect-fireworks-tutorial.jpg" alt="letterpress effect fireworks tutorial" width="570" height="148" />
+
   
   <p class="wp-caption-text">
     Letterpress effect created in Adobe Fireworks
   </p>
-</div>
+
 
 <p style="margin-top:12px;">
   The letterpress is an effect taken from the printing world where text is machine-stamped onto the paper or card so the words are physically pressed into the surface so you can actually see and feel the indentations.
@@ -37,9 +36,3 @@ Anyway, that&#8217;s the background, so without further ado, I&#8217;m going to 
 ## **Fireworks Letterpress Tutorial Video**
 
 
-
-<p class="ico-download">
-  Download the <a title="Letterpress source PNG" href="http://johnaspinall.co.uk/wp-content/uploads/2012/09/letterpress-fireworks-tutorial.png">letterpress effect layered PNG</a> created in this tutorial here.
-</p>
-
-[FW\_AFIL\_SECTION]

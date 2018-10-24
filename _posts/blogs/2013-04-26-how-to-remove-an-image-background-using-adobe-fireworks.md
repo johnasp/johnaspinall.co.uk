@@ -14,9 +14,6 @@ A very common task for any web designer (and I&#8217;m guessing for a graphic de
 
 There are several ways to do this, some cruder than others, but the best method by far is to use masks to remove the background/make it transparent and maintain the original image. This is known as &#8216;non-destructive&#8217; image removal technique which means you can play around with editing vector points to fine tune the image until you are happy with with it, whilst not destroying the original JPG.
 
-[powerpress
-<!--more-->
-
   1. Magic Wand tool and, in the Property inspector, give it a Tolerance value of **4** and set the Edge to **Anti-Alias**.  If there are any gaps in the image, select all additional whitespace gaps not picked up by the magic wand
   2. Add the background to the selection (if hasnt been already) by shift clicking
   3. **Select** menu and click **Select Inverse**
@@ -25,5 +22,3 @@ There are several ways to do this, some cruder than others, but the best method 
   6. Select both vector and bitmap
   7. **Modify** menu and **select Mask**, and then **Group As Mask.**
   8. If you are not happy with the result simply tweak the vector anchor points around until you are happy with the result &#8211; job done!
-
-&nbsp;

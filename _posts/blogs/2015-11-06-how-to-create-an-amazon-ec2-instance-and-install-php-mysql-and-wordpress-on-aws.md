@@ -182,7 +182,7 @@ Here&#8217;s my guide anyway as it may come in handy for someone as I spent many
 
 Your web server should now be setup with PHP, MySQL and Apache should both now be running and ready to go.  To test the site is serving web pages go back to the instances page in the the management console and look for the section that say “Public DNS”.  This is your current domain name URL for your site.  Cut and paste this into a web browser and if this installation has been performed correctly you should be served something that looks like the image below:
 
-[<img class="aligncenter size-full wp-image-1703" src="http://johnaspinall.co.uk/wp-content/uploads/2015/11/ec2-success.gif" alt="ec2-success" width="617" height="398" />](http://johnaspinall.co.uk/wp-content/uploads/2015/11/ec2-success.gif)
+
 
 ## <span style="font-weight: 400;">Install WordPress</span>
 

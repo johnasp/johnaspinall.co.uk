@@ -24,6 +24,5 @@ I now, however, thanks to my friend [Dan Whiteside (aka &#8216;SFB&#8217;) at Ne
     C:\wamp\www\example.com\wp-content\themes\yourThemeName\screenshot.png
   4. Login to the WordPress backend and go APPEARANCE &#8211; THEMES and et voila, you will see your screenshot image of your theme in all its glory!
 
-Example of pic (click it to make it bigger) of what I&#8217;m on about here:
+
   
-[<img src="http://johnaspinall.co.uk/wp-content/uploads/2011/01/how-to-add-theme-thumbnail-300x256.gif" alt="" title="how-to-add-theme-thumbnail" width="300" height="256" class="alignnone size-medium wp-image-436" />](http://johnaspinall.co.uk/wp-content/uploads/2011/01/how-to-add-theme-thumbnail.gif)

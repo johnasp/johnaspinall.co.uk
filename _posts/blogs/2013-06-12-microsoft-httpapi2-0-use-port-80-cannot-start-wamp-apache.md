@@ -23,16 +23,3 @@ Open a command prompt and type **netstat -ao **should reveal the culprit.  You
 
 Anyway after much trawling of the web, I discovered that killing a service called **Branchcache **was the offending service which had bound itself to port 80.  This service &#8220;caches network content from peers on the local subnet.&#8221;  I figured this wasn&#8217;t a system show stopper so killed it and this fixed the problem.  Make sure to permanently disable the service or it will startup again on re-start.
 
-[<img class="alignleft size-full wp-image-1478" alt="branchcache-apache-port80-fix" src="http://johnaspinall.co.uk/wp-content/uploads/2013/06/branchcache-apache-port80-fix.gif" width="714" height="708" />](http://johnaspinall.co.uk/wp-content/uploads/2013/06/branchcache-apache-port80-fix.gif)
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
