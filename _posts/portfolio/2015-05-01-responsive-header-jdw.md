@@ -12,7 +12,7 @@ client: JD Williams
 role: Front end developer
 tasks: HTML, SASS, JQuery
 excerpt: A fully functioning responsive header prototype to be used for the new proposed eCommerce site template. 
-caption: Responsive Design
+caption: JD Williams - Prototype
 ---  
 
 The client was in the process of exploring the possible conversion of it's suite of silod (mobile-tablet-desktop) websites into a single responsive site.  I was tasked with the <strong>front end development</strong> of a responsive prototype of the site header. 

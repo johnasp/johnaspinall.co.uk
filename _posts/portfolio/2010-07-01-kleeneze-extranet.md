@@ -10,7 +10,7 @@ client: Kleeneze
 category: Portfolio
 tasks: Visual design, HTML, CSS, JS, Wordpress child theme
 excerpt: Private extranet website and CMS powered by Wordpress built for company distributor network
-caption: Wordpress Web Design
+caption: Kleeneze - Wordpress
 ---
 
 Lead web developer on inceptor of a project to build a content managed, distributor private internet site (the Kleeneze 'Distributor Support Arena')

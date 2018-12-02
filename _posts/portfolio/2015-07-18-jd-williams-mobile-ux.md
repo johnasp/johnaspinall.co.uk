@@ -11,7 +11,7 @@ client: JD Williams
 category: Portfolio
 tasks: Competitor analysis, user journeys, user testing, wireframes, visual design, prototypes, front-end build (HTML,CSS, JQuery), stakeholder management.
 excerpt: Product search and navigation UX redesign on mobile specific website
-caption: UX & UI Design
+caption: JD Williams - UX design
 ---
 
 ### Project overview
