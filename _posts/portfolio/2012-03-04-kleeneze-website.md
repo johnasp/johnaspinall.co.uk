@@ -10,7 +10,7 @@ client: Findel plc
 category: Portfolio
 tasks: HTML, CSS, Jquery, PHP, Apache, MySQL, Design, Wordpress, Wireframes
 excerpt: Responsive redesign of Kleeneze public facing website
-caption: Responsive, Wordpress
+caption: Kleeneze - Responsive design
 ---
 
 <strong>Web designer, developer, CMS developer</strong> on project to redesign the Kleeneze corporate website and make it responsive.  The main goals of the project were 

@@ -10,7 +10,7 @@ project-date: 2015-06-01
 client: JD Williams
 category: Portfolio
 role: UX/UI Designer
-caption: UX/UI Design
+caption: JD Williams - Prototype
 tasks: Responsive design, bootstrap, css, html
 excerpt: A clothing size guide I created using Bootstrap for JD Williams' mobile specific website. 
 ---
