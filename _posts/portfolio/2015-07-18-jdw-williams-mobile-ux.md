@@ -16,13 +16,21 @@ caption: JD Williams - UX design
 
 ### Project overview
 
-Assigned to the role of <strong>UX design lead</strong> on a project to improve conversion rates via UX changes to the mobile website product search and navigation user experience.  
+<strong>UX design lead</strong> on a project to improve conversion rates to the mobile product search and navigation user journey. 
 
 ### User Research & Testing
 
-Users were often abandoning the *product search user journey* and were dropping out of the *product refine user journey*.   Although we had data to tell us where the problems were, I needed to verify exactly the reasons why.  To achieve this I conducted some user research and testing using pre-existing user personas.
+Users were often abandoning the *product search user journey* and were dropping out of the *product refine user journey*.   Although we had quantitive data to tell us where the problems were, I needed to verify and qualify exactly the reasons why.  
 
-I mapped out the probablematic user journies and wrote user tasks which were to be performed on the existing mobile site by real users in remote user testing sessions.  I booked sessions with users whose demographic came in the persona groups for the clients "Power Brands" (JD WIlliams, Jacamo and Simply Be).
+To achieve this I mapped out the probablematic user journey and wrote a task () which were to be performed on the existing mobile site by real users in remote user testing sessions.  The task was:
+
+1. List dresses
+2. Refine by red colour
+2. Refine by sizes 16 and 18
+3. Remove size 18 refinement
+4. View results
+
+I booked user testing sessions (using "What Users Do" ) with users whose demographic came in the persona groups for the clients "Power Brands" (JD WIlliams, Jacamo and Simply Be).
 
 ### Discovery
 
@@ -73,9 +81,9 @@ Follow the journey below to interact with the prototype:
 <iframe src="//invis.io/9Z1SDBZTD" width="396" height="770" frameborder="0" allowfullscreen="allowfullscreen" class="invision"></iframe> 
 
 
-###  Front end code
+### Front end code
 
-I have learnt through experience that the only way to accurately see how a mobile web page will both look and perform on a mobile web browser, is to view a complete coded web page direct on a mobile device.  With this in mind, I decided to code a production ready prototype written in HTML, CSS (SASS) and Jquery, whilst utilising Grunt for a build system and Github for source control and Github pages for web hosting. 
+I have learnt through experience that the only way to accurately see how a mobile web page will both look and perform on a mobile web browser, is to view a complete coded web page direct on a mobile device.  With this in mind, I decided to code a production ready prototype written in HTML, CSS (SASS) and Jquery.
 
 You can view a video demo of the prototype in action below or [access this live URL which houses the fully coded prototype](http://johnasp.github.io/search_nav_proto/). 
 
@@ -83,30 +91,29 @@ NB - If viewing the live demo in a desktop browser, resize your browser window t
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/V0m_-bVFMFs" frameborder="0" allowfullscreen></iframe>
 
-##### Video demo of the fully coded prototype
+### Video demo of the fully coded prototype
 
-I published each iteration of the coded prototype to a Github pages URL, which could then be accessed direct on a mobile device web browser.  The prototype URL was then sent to bith project stakeholders and our target users (again via WhatUsersDo!) for feedback testing after each interface development iteration milestone.
+I published each iteration of the coded prototype to a URL so project stakeholders and our target users (again via WhatUsersDo) could test and feedback  after each iteration.
 
-This work-flow formed a User Centred Design (UCD) feedback loop, as I got the product into the hands of the users at the first stage of development and requested feedback after each development iteration until sign off.   
+This work-flow formed a User Centred Design (UCD) feedback loop, as I got the product into the hands of the users at the first stage of development and requested feedback after each iteration until sign off.   The front end code I wrote was used directly in the final product.  
 
-The front end code I wrote was used directly in the final product.  I had to pair program with a Java developer who integrated my front end code into the Websphere shop application. 
+### Results
 
-## The final result £££
+Three months following release, analytics data revealed that our changes had indeed had a positive effect on the product search on mobile journies. There had been the following percentage increases in the user journey:
 
-Three months following release, analytics data revealed that our changes had indeed had a positive effect on the product search on mobile journies. There had been the following changes in the product search user journey:
+* 57% increase in "add to bag" conversions.
+* 41% increase in multiple products added to bag.
+* A marked decrease in journey bounce rate (drops offs).
 
-* A marked decrease in bounce rate (drops offs)  
-* More add to bag journey completions
-* Increased number of multiple products added to bag
+The BA revealed the following financial figures, directly attributed to the changes:
 
-Figures released from the project business analyst revealed the following financial benefits from the implemented UX improvements:
+<div style="padding: 12px; color: red; background: #ffe9e9; border: 1px solid red; font-size: 22px; margin-bottom: 12px; ">Increase of monthly revenues to the figure of <strong>£322,000</strong> which equated to <strong>£2,960,000 per annum</strong> (at the current expected demand level).</div> 
 
-1. The new off canvas product search menu was directly attributed to an increase of revenue to the figure of £322,000 (at the accepted demand level).
-2. The new product refinement system was  estimated to have yielded an increase of £2,960,000 per annum, at the accepted demand level. 
+The project was deemed to be a great success due to:
 
-The project was therefore deemed a great financial success and the users liked it too! 
-
-<a href="http://www.jdwilliams.co.uk/">[View the live mobile site here]</a> - please note you need to be viewing this link on a mobile device or via a mobile emulator on a desktop/laptop.
+1. Substantial increase in revenues 
+2. Increase in user satisfaction on the mobile websites 
+3. A marked reduction in calls to the helpdesk with relation to the previously problematic user journey. 
 
 
 
