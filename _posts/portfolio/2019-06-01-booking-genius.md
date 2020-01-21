@@ -2,7 +2,7 @@
 layout: post
 modal-id: 1
 date: 2019-03-01
-img-full: booking-genius.jpg
+img-full: booking-genius-full.jpg
 img-thumb: booking-genius-thumb.jpg
 alt: Screenshot of mobile genius visual
 project-date: 2019-03-01
@@ -28,10 +28,9 @@ The following are the user journey flow diagrams I designed to illustrate the pr
 
 ### Prototype
 
-Link to the prototype demo.
+Genius prototype demo:
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JiwjTn0n9p8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EDh9_Y3vKhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 Full write up of the project coming soon...
