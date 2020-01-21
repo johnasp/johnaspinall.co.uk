@@ -2,8 +2,8 @@
 layout: post
 modal-id: 1
 date: 2019-03-01
-img-full: booking-genius.png
-img-thumb: booking-genius-thumb.png
+img-full: booking-genius.jpg
+img-thumb: booking-genius-thumb.jpg
 alt: Screenshot of mobile genius visual
 project-date: 2019-03-01
 client: Booking.com

@@ -9,7 +9,7 @@ project-date: 2015-06-01
 client: Morrisons
 category: Portfolio
 tasks: Concepts
-caption: Morrisons - UI design
+caption: Morrisons
 excerpt: Visual design concepts of Morrisons.com website
 ---
 

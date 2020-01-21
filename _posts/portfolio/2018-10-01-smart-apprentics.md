@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Not a CV app design
-modal-id: 18
+modal-id: 2
 date: 2018-06-01
 img-full: nacv.jpg
 img-thumb: nacv-thumb.jpg
@@ -11,7 +11,7 @@ client: Smart Apprentices
 role: App designer
 category: Portfolio
 tasks: Visual design
-caption: App design
+caption: Smart Apprentices 
 excerpt: Completed the visual design screens and user flow of a native app version of a Smart Apprentices product.
 ---
 
