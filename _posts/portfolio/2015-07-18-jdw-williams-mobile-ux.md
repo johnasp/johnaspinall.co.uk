@@ -1,7 +1,7 @@
 ---
 title: JD Williams Mobile UX/UI
 layout: post
-modal-id: 6
+modal-id: 3
 date: 2015-06-01
 img-thumb: jdw-mob-thumb.jpg
 img-full: jdw-mob.jpg
