@@ -24,7 +24,13 @@ This caused a problem for both the user and the client as RentalCars were not ab
 
 ### Full project review
 
-I'm yet to get round to converting the full project write up from Google Docs to HTML so I can include on this site.  I have however created a PDF document which you can access here: <a href="/img/portfolio/rcar.pdf">Non-airport UX project write up</a> for Rentalcars.com</p>
+I'm yet to get round to converting the full project write up from Google Docs to HTML so I can include on this site.  I have however created a PDF document which you can access here: <a href="/img/rcars.pdf">Non-airport UX project write up</a> for Rentalcars.com</p>
+
+### Prototype
+
+[Click this link to access the prototype.](https://sketch.cloud/s/Jr0a0/a/xnoDyW/play)
+
+
 
 
 
