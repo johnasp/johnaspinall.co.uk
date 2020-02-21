@@ -11,7 +11,7 @@ role: UX Designer
 tasks: Ideation, visual design, user flows, prototypes
 caption: Booking.com
 category: Portfolio
-excerpt: UX Designer on a project to integrate the new "Genius" user loyalty promotions into the user journey.
+excerpt: Mobile and desktop eCommerce interaction design - integrating new 'genius' loyalty program for Booking.com Transport division.
 ---
 
 <strong>UX Designer</strong> on a project to formulate solutions, concepts and designs for the new "Genius" user loyalty program.  

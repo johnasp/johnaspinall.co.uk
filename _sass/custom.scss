@@ -1,138 +1,153 @@
 /********************
 BREAKPOINTS
 ********************/
-
-@mixin breakpoint($point) {
-  @if $point == 480 {
-    @media (min-width: 480px) { @content; }
-  }
-  @if $point == 600 {
-    @media (min-width: 600px) { @content; }
-  }
-  @if $point == 768 {
-    @media (min-width: 768px) { @content; }
-  } 
-  @if $point == 1300 {
-    @media (min-width: 1300px) { @content; }
-  }   
-  @else if $point == 1024 {
-    @media (min-width: 1024px) { @content; }
-  } 
-}
 .post-content {
-	padding-top: 0;
-	text-align: left!important;
-	li {
-		font-size: 20px;
-	}
+  padding-top: 0;
+  text-align: left !important;
 }
-#about {
-	.statement p:first-child {
-		font-size: 24px;
-	}
+
+.post-content li {
+  font-size: 20px;
 }
+
+#about .statement p:first-child {
+  font-size: 24px;
+}
+
 img {
-	max-width: 100%;
-	height: auto;
-} 
+  max-width: 100%;
+  height: auto;
+}
+
 .thanks {
-	padding: 80px 0;
-	text-align: center;
+  padding: 80px 0;
+  text-align: center;
 }
+
 .portfolio-link {
-	border: 2px solid #eaeaea;
+  border: 2px solid #eaeaea;
 }
+
 #portfolio .portfolio-item .portfolio-link .caption {
-	background: rgba(71, 143, 111, 0.9);
+  background: rgba(71, 143, 111, 0.9);
 }
+
 .portfolio-modal .close-modal {
-	height: 0;
+  height: 0;
 }
-@media all and (max-width: 768px) { 
-	  .portfolio-modal .modal-body h2 {font-size: 1.8em;}
-	  .portfolio-modal .modal-body h3 {font-size: 1.6em;}
-	  .portfolio-modal .modal-content { padding: 50px 0;}
-		.portfolio-modal .close-modal {
-			top: 10px;
-	    right: 0px;
-	  }
-	  .fa-3x {font-size: 2em!important;}
-	  .post-content {
-	  	p, li {font-size: 16px;}
-	  }
-	  .modal-body { padding: 0;}
-	  hr.star-light:after, hr.star-primary:after {font-size: 1.6em}
-}
-@media all and (min-width: 968px) {
-	.blog {margin-top: 120px;}
 
-}
-#blog {
-	margin-top: 0;
-}
-.blogs {
-	h4 {
-		margin-bottom: 0;
-		font-size: 22px;
-	}
-	.row {
-	  display: -webkit-flex;
-	  display: -ms-flexbox;
-	  display: flex;
-	   -webkit-flex-wrap: wrap;
-	  -ms-flex-wrap: wrap;
-	  flex-wrap: wrap;
-	}
-	.col-sm-6 {
-	  display: -webkit-flex;
-	  display: -ms-flexbox;
-	  display: flex;
-	  width:50%;
-	}
-	.panel {
-	  width:100%;
-	  padding: 0 12px;
-	}
-}
 @media all and (max-width: 768px) {
-	.blogs {
-		.row {display: block;}
-		.col-sm-6 {width: 100%;}
-	}
-}
-@media all and (min-width: 768px) {
-	.blogh2 {
-		margin-top: 40px;
-	}
-	.blog-page {
-		margin-top: 120px!important;
-	}
-}	
-.blog-page {
-	margin-top: 50px;
- .item-details {
-		margin: 30px 0;
-	}
-	li {
-		font-size: 20px;
-	}
-}
-.blog-page, .post-content {
-	p:first-of-type {
-		border-top: 1px solid #2c3e50;
-		padding: 30px 0;
-		border-bottom: 1px solid #2c3e50;
-    background-color: rgba(234, 234, 234, 0.2);
-    padding: 10px 20px;
-    margin-bottom: 30px;		
-	}	
-}
-.wires {
-	 li {
-		margin-bottom: 30px;
-	}
-	a {
-		font-size: 20px;
-	}
+  .portfolio-modal .modal-body h2 {
+    font-size: 1.8em;
+  }
+  .portfolio-modal .modal-body h3 {
+    font-size: 1.6em;
+  }
+  .portfolio-modal .modal-content {
+    padding: 50px 0;
+  }
+  .portfolio-modal .close-modal {
+    top: 10px;
+    right: 0px;
+  }
+  .fa-3x {
+    font-size: 2em !important;
+  }
+  .post-content p, .post-content li {
+    font-size: 16px;
+  }
+  .modal-body {
+    padding: 0;
+  }
+  hr.star-light:after, hr.star-primary:after {
+    font-size: 1.6em;
+  }
 }
 
+@media all and (min-width: 968px) {
+  .blog {
+    margin-top: 120px;
+  }
+}
+
+#blog {
+  margin-top: 0;
+}
+
+.blogs h4 {
+  margin-bottom: 0;
+  font-size: 22px;
+}
+
+.blogs .row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.blogs .col-sm-6 {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.blogs .panel {
+  width: 100%;
+  padding: 0 12px;
+}
+
+@media all and (max-width: 768px) {
+  .blogs .row {
+    display: block;
+  }
+  .blogs .col-sm-6 {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .blogh2 {
+    margin-top: 40px;
+  }
+  .blog-page {
+    margin-top: 120px !important;
+  }
+}
+
+.blog-page {
+  margin-top: 50px;
+}
+
+.blog-page .item-details {
+  margin: 30px 0;
+}
+
+.blog-page li {
+  font-size: 20px;
+}
+
+.blog-page p:first-of-type, .post-content p:first-of-type {
+  border-top: 1px solid #2c3e50;
+  padding: 30px 0;
+  border-bottom: 1px solid #2c3e50;
+  background-color: rgba(234, 234, 234, 0.2);
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.wires li {
+  margin-bottom: 30px;
+}
+
+.wires a {
+  font-size: 20px;
+}
+#portfolio {
+  background: red;
+}
+
+/*# sourceMappingURL=custom.css.map */

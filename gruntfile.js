@@ -1,3 +1,4 @@
+
 module.exports = function (grunt) {
 
     // Show elapsed time after tasks run to visualize performance
@@ -16,39 +17,6 @@ module.exports = function (grunt) {
             jekyllServe: {
                 command: 'jekyll serve'
             }
-        },
-
-        // watch for files to change and run tasks when they do
-        watch: {
-            sass: {
-                files: ['_sass/**/*.{scss,sass}'],
-                tasks: ['sass']
-            },
-            options: {
-                livereload: true,
-            },              
-            css: {
-                files: ['css/**/*.scss'],
-                tasks: ['sass'],
-                options: {
-                    spawn: false,
-                    livereload: true,
-                }
-            },            
-            scripts: {
-                files: ['js/*.js'],
-                tasks: ['concat', 'uglify'],
-                options: {
-                    spawn: false,
-                    livereload: true,                    
-                },
-            },
-            html: {
-                files : ['**/*.{html,htm}'],
-                options: {
-                    livereload: true,
-                }
-            } 
         },
 
         // sass (libsass) config
@@ -71,32 +39,47 @@ module.exports = function (grunt) {
             }
         },
 
-        // run tasks in parallel
-        concurrent: {
-            serve: [
-                'sass',
-                'watch',
-                'shell:jekyllServe'
-            ],
-            options: {
-                logConcurrentOutput: true
-            }
+        // watch for files to change and run tasks when they do
+        watch: {
+            site: {
+                files:[
+                    "_layouts/*.html",
+                    "_includes/*.html",
+                    "_posts/*.md",
+                ]
+            },
+            css: {
+                files: ['_sass/**/*.scss'],
+                tasks: ['sass', "shell:jekyllBuild"],
+
+            },          
+            scripts: {
+                files: ['js/*.js'],
+                tasks: ['concat', 'uglify'],
+            },
+            livereload: {
+                // Here we watch the files the sass task will compile to
+                // These files are sent to the live reload server after sass compiles to them
+                options: { livereload: true },
+                files: ['_site/**/*'],
+            },
+
         },
 
     });
 
-    // Register the grunt serve task
-    grunt.registerTask('serve', [
-        'concurrent:serve'
+     // Register the grunt serve task
+     grunt.registerTask('serve', [
+        'shell:jekyllServe',
     ]);
-
+ 
     // Register the grunt build task
     grunt.registerTask('build', [
+        'sass',
         'shell:jekyllBuild',
-        'sass'
+        'watch',
     ]);
 
     // Register build as the default task fallback
     grunt.registerTask('default', 'build');
-
 };

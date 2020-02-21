@@ -8,7 +8,7 @@ alt: Screenshot of rentalcars non-airport search
 project-date: 2019-02-18
 client: Rentalcars.com
 role: UX Designer
-tasks: Sketching, competitor research, visual design, prototyping, user testing, 
+tasks: Sketching, competitor research, visual design, prototyping, user testin
 caption: Rentalcars.com
 category: Portfolio
 excerpt: My goal was to deliver a UX change to the main car search component in order to encourage the user to enter a precise pickup location when performing a “non-airport search” with specific goals and requirements.

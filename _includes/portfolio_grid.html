@@ -8,17 +8,16 @@
                     <hr class="star-primary">
                 </div>
             </div>
+
             <div class="row">
-                {% for post in site.categories.Portfolio  %}
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-2x"></i> {{ post.caption }}
-                                </div>
-                            </div>
-                            <img src="img/portfolio/{{ post.img-thumb }}" class="img-responsive" alt="{{ post.alt }}">
+                {% for post in site.posts  %}
+                    <div class="col-sm-12 portfolio-item" style="border: 1px solid red;">
+                        <h3>{{ post.title }}</h3>
+                        <p>{{ post.excerpt }}</p>
+                        <a href="{{ post.url }}" class="portfolio-link" >
+                            <img src="img/portfolio/{{ post.img-full }}" class="img-responsive" alt="{{ post.alt }}">
                         </a>
+                        <a class="but-case-study">View case study</button>
                     </div>
                 {% endfor %}
             </div>

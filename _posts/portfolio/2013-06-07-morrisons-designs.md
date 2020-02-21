@@ -7,8 +7,8 @@ img-thumb: morrisons-thumb.jpg
 alt: Screenshot of Morrisons website
 project-date: 2015-06-01
 client: Morrisons
-category: Portfolio
-tasks: Concepts
+category: portfolio
+tasks: Concepts 
 caption: Morrisons
 excerpt: Visual design concepts of Morrisons.com website
 ---
@@ -90,17 +90,3 @@ I was also responsible for producing visual design concepts for the look and fee
 ### Front end development
 
 I was also responsible for building on the front end code for the production website.  The company has since been sold and taken over and the site no longer live so I unfortunately cannot link to the finished version.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
