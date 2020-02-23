@@ -2,8 +2,7 @@
 layout: post
 modal-id: 5
 date: 2015-06-01
-img-full: morrisons.jpg
-img-thumb: morrisons-thumb.jpg
+img-full: device-morrisons.png
 alt: Screenshot of Morrisons website
 project-date: 2015-06-01
 client: Morrisons

@@ -3,8 +3,7 @@ layout: post
 title: Not a CV app design
 modal-id: 3
 date: 2018-06-01
-img-full: nacv.jpg
-img-thumb: nacv-thumb.jpg
+img-full: device-nacv.png
 alt: Screenshot of Not a CV app design
 project-date: 2018-06-01
 client: Smart Apprentices

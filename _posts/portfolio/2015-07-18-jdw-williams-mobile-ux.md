@@ -3,8 +3,7 @@ title: JD Williams Mobile UX/UI
 layout: post
 modal-id: 4
 date: 2015-06-01
-img-thumb: jdw-mob-thumb.jpg
-img-full: jdw-mob.jpg
+img-full: device-jdw.png
 alt: Screenshot of mobile web site
 project-date: June 2015
 client: JD Williams

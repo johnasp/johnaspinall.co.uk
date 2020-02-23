@@ -1,5 +1,5 @@
 /********************
-BREAKPOINTS
+CUSTOM SASS
 ********************/
 .post-content {
   padding-top: 0;
@@ -147,8 +147,48 @@ img {
   font-size: 20px;
 }
 
-#portfolio {
-  background: red; 
+.portfolio-item {
+  padding: 100px 60px;
+  background: eaeaea;
+}
+
+.portfolio-item h3 {
+  text-transform: capitalize;
+}
+
+.portfolio-item p {
+  margin-bottom: 12px;
+}
+
+.btn-cta {
+  border-radius: 6px;
+  background-color: #f49e4c;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  padding: 14px 18px;
+  display: inline-block;
+  margin-top: 12px;
+  color: #fff;
+}
+
+.btn-cta:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #18bc9c;
+  color: #fff;
+}
+
+.btn-cta i {
+  margin-left: 8px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex div:first-child {
+  flex-basis: 60%;
 }
 
 /*# sourceMappingURL=custom.css.map */

@@ -48,11 +48,19 @@ module.exports = function (grunt) {
                     "_posts/*.md",
                 ]
             },
-            css: {
+            sass: {
                 files: ['_sass/**/*.scss'],
                 tasks: ['sass', "shell:jekyllBuild"],
+            },  
 
-            },          
+            css: {
+                files:['_site/style.css'],
+                options: {
+                    // Start a live reload server on the default port 35729
+                    livereload: true,
+                  }, 
+            },
+       
             scripts: {
                 files: ['js/*.js'],
                 tasks: ['concat', 'uglify'],

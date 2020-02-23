@@ -2,8 +2,7 @@
 layout: post
 modal-id: 2
 date: 2019-02-18
-img-full: rc-full.jpg
-img-thumb: rc-thumb.jpg
+img-full: device-rc.png
 alt: Screenshot of rentalcars non-airport search
 project-date: 2019-02-18
 client: Rentalcars.com
