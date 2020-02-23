@@ -172,12 +172,16 @@ img {
   font-size: 20px;
 }
 .chunk {
+  &:nth-of-type(odd) {
+    background: #f3f3f3;
+  }
+  &:nth-of-type(odd) .chunk-inner {
+    flex-direction: row-reverse;
+  }
   padding: 24px 12px;
   @include breakpoint(768) {
-    padding: 48px 24px;
+    padding: 48px;
   }
-  background: eaeaea;
-  border: 1px solid green;
   h3 {
     text-transform: capitalize;
     font-size: 16px;
@@ -194,7 +198,6 @@ img {
       font-size: 20px;
     }
     margin-bottom: 12px;
- 
   }
 }
 .chunk-inner {
@@ -220,17 +223,14 @@ img {
 .btn-cta {
     border-radius: 6px;
     background-color: $cta;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
     padding: 8px 12px;
     display: inline-block;
     margin-top: $gutter;
     color: #fff;
     font-size: 10px;
     @include breakpoint(600) {
-      font-size: 20px;
-      padding: 14px 18px;
+      font-size: 18px;
+      padding: 12px 16px;
     }
     &:hover {
       text-decoration: none;

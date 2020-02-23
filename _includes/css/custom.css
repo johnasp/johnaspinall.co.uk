@@ -149,13 +149,19 @@ img {
 
 .chunk {
   padding: 24px 12px;
-  background: eaeaea;
-  border: 1px solid green;
+}
+
+.chunk:nth-of-type(odd) {
+  background: #f3f3f3;
+}
+
+.chunk:nth-of-type(odd) .chunk-inner {
+  flex-direction: row-reverse;
 }
 
 @media (min-width: 768px) {
   .chunk {
-    padding: 48px 24px;
+    padding: 48px;
   }
 }
 
@@ -214,9 +220,6 @@ img {
 .btn-cta {
   border-radius: 6px;
   background-color: #f49e4c;
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
   padding: 8px 12px;
   display: inline-block;
   margin-top: 12px;
@@ -226,8 +229,8 @@ img {
 
 @media (min-width: 600px) {
   .btn-cta {
-    font-size: 20px;
-    padding: 14px 18px;
+    font-size: 18px;
+    padding: 12px 16px;
   }
 }
 
