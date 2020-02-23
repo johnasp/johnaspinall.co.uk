@@ -11,18 +11,16 @@
         </div>
 
         {% for post in site.posts  %}
-            <div class="portfolio-item container">
-
-                <div class="flex">
-                    <div>
-                        <h3>{{ post.title }}</h3>
+            <div class="chunk">
+                <div class="chunk-inner container">
+                    <h3>{{ post.title }}</h3>
+                    <div class="chunk-content">
                         <p>{{ post.excerpt }}</p>
                         <a href="{{ post.url }}" class="btn-cta">View case study <i class="fas fa-chevron-right"></i></a>
                     </div>
-                    <div>
+                    <div class="chunk-img">
                         <img src="img/{{ post.img-full }}" class="img-responsive" alt="{{ post.alt }}" />
                     </div>
-                    
                 </div>
             </div>
         {% endfor %}

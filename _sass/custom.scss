@@ -1,6 +1,27 @@
 /********************
-CUSTOM SASS
+BREAKPOINTS
 ********************/
+
+@mixin breakpoint($point) {
+  @if $point == 480 {
+    @media (min-width: 480px) { @content; }
+  }
+  @if $point == 600 {
+    @media (min-width: 600px) { @content; }
+  }
+  @if $point == 768 {
+    @media (min-width: 768px) { @content; }
+  } 
+  @if $point == 992 {
+    @media (min-width: 992px) { @content; }
+  } 
+  @if $point == 1300 {
+    @media (min-width: 1300px) { @content; }
+  }   
+  @else if $point == 1024 {
+    @media (min-width: 1024px) { @content; }
+  } 
+}
 
 $cta: #f49e4c;
 $gutter: 12px;
@@ -150,15 +171,50 @@ img {
 .wires a {
   font-size: 20px;
 }
-
-.portfolio-item {
-  padding: 100px 60px;
+.chunk {
+  padding: 24px 12px;
+  @include breakpoint(768) {
+    padding: 48px 24px;
+  }
   background: eaeaea;
+  border: 1px solid green;
   h3 {
     text-transform: capitalize;
+    font-size: 16px;
+    flex-basis: 100%;
+    margin-top: 0;
+    @include breakpoint(600) {
+      margin-top: 21px;
+      font-size: 26px;
+    }
   }
   p {
+    font-size: 13px;
+    @include breakpoint(600) {
+      font-size: 20px;
+    }
     margin-bottom: 12px;
+ 
+  }
+}
+.chunk-inner {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  .chunk-content {
+    flex-basis: 60%;
+  }
+  .chunk-img {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-basis: 40%;
+    img {
+      max-width: 100px;
+      @include breakpoint(600) {
+        max-width: 90%;
+      }
+    }
   }
 }
 .btn-cta {
@@ -167,10 +223,15 @@ img {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    padding: 14px 18px;
+    padding: 8px 12px;
     display: inline-block;
     margin-top: $gutter;
     color: #fff;
+    font-size: 10px;
+    @include breakpoint(600) {
+      font-size: 20px;
+      padding: 14px 18px;
+    }
     &:hover {
       text-decoration: none;
       cursor: pointer;
@@ -181,12 +242,7 @@ img {
       margin-left: 8px;
     }
 }
-.flex {
-  display: flex;
-  div:first-child {
-    flex-basis: 60%;
-  }
-}
+
 
 
 

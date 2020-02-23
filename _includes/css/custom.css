@@ -1,5 +1,5 @@
 /********************
-CUSTOM SASS
+BREAKPOINTS
 ********************/
 .post-content {
   padding-top: 0;
@@ -147,17 +147,68 @@ img {
   font-size: 20px;
 }
 
-.portfolio-item {
-  padding: 100px 60px;
+.chunk {
+  padding: 24px 12px;
   background: eaeaea;
+  border: 1px solid green;
 }
 
-.portfolio-item h3 {
+@media (min-width: 768px) {
+  .chunk {
+    padding: 48px 24px;
+  }
+}
+
+.chunk h3 {
   text-transform: capitalize;
+  font-size: 16px;
+  flex-basis: 100%;
+  margin-top: 0;
 }
 
-.portfolio-item p {
+@media (min-width: 600px) {
+  .chunk h3 {
+    margin-top: 21px;
+    font-size: 26px;
+  }
+}
+
+.chunk p {
+  font-size: 13px;
   margin-bottom: 12px;
+}
+
+@media (min-width: 600px) {
+  .chunk p {
+    font-size: 20px;
+  }
+}
+
+.chunk-inner {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.chunk-inner .chunk-content {
+  flex-basis: 60%;
+}
+
+.chunk-inner .chunk-img {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-basis: 40%;
+}
+
+.chunk-inner .chunk-img img {
+  max-width: 100px;
+}
+
+@media (min-width: 600px) {
+  .chunk-inner .chunk-img img {
+    max-width: 90%;
+  }
 }
 
 .btn-cta {
@@ -166,10 +217,18 @@ img {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
-  padding: 14px 18px;
+  padding: 8px 12px;
   display: inline-block;
   margin-top: 12px;
   color: #fff;
+  font-size: 10px;
+}
+
+@media (min-width: 600px) {
+  .btn-cta {
+    font-size: 20px;
+    padding: 14px 18px;
+  }
 }
 
 .btn-cta:hover {
@@ -181,14 +240,6 @@ img {
 
 .btn-cta i {
   margin-left: 8px;
-}
-
-.flex {
-  display: flex;
-}
-
-.flex div:first-child {
-  flex-basis: 60%;
 }
 
 /*# sourceMappingURL=custom.css.map */
