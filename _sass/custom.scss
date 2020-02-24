@@ -88,13 +88,11 @@ img {
     font-size: 1.6em;
   }
 }
-
 @media all and (min-width: 968px) {
   .blog {
     margin-top: 120px;
   }
 }
-
 #blog {
   margin-top: 0;
 }
@@ -168,7 +166,7 @@ img {
   margin-bottom: 30px;
 }
 .statement li {
-font-size: 20px;
+  font-size: 20px;
 }
 
 .wires a {
@@ -180,6 +178,9 @@ font-size: 20px;
   }
   &:nth-of-type(odd) .chunk-inner {
     flex-direction: row-reverse;
+  }
+  &:nth-of-type(odd) .chunk-img {
+    justify-content: flex-start;
   }
   padding: 24px 12px;
   @include breakpoint(768) {

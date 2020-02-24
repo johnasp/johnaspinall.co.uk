@@ -163,6 +163,10 @@ img {
   flex-direction: row-reverse;
 }
 
+.chunk:nth-of-type(odd) .chunk-img {
+  justify-content: flex-start;
+}
+
 @media (min-width: 768px) {
   .chunk {
     padding: 48px;
