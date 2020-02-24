@@ -143,6 +143,10 @@ img {
   margin-bottom: 30px;
 }
 
+.statement li {
+  font-size: 20px;
+}
+
 .wires a {
   font-size: 20px;
 }
