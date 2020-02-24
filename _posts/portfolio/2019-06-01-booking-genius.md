@@ -1,11 +1,12 @@
 ---
+title: Booking.com
 layout: post
 modal-id: 1
 date: 2019-03-01
 img-full: device-booking-cars.png
 alt: Screenshot of mobile genius visual
 project-date: 2019-03-01
-client: Booking.com
+client: Booking
 role: UX Designer
 tasks: Ideation, visual design, user flows, prototypes
 caption: Booking.com

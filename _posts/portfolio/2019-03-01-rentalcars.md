@@ -1,16 +1,17 @@
 ---
+title: Rentalcars.com
 layout: post
 modal-id: 2
 date: 2019-02-18
 img-full: device-rc.png
 alt: Screenshot of rentalcars non-airport search
 project-date: 2019-02-18
-client: Rentalcars.com
+client: Rentalcars
 role: UX Designer
 tasks: Sketching, competitor research, visual design, prototyping, user testin
 caption: Rentalcars.com
 category: Portfolio
-excerpt: My goal was to deliver a UX change to the main car search component in order to encourage the user to enter a precise pickup location when performing a “non-airport search” with specific goals and requirements.
+excerpt: Ideation and implementation of an improved UX for a 'none airport' search traffic which resulted in a 8% increase in conversion rates. 
 ---
 
 Rentalcars.com is a car rental agency which allows a user to book a hire car from numerous partner branches located throughout the world.  The branches are primarily located near airports and this is where users generally pick-up and drop-off their hire cars.  

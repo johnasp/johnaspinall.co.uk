@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Morrisons
 modal-id: 5
 date: 2015-06-01
 img-full: device-morrisons.png
@@ -9,7 +10,7 @@ client: Morrisons
 category: portfolio
 tasks: Concepts 
 caption: Morrisons
-excerpt: Visual design concepts of Morrisons.com website
+excerpt: Information architecture and visual design artifacts I created for new Kiddicare and Morrisons responsive eCommerce web platforms. 
 ---
 
 I joined the Morrisons Digital team in Manchester as an <strong>innovation UX developer</strong> to work on the brand new eCommerece platform and website the company was about to create. 

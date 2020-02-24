@@ -11,7 +11,7 @@
         </div>
 
         {% for post in site.posts  %}
-            <div class="chunk">
+            <div class="chunk {{ post.client }}">
                 <div class="chunk-inner container">
                     <div class="chunk-content">
                         <h3>{{ post.title }}</h3>

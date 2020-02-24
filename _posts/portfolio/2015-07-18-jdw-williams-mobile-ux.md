@@ -1,5 +1,5 @@
 ---
-title: JD Williams Mobile UX/UI
+title: JD Williams
 layout: post
 modal-id: 4
 date: 2015-06-01
@@ -9,7 +9,7 @@ project-date: June 2015
 client: JD Williams
 category: Portfolio
 tasks: Competitor analysis, user journeys, user testing, wireframes, visual design, prototypes, front-end build (HTML,CSS, JQuery), stakeholder management.
-excerpt: Product search and navigation UX redesign on mobile specific website
+excerpt: How my UX and UI improvements increased 'add to bag' conversions rates by 57% on JD Williams’ mobile web specific platform.
 caption: JD Williams
 ---
 

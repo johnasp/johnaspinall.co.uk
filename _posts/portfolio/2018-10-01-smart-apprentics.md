@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Not a CV app design
+title: Smart Apprentices
 modal-id: 3
 date: 2018-06-01
 img-full: device-nacv.png
@@ -11,7 +11,7 @@ role: App designer
 category: Portfolio
 tasks: Visual design
 caption: Smart Apprentices 
-excerpt: Completed the visual design screens and user flow of a native app version of a Smart Apprentices product.
+excerpt: UX & UI redesign of an iOS app known as “Not a CV” which was one of a suite of produts for SAAS client operating in the digital apprenticeships space.
 ---
 
 UI redesign of the "Not a CV" native application, specifically used for the iOS platform.  Also built a prototype of the application in Adobe XD to be shown to stakeholders and also shared with the app developer to illustrate the application flow. 
