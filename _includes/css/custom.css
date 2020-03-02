@@ -151,31 +151,67 @@ img {
   font-size: 20px;
 }
 
+.intro-text h1 {
+  font-size: 36px;
+}
+
+@media (min-width: 768px) {
+  .intro-text h1 {
+    font-size: 58px;
+  }
+}
+
+.intro-text h2 {
+  font-size: 22px;
+}
+
+@media (min-width: 768px) {
+  .intro-text h2 {
+    font-size: 32px;
+  }
+}
+
+.intro-text p {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .intro-text p {
+    font-size: 20px;
+  }
+}
+
 .chunk {
-  padding: 24px 12px;
+  text-align: center;
+  padding: 60px 40px;
 }
 
 .chunk:nth-of-type(odd) {
   background: #f3f3f3;
 }
 
-.chunk:nth-of-type(odd) .chunk-inner {
-  flex-direction: row-reverse;
-}
-
-.chunk:nth-of-type(odd) .chunk-img {
-  justify-content: flex-start;
+@media (min-width: 768px) {
+  .chunk {
+    text-align: left;
+    padding: 24px 12px;
+  }
+  .chunk:nth-of-type(odd) .chunk-inner {
+    flex-direction: row-reverse;
+  }
+  .chunk:nth-of-type(odd) .chunk-img {
+    justify-content: flex-start;
+  }
 }
 
 @media (min-width: 768px) {
   .chunk {
-    padding: 48px;
-    min-height: 330px;
+    padding: 60px;
+    min-height: 400px;
   }
 }
 
 .chunk h3 {
-  font-size: 16px;
+  font-size: 24px;
   flex-basis: 100%;
   margin-top: 0;
   text-transform: none;
@@ -183,14 +219,14 @@ img {
 
 @media (min-width: 768px) {
   .chunk h3 {
-    margin-top: 21px;
-    font-size: 26px;
+    margin-bottom: 22px;
+    font-size: 32px;
   }
 }
 
 .chunk p {
   margin-bottom: 12px;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 @media (min-width: 768px) {
@@ -203,6 +239,13 @@ img {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
+  flex-flow: column-reverse;
+}
+
+@media (min-width: 768px) {
+  .chunk-inner {
+    flex-flow: initial;
+  }
 }
 
 .chunk-inner .chunk-content {
@@ -214,10 +257,11 @@ img {
   justify-content: center;
   align-items: baseline;
   flex-basis: 40%;
+  position: relative;
 }
 
 .chunk-inner .chunk-img img {
-  max-width: 100px;
+  max-width: 60%;
 }
 
 @media (min-width: 768px) {
@@ -233,7 +277,7 @@ img {
   display: inline-block;
   margin-top: 12px;
   color: #fff;
-  font-size: 10px;
+  font-size: 14px;
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
@@ -241,7 +285,7 @@ img {
 
 @media (min-width: 768px) {
   .btn-cta {
-    font-size: 18px;
+    font-size: 16px;
     padding: 12px 16px;
   }
 }
@@ -257,11 +301,40 @@ img {
   margin-left: 8px;
 }
 
+.Booking img, .Apprentices img {
+  position: relative;
+  top: 18px;
+}
+
 @media (min-width: 768px) {
-  .Booking img {
+  .Booking img, .Apprentices img {
     position: absolute;
-    max-width: 310px !important;
+    top: -22px;
+    max-width: 300px !important;
   }
+}
+
+section h2 {
+  font-size: 34px;
+}
+
+@media (min-width: 768px) {
+  section h2 {
+    font-size: 44px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #about h3 {
+    font-size: 20px;
+  }
+  #about p, #about li {
+    font-size: 16px !important;
+  }
+}
+
+#portfolio {
+  padding-bottom: 0;
 }
 
 /*# sourceMappingURL=custom.css.map */

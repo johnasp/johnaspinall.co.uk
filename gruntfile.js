@@ -83,11 +83,9 @@ module.exports = function (grunt) {
  
     // Register the grunt build task
     grunt.registerTask('build', [
-        'sass',
         'shell:jekyllBuild',
-        'watch',
     ]);
 
     // Register build as the default task fallback
-    grunt.registerTask('default', 'build');
+    grunt.registerTask('default', ['sass', 'serve'   ]);
 };
