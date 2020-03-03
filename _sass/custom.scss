@@ -218,6 +218,7 @@ img {
     flex-basis: 100%;
     margin-top: 0;
     text-transform: none;
+    padding-left: 0;
     @include breakpoint(768) {
       margin-bottom: 22px;
       font-size: 32px;
@@ -236,6 +237,7 @@ img {
   flex-wrap: wrap;
   padding: 0;
   flex-flow: column-reverse;
+  
   @include breakpoint(768) {
     flex-flow: initial;
   }
@@ -302,7 +304,7 @@ section h2 {
       font-size: 20px;
     }
     p, li {
-      font-size: 16px!important;
+      font-size: 18px!important;
     }
   }
 }
