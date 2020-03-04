@@ -181,6 +181,10 @@ img {
   }
 }
 
+#about p, #about li {
+  font-size: 14px;
+}
+
 .chunk {
   text-align: center;
   padding: 60px 40px;
@@ -213,13 +217,14 @@ img {
 .chunk h3 {
   font-size: 24px;
   flex-basis: 100%;
-  margin-top: 0;
+  margin-top: 20px;
   text-transform: none;
   padding-left: 0;
 }
 
 @media (min-width: 768px) {
   .chunk h3 {
+    margin-top: 0;
     margin-bottom: 22px;
     font-size: 32px;
   }
@@ -262,7 +267,7 @@ img {
 }
 
 .chunk-inner .chunk-img img {
-  max-width: 60%;
+  max-width: 50%;
 }
 
 @media (min-width: 768px) {
@@ -302,15 +307,15 @@ img {
   margin-left: 8px;
 }
 
-.Booking img, .Apprentices img {
+.Booking img {
   position: relative;
-  top: 18px;
+  top: 28px;
 }
 
 @media (min-width: 768px) {
-  .Booking img, .Apprentices img {
+  .Booking img {
     position: absolute;
-    top: -22px;
+    top: 18px;
     max-width: 300px !important;
   }
 }
@@ -330,7 +335,7 @@ section h2 {
     font-size: 20px;
   }
   #about p, #about li {
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
 }
 

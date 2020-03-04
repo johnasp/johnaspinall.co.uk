@@ -192,6 +192,11 @@ img {
     }
   }
 }
+#about {
+  p, li {
+    font-size: 14px;
+  }
+}
 
 .chunk {
   text-align: center;
@@ -216,10 +221,11 @@ img {
   h3 {
     font-size: 24px;
     flex-basis: 100%;
-    margin-top: 0;
+    margin-top: 20px;
     text-transform: none;
     padding-left: 0;
     @include breakpoint(768) {
+      margin-top: 0;
       margin-bottom: 22px;
       font-size: 32px;
     }
@@ -251,7 +257,7 @@ img {
     flex-basis: 40%;
     position: relative;
     img {
-      max-width: 60%;
+      max-width: 50%;
       @include breakpoint(768) {
         max-width: 90%;
       }
@@ -283,12 +289,12 @@ img {
       margin-left: 8px;
     }
 }
-.Booking img, .Apprentices img {
+.Booking img {
   position: relative;
-  top: 18px;
+  top: 28px;
   @include breakpoint (768) {
     position: absolute;
-    top: -22px;
+    top: 18px;
     max-width: 300px!important;
   }
 }
@@ -304,7 +310,7 @@ section h2 {
       font-size: 20px;
     }
     p, li {
-      font-size: 18px!important;
+      font-size: 16px!important;
     }
   }
 }
