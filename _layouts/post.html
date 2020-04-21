@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html>
-    {% include head.html %}
-    <body id="page-top" class="index">
-    {% include nav-blog.html %}                         
+{% include head.html %}
+
+<body id="page-top" class="index">
+    {% include nav-blog.html %}
     <div class="container blog-page">
         <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-        <h2 class="text-center">{{ page.title }}</h2>
-            <hr class="star-primary">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2 class="text-center">{{ page.title }}</h2>
+                <hr class="star-primary">
 
-            {% if post.category == "Portfolio" %}
+                {% if post.category == "Portfolio" %}
 
-            <img src="/img/portfolio/{{ page.img-full }}" class="img-responsive img-centered" alt="{{ page.alt }}">
-           
-            <ul class="list-inline item-details text-center">
-                <li>Client:
-                    <strong>{{ page.client }}</strong>
-                </li>
-                <li>Date:
-                    <strong>{{ page.project-date }}</strong>
-                </li>
-                <li>Role:
-                    <strong>{{ page.role }}</strong>
-                </li>
-                <li>Tasks:
-                    <strong>{{ page.tasks }}</strong>
-                </li>
-            </ul>
+                <img src="/img/portfolio/{{ page.img-full }}" class="img-responsive img-centered" alt="{{ page.alt }}">
 
-            {% else if %}
+                <ul class="list-inline item-details text-center">
+                    <li>Client:
+                        <strong>{{ page.client }}</strong>
+                    </li>
+                    <li>Date:
+                        <strong>{{ page.project-date }}</strong>
+                    </li>
+                    <li>Role:
+                        <strong>{{ page.role }}</strong>
+                    </li>
+                    <li>Tasks:
+                        <strong>{{ page.tasks }}</strong>
+                    </li>
+                </ul>
 
-            {% endif %}
+                {% else if %}
+
+                {% endif %}
 
 
 
-            {{ content }}  
+                {{ content }}
             </div>
-        </div>  
+        </div>
     </div>
     {% if site.contact == "static" %}
     {% include contact_static.html %}
@@ -49,5 +50,6 @@
     {% include footer.html %}
     {% include js.html %}
     <script src="//localhost:35729/livereload.js"></script>
-    </body>
+</body>
+
 </html>

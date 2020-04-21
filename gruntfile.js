@@ -1,4 +1,3 @@
-
 module.exports = function (grunt) {
 
     // Show elapsed time after tasks run to visualize performance
@@ -22,7 +21,7 @@ module.exports = function (grunt) {
         // sass (libsass) config
         sass: {
             options: {
-                sourceMap: true,
+                sourceMap: false,
                 relativeAssets: false,
                 outputStyle: 'expanded',
                 sassDir: '_sass',
@@ -42,7 +41,7 @@ module.exports = function (grunt) {
         // watch for files to change and run tasks when they do
         watch: {
             site: {
-                files:[
+                files: [
                     "_layouts/*.html",
                     "_includes/*.html",
                     "_posts/*.md",
@@ -51,16 +50,16 @@ module.exports = function (grunt) {
             sass: {
                 files: ['_sass/**/*.scss'],
                 tasks: ['sass', "shell:jekyllBuild"],
-            },  
+            },
 
             css: {
-                files:['_site/style.css'],
+                files: ['_site/style.css'],
                 options: {
                     // Start a live reload server on the default port 35729
                     livereload: true,
-                  }, 
+                },
             },
-       
+
             scripts: {
                 files: ['js/*.js'],
                 tasks: ['concat', 'uglify'],
@@ -68,7 +67,9 @@ module.exports = function (grunt) {
             livereload: {
                 // Here we watch the files the sass task will compile to
                 // These files are sent to the live reload server after sass compiles to them
-                options: { livereload: true },
+                options: {
+                    livereload: true
+                },
                 files: ['_site/**/*'],
             },
 
@@ -76,16 +77,16 @@ module.exports = function (grunt) {
 
     });
 
-     // Register the grunt serve task
-     grunt.registerTask('serve', [
+    // Register the grunt serve task
+    grunt.registerTask('serve', [
         'shell:jekyllServe',
     ]);
- 
+
     // Register the grunt build task
     grunt.registerTask('build', [
         'shell:jekyllBuild',
     ]);
 
     // Register build as the default task fallback
-    grunt.registerTask('default', ['sass', 'serve'   ]);
+    grunt.registerTask('default', ['sass', 'serve']);
 };

@@ -1,0 +1,24 @@
+I"�<p><img src="/img/logos/rc-logo.png" alt="RentalCars logo" /></p>
+
+<p>Rentalcars.com is a car rental agency which allows a user to book a hire car from numerous partner branches located throughout the world. The branches are primarily located near airports and this is where users generally pick-up and drop-off their hire cars.</p>
+
+<h2 id="the-problem">The problem</h2>
+
+<p>When the user requested a car pick-up off from a “none-airport location”, this funnel had a considerably lower conversion rate than that of a regular airport pick-up search. In this use case, the user would mostly type a generic city name as their pick up point.</p>
+
+<p>RentalCars (RC) were subsequently not able to present the most accurate search results, as they no idea of the exact location in the city where the user wanted to pick up the car from. The hypothesis was, was that this was the reason for the lower conversion rate of users in this funnel.</p>
+
+<h2 id="my-role">My role</h2>
+
+<p>My task was to deliver a UX change to the main site search component in order to encourage the user to enter a precise pickup location when in the “none airport search” funnel. <strong>And the goal was to improve conversion rates by at least 5%</strong></p>
+
+<p>A key aspect to this piece of work was that it needed be completed in a short time frame, so had to be fairly straightforward to implement and involve minimal development work.</p>
+
+<p>I collaborated with product development and engineering teams to research, design and implement this project.</p>
+
+<p>I’m yet to get round to converting the full project write up from Google Docs to HTML so I can include on this site. I have however created a PDF document which you can access here: <a href="/img/rcars.pdf">Non-airport UX project write up</a> for Rentalcars.com&lt;/p&gt;</p>
+
+<h3 id="prototype">Prototype</h3>
+
+<p><a href="https://sketch.cloud/s/Jr0a0/a/xnoDyW/play">Click this link to access the prototype.</a></p>
+:ET

@@ -82,17 +82,16 @@ img {
 }
 
 .blogs .row {
-  display: -webkit-flex;
   display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .blogs .col-sm-6 {
-  display: -webkit-flex;
   display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
   width: 50%;
 }
@@ -201,10 +200,15 @@ img {
     padding: 24px 12px;
   }
   .chunk:nth-of-type(odd) .chunk-inner {
-    flex-direction: row-reverse;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
   }
   .chunk:nth-of-type(odd) .chunk-img {
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 }
 
@@ -217,7 +221,8 @@ img {
 
 .chunk h3 {
   font-size: 24px;
-  flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
   margin-top: 20px;
   text-transform: none;
   padding-left: 0;
@@ -243,27 +248,44 @@ img {
 }
 
 .chunk-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 0;
-  flex-flow: column-reverse;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: column-reverse;
+          flex-flow: column-reverse;
 }
 
 @media (min-width: 768px) {
   .chunk-inner {
-    flex-flow: initial;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: initial;
+            flex-flow: initial;
   }
 }
 
 .chunk-inner .chunk-content {
-  flex-basis: 60%;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
 }
 
 .chunk-inner .chunk-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: baseline;
-  flex-basis: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
   position: relative;
 }
 
@@ -355,5 +377,4 @@ section h2 {
 #portfolio {
   padding-bottom: 0;
 }
-
 /*# sourceMappingURL=custom.css.map */

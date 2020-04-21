@@ -3,24 +3,41 @@ BREAKPOINTS
 ********************/
 
 @mixin breakpoint($point) {
-  @if $point == 480 {
-    @media (min-width: 480px) { @content; }
+  @if $point==480 {
+    @media (min-width: 480px) {
+      @content;
+    }
   }
-  @if $point == 600 {
-    @media (min-width: 600px) { @content; }
+
+  @if $point==600 {
+    @media (min-width: 600px) {
+      @content;
+    }
   }
-  @if $point == 768 {
-    @media (min-width: 768px) { @content; }
-  } 
-  @if $point == 992 {
-    @media (min-width: 992px) { @content; }
-  } 
-  @if $point == 1300 {
-    @media (min-width: 1300px) { @content; }
-  }   
-  @else if $point == 1024 {
-    @media (min-width: 1024px) { @content; }
-  } 
+
+  @if $point==768 {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+
+  @if $point==992 {
+    @media (min-width: 992px) {
+      @content;
+    }
+  }
+
+  @if $point==1300 {
+    @media (min-width: 1300px) {
+      @content;
+    }
+  }
+
+  @else if $point==1024 {
+    @media (min-width: 1024px) {
+      @content;
+    }
+  }
 }
 
 $cta: #f49e4c;
@@ -65,34 +82,45 @@ img {
   .portfolio-modal .modal-body h2 {
     font-size: 1.8em;
   }
+
   .portfolio-modal .modal-body h3 {
     font-size: 1.6em;
   }
+
   .portfolio-modal .modal-content {
     padding: 50px 0;
   }
+
   .portfolio-modal .close-modal {
     top: 10px;
     right: 0px;
   }
+
   .fa-3x {
     font-size: 2em !important;
   }
-  .post-content p, .post-content li {
+
+  .post-content p,
+  .post-content li {
     font-size: 16px;
   }
+
   .modal-body {
     padding: 0;
   }
-  hr.star-light:after, hr.star-primary:after {
+
+  hr.star-light:after,
+  hr.star-primary:after {
     font-size: 1.6em;
   }
 }
+
 @media all and (min-width: 968px) {
   .blog {
     margin-top: 120px;
   }
 }
+
 #blog {
   margin-top: 0;
 }
@@ -127,6 +155,7 @@ img {
   .blogs .row {
     display: block;
   }
+
   .blogs .col-sm-6 {
     width: 100%;
   }
@@ -136,6 +165,7 @@ img {
   .blogh2 {
     margin-top: 40px;
   }
+
   .blog-page {
     margin-top: 120px !important;
   }
@@ -153,18 +183,11 @@ img {
   font-size: 20px;
 }
 
-.blog-page p:first-of-type, .post-content p:first-of-type {
-  border-top: 1px solid #2c3e50;
-  padding: 30px 0;
-  border-bottom: 1px solid #2c3e50;
-  background-color: rgba(234, 234, 234, 0.2);
-  padding: 10px 20px;
-  margin-bottom: 30px;
-}
 
 .wires li {
   margin-bottom: 30px;
 }
+
 .statement li {
   font-size: 20px;
 }
@@ -172,148 +195,199 @@ img {
 .wires a {
   font-size: 20px;
 }
+
 .intro-text {
   h1 {
     font-size: 36px;
+
     @include breakpoint(768) {
       font-size: 58px;
     }
   }
+
   h2 {
     font-size: 22px;
+
     @include breakpoint(768) {
       font-size: 32px;
     }
   }
+
   p {
     font-size: 16px;
+
     @include breakpoint(768) {
       font-size: 20px;
     }
   }
 }
+
 #about {
-  p, li {
+
+  p,
+  li {
     font-size: 14px;
+
+    @include breakpoint(768) {
+      font-size: 18px;
+    }
   }
 }
 
 .chunk {
   text-align: center;
+
   &:nth-of-type(odd) {
     background: #f3f3f3;
   }
+
   padding: 60px 40px;
+
   @include breakpoint(768) {
     text-align: left;
+
     &:nth-of-type(odd) .chunk-inner {
       flex-direction: row-reverse;
     }
+
     &:nth-of-type(odd) .chunk-img {
       justify-content: flex-start;
     }
+
     padding: 24px 12px;
   }
+
   @include breakpoint(768) {
-    padding: 60px;
+    padding: 80px 60px 60px 60px;
     min-height: 400px;
   }
+
   h3 {
     font-size: 24px;
     flex-basis: 100%;
     margin-top: 20px;
     text-transform: none;
     padding-left: 0;
+
     @include breakpoint(768) {
       margin-top: 0;
       margin-bottom: 22px;
       font-size: 32px;
     }
   }
+
   p {
     margin-bottom: 12px;
     font-size: 16px;
+
     @include breakpoint(768) {
       font-size: 20px;
     }
   }
 }
+
 .chunk-inner {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
   flex-flow: column-reverse;
-  
+
   @include breakpoint(768) {
     flex-flow: initial;
   }
+
   .chunk-content {
     flex-basis: 60%;
   }
+
   .chunk-img {
     display: flex;
     justify-content: center;
     align-items: baseline;
     flex-basis: 40%;
     position: relative;
+
     img {
       max-width: 50%;
+
       @include breakpoint(768) {
         max-width: 90%;
       }
     }
   }
 }
+
 .btn-cta {
-    border-radius: 6px;
-    background-color: $cta;
-    padding: 8px 12px;
-    display: inline-block;
-    margin-top: $gutter;
+  border-radius: 6px;
+  background-color: $cta;
+  padding: 8px 12px;
+  display: inline-block;
+  margin-top: $gutter;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+
+  @include breakpoint(768) {
+    font-size: 16px;
+    padding: 12px 16px;
+  }
+
+  &:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #18bc9c;
     color: #fff;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    @include breakpoint(768) {
-      font-size: 16px;
-      padding: 12px 16px;
-    }
-    &:hover {
-      text-decoration: none;
-      cursor: pointer;
-      background-color: #18bc9c;
-      color: #fff;
-    }
-    i {
-      margin-left: 8px;
-    }
+  }
+
+  i {
+    margin-left: 8px;
+  }
 }
+
 .Booking img {
   position: relative;
   top: 28px;
+
   @include breakpoint (768) {
     position: absolute;
     top: 18px;
-    max-width: 300px!important;
+    max-width: 300px !important;
   }
 }
+
+.Apprentices img {
+  position: relative;
+
+  @include breakpoint (768) {
+    position: absolute;
+
+    max-width: 310px !important;
+  }
+}
+
 section h2 {
   font-size: 34px;
+
   @include breakpoint(768) {
     font-size: 44px;
   }
 }
-@media only screen and (max-width: 768px)  {
+
+@media only screen and (max-width: 768px) {
   #about {
     h3 {
       font-size: 20px;
     }
-    p, li {
-      font-size: 16px!important;
+
+    p,
+    li {
+      font-size: 16px !important;
     }
   }
 }
+
 #portfolio {
   padding-bottom: 0;
 }

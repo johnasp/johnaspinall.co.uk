@@ -1,0 +1,78 @@
+I"¯<p>I joined the Morrisons Digital team in Manchester as an <strong>innovation UX developer</strong> to work on the brand new eCommerece platform and website the company was about to create.</p>
+
+<p>I worked on creating the visual designs and front end development code of the new site, in addition to working on the Kiddicare brand.</p>
+
+<p>The designs and code were unfortunately never put into production as mid project, the business made a decision to acquire Ocado and use their existing platform.</p>
+
+<p>I have  misplaced the full set of concepts, although I do have the homepage which can be viewed above.  After a few iterations, the designs were well received at Bradford HQ and met with board approval.</p>
+
+<h3 id="kidicare-native-app-web-forms">Kidicare native app web forms</h3>
+
+<p>Another small piece of work I did while working at Morrisons, was to build some web form views for a native app we were building for the Kiddicare brand</p>
+
+<p>This was only a small piece of work but was quite a useful exercise learning nonetheless, as this was a standalone piece of code to write, it allowed me to put the new SASS and Compass framework skills I had been learning, into practice.</p>
+
+<h4 id="live-demo">Live demo</h4>
+
+<p>Click each of the two images below to load the respective form page in a browser.  This demo is hosted on this site.</p>
+
+<div class="row">
+	<div class="col-xs-6">
+		<a href="/kiddicare-login-screens/register.htm"><img src="/img/portfolio/kiddicare-forms-thumb.png" alt="Kiddicare mobile registeration screen" /></a>
+	</div>
+	<div class="col-xs-6">
+		<a href="/kiddicare-login-screens/login.htm">
+		<img src="/img/portfolio/kk-login-thumb.jpg" alt="Kiddicare mobile login screen" /></a>
+	</div>
+</div>
+
+<p>The forms were both used as a webview on the Kiddicare apps created for iOS and Android.</p>
+
+<p>You can view all source files and code I wrote on the <a href="https://github.com/johnasp/login-screens">Github repo</a> I created for the project.</p>
+
+<h3 id="kiddicare--morrisons---repsonsive-site-redesign">Kiddicare @ Morrisons - Repsonsive site redesign</h3>
+
+<p><strong>UX lead</strong> on a project to convert and re-design the existing Kiddicare website into a responsive site.</p>
+
+<p>Kiddicare are a multi-channel retailer specialising in baby products who Morrisons acquired in 2014, for whom I was working for at the time.</p>
+
+<p><em>Directly responsible for:</em></p>
+
+<ul>
+  <li>Converting business requirements into wireframes</li>
+  <li>Homepage rapid prototype</li>
+  <li>Visual design for web page concepts</li>
+</ul>
+
+<h3 id="wireframes">Wireframes</h3>
+
+<p>Working in conjunction with a business analyst, I produced wireframes of all  key screens at mobile, tablet and desktop views, and also created click-able regions in order that a sample user journey could be followed in a demonstration.</p>
+
+<p>I also exported the screens as JPGâ€™s which I pinned to the walls of project design meeting, the purpose of which to encourage collaborative iterations of the positioning, prominence and inclusion of screen elements.</p>
+
+<p>Samples of the wireframes I produced can be viewed by clicking the button below:</p>
+
+<div class="wires">
+	<a href="#" class="btn btn-default loadwires">Load wireframes</a>
+</div>
+
+<h3 id="prototype">Prototype</h3>
+
+<p>The proposed design for the layout of the new homepage involved a complicated product grid (similar to Pinterest).</p>
+
+<p>The behaviour of this layout grid, particularly at different screen sizes, was proving difficult to convey to stakeholders in static wireframe form.</p>
+
+<p>To resolve this problem, I built a <a href="/protos/kiddicare/demo.html"> HTML prototype of the homepage</a> (using the Foundation framework) and demonstrated this direct in a web browser.  This prototype helped in stakeholder understanding of the interface and in achieving sign off.</p>
+
+<h3 id="visual-design">Visual Design</h3>
+
+<p>I was also responsible for producing visual design concepts for the look and feel of the new website, examples of which can be seen below.</p>
+
+<p><img src="/img/portfolio/kiddicare-comp1.jpg" alt="Kiddicare visual comp 1" /></p>
+
+<p><img src="/img/portfolio/kiddicare-comp2.jpg" alt="Kiddicare visual comp 2" /></p>
+
+<h3 id="front-end-development">Front end development</h3>
+
+<p>I was also responsible for building on the front end code for the production website.  The company has since been sold and taken over and the site no longer live so I unfortunately cannot link to the finished version.</p>
+:ET

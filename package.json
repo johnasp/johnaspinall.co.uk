@@ -14,6 +14,7 @@
     "grunt-sass-import": "^0.2.2",
     "grunt-shell": "^1.1.2",
     "load-grunt-tasks": "^3.5.2",
+    "node-sass": "^4.13.1",
     "time-grunt": "~0.4.0"
   },
   "dependencies": {
