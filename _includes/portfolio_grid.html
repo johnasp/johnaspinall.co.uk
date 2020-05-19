@@ -1,29 +1,28 @@
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Projects</h2>
-                    <hr class="star-primary">
-                </div>
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Projects</h2>
+                <hr class="star-primary">
             </div>
         </div>
+    </div>
 
-        {% for post in site.posts  %}
-            <div class="chunk {{ post.client }}">
+    {% for post in site.posts  %}
+    <div class="chunk {{ post.client }}">
 
-                <div class="chunk-inner container">
-                    <div class="chunk-content">
-                        <h3>{{ post.title }}</h3>
-                        <p>{{ post.excerpt }}</p>
-                        <a href="{{ post.url }}" class="btn-cta">View case study <i class="fas fa-chevron-right"></i></a>
-                    </div>
-                    <div class="chunk-img">
-                        <img src="img/{{ post.img-full }}" class="img-responsive" alt="{{ post.alt }}" />
-                    </div>
-                </div>
+        <div class="chunk-inner container">
+            <div class="chunk-content">
+                <h3>{{ post.title }}</h3>
+                <p>{{ post.excerpt }}</p>
+                <a href="{{ post.url }}" class="btn-cta">View case study <i class="fas fa-chevron-right"></i></a>
             </div>
-        {% endfor %}
+            <div class="chunk-img">
+                <img src="img/{{ post.img-full }}" class="img-responsive" alt="{{ post.alt }}" />
+            </div>
+        </div>
+    </div>
+    {% endfor %}
 
-    </section>
+</section>
