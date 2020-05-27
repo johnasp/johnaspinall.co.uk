@@ -1,0 +1,208 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Font awesome */
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  padding: 1rem;
+}
+
+.input-field {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Custom styles */
+html {
+  height: 100%;
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #000;
+  height: 100%;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.wrapper form {
+  background: #EAEAEA;
+  padding: 6rem;
+  font-family: 'Montserrat', sans-serif;
+  border-top: 0.4rem solid #28AEB7;
+  width: 30%;
+}
+
+.wrapper form h1 {
+  color: #0E2B2D;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 2.7rem;
+}
+
+.wrapper form label {
+  display: block;
+  color: #4A4B4D;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.9rem;
+}
+
+.wrapper form i {
+  font-size: 1.8rem;
+  color: #E3E6E9;
+  margin-left: 0.6rem;
+}
+
+.wrapper form input {
+  margin-bottom: 1.8rem;
+  display: inline-block;
+  padding: 1rem;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+  border: 0.1rem solid #dfdfdf;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  padding-left: 3em;
+  font-weight: 500;
+  color: #4A4B4D;
+}
+
+.wrapper form input::-webkit-input-placeholder {
+  color: #E3E6E9;
+  font-size: 1.2rem;
+}
+
+.wrapper form input:-ms-input-placeholder {
+  color: #E3E6E9;
+  font-size: 1.2rem;
+}
+
+.wrapper form input::-ms-input-placeholder {
+  color: #E3E6E9;
+  font-size: 1.2rem;
+}
+
+.wrapper form input::placeholder {
+  color: #E3E6E9;
+  font-size: 1.2rem;
+}
+
+.wrapper form .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1.8rem;
+}
+
+.wrapper form .buttons button {
+  font-family: 'Montserrat', sans-serif;
+  background: #28AEB7;
+  border: 0.2rem solid #28AEB7;
+  color: #fff;
+  padding: 0.8rem 4.4rem;
+  border-radius: 30rem;
+  font-size: 1.2rem;
+}
+
+.wrapper form .buttons button.register {
+  background: none;
+  color: #28AEB7;
+}
+
+.wrapper form .password {
+  margin-bottom: 1.8rem;
+}
+
+.wrapper form .forgot {
+  text-align: right;
+}
+
+.wrapper form .forgot a {
+  color: #4A4B4D;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.wrapper form .forgot a:hover {
+  border-bottom: 0.1rem solid #4A4B4D;
+}
+/*# sourceMappingURL=style.css.map */

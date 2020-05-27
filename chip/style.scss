@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Font awesome */
+.input-icons i { 
+    position: absolute; 
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 1rem; 
+} 
+  
+.icon { 
+    padding: 1rem; 
+} 
+  
+.input-field { 
+    width: 100%; 
+    padding: 1rem; 
+    text-align: center; 
+} 
+
+/* Custom styles */
+$cyan: #28AEB7;
+$white: #fff;
+$black: #0E2B2D;
+$d-grey: #4A4B4D;
+$l-grey: #E3E6E9;
+$form-bg: #EAEAEA;
+$mb: 1.8rem;
+
+html {
+  height: 100%;
+  font-size: 10px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #000;
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  form {
+    background: $form-bg;
+    padding: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    border-top: 0.4rem solid $cyan;
+    width: 30%;
+    h1 {
+      color: $black;
+      font-size: 2.2rem;
+      font-weight: 600;
+      margin-bottom: $mb*1.5;
+    }
+    label {
+      display: block;
+      color: $d-grey;
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: $mb/2;
+    }
+    i {
+      font-size: 1.8rem;
+      color: $l-grey;
+      margin-left: 0.6rem;
+    }
+    input {
+      margin-bottom: $mb;
+      display: inline-block;
+      padding: 1rem;
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: 30px;
+      border: 0.1rem solid #dfdfdf;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.4rem;
+      letter-spacing: 0.1rem;
+      padding-left: 3em;
+      font-weight: 500;
+      color: $d-grey;
+      &::placeholder {
+        color: $l-grey;
+        font-size: 1.2rem;
+      }
+    }
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: $mb;
+      button {
+        font-family: 'Montserrat', sans-serif;
+        background: $cyan;
+        border: 0.2rem solid $cyan;
+        color: $white;
+        padding: 0.8rem 4.4rem;
+        border-radius: 30rem;
+        font-size: 1.2rem;
+        &.register {
+          background: none;
+          color: $cyan;
+        }
+      }
+    }
+    .password {
+      margin-bottom: $mb;
+    }
+    .forgot {
+      text-align: right;
+      a {
+        color: $d-grey;
+        text-decoration: none;
+        font-size: 1.2rem;
+        &:hover {
+          border-bottom: 0.1rem solid $d-grey;
+        }
+      }
+    }
+  }
+}
