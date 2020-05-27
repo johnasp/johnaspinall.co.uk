@@ -29,9 +29,19 @@
               <button class="signin">Sign in</button>
           </div>
           <div class="forgot">
-              <a href="#">Forgot password?</a>
+              <a href="#">Light or dark?</a>
           </div>
       </form> 
+      <a   
   </div> 
+
+  <script>
+      const toggle = document.querySelector('.forgot a');
+      const body = document.querySelector('body');
+      const body = document.querySelector('body');
+      toggle.addEventListener('click', () => {
+        body.classList.toggle('dark'); 
+      })
+  </script>
 </body>
 </html>
