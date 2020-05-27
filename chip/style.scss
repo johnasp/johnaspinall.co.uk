@@ -53,7 +53,6 @@ table {
 } 
   
 .input-icons { 
-    width: 100%; 
     margin-bottom: 1rem; 
 } 
   
@@ -66,6 +65,27 @@ table {
     padding: 1rem; 
     text-align: center; 
 } 
+
+@mixin breakpoint($point) {
+  @if $point == 480 {
+    @media (min-width: 480px) { @content; }
+  }
+  @if $point == 600 {
+    @media (min-width: 600px) { @content; }
+  }
+  @if $point == 768 {
+    @media (min-width: 768px) { @content; }
+  } 
+  @if $point == 992 {
+    @media (min-width: 992px) { @content; }
+  } 
+  @if $point == 1300 {
+    @media (min-width: 1300px) { @content; }
+  }   
+  @else if $point == 1024 {
+    @media (min-width: 1024px) { @content; }
+  } 
+}
 
 /* Custom styles */
 $cyan: #28AEB7;
@@ -92,10 +112,23 @@ body {
   height: 100%;
   form {
     background: $form-bg;
-    padding: 6rem;
+    padding: 2rem;
+    @include breakpoint(600) {
+      padding: 4rem;
+    }
+    @include breakpoint(768) {
+      padding: 5rem;
+    }
     font-family: 'Montserrat', sans-serif;
     border-top: 0.4rem solid $cyan;
-    width: 30%;
+    width: 95%;
+    box-sizing: border-box;
+    @include breakpoint(600) {
+      width: 85%;
+    }
+    @include breakpoint(600) {
+      max-width: 500px;
+    }
     h1 {
       color: $black;
       font-size: 2.2rem;
@@ -142,9 +175,15 @@ body {
         background: $cyan;
         border: 0.2rem solid $cyan;
         color: $white;
-        padding: 0.8rem 4.4rem;
+        padding: 0.8rem 1.4rem;
+        @include breakpoint(600) {
+          padding: 0.8rem 4.4rem;
+        }
         border-radius: 30rem;
         font-size: 1.2rem;
+        &:hover {
+          cursor: pointer;
+        }
         &.register {
           background: none;
           color: $cyan;
@@ -167,3 +206,4 @@ body {
     }
   }
 }
+

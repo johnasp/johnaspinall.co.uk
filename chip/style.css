@@ -58,7 +58,6 @@ table {
 }
 
 .input-icons {
-  width: 100%;
   margin-bottom: 1rem;
 }
 
@@ -99,10 +98,36 @@ body {
 
 .wrapper form {
   background: #EAEAEA;
-  padding: 6rem;
+  padding: 2rem;
   font-family: 'Montserrat', sans-serif;
   border-top: 0.4rem solid #28AEB7;
-  width: 30%;
+  width: 95%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+  .wrapper form {
+    padding: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper form {
+    padding: 5rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .wrapper form {
+    width: 85%;
+  }
+}
+
+@media (min-width: 600px) {
+  .wrapper form {
+    max-width: 500px;
+  }
 }
 
 .wrapper form h1 {
@@ -178,9 +203,19 @@ body {
   background: #28AEB7;
   border: 0.2rem solid #28AEB7;
   color: #fff;
-  padding: 0.8rem 4.4rem;
+  padding: 0.8rem 1.4rem;
   border-radius: 30rem;
   font-size: 1.2rem;
+}
+
+@media (min-width: 600px) {
+  .wrapper form .buttons button {
+    padding: 0.8rem 4.4rem;
+  }
+}
+
+.wrapper form .buttons button:hover {
+  cursor: pointer;
 }
 
 .wrapper form .buttons button.register {
