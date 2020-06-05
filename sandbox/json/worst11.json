@@ -1,0 +1,75 @@
+[
+    {
+        "player": "Richard Kingson", 
+        "position": "GK",
+        "appearances": 20,
+        "goals": 0
+    },
+    {
+        "player": "Tony McMahon", 
+        "position": "RB",
+        "appearances": 52,
+        "goals": 1
+    },
+    {
+        "player": "Scott Darton", 
+        "position": "LB",
+        "appearances": 29,
+        "goals": 1
+    },
+    {
+        "player": "John O'Kane", 
+        "position": "CH",
+        "appearances": 52,
+        "goals": 4
+    },
+    {
+        "player": "Eifon Jones", 
+        "position": "CH",
+        "appearances": 5,
+        "goals": 0
+    },
+    {
+        "player": "Paul Dalglish", 
+        "position": "RM",
+        "appearances": 27,
+        "goals": 1
+    },
+    {
+        "player": "John Doolan", 
+        "position": "CM",
+        "appearances": 19 ,
+        "goals": 0
+    },
+    {
+        "player": "Stephen McMahon", 
+        "position": "CM",
+        "appearances": 18,
+        "goals": 0
+    },
+    {
+        "player": "Ben Thornley", 
+        "position": "LM",
+        "appearances": 12,
+        "goals": 0
+    },
+    {
+        "player": "Chris Malkin", 
+        "position": "CF",
+        "appearances": 65,
+        "goals": 6
+    },
+    {
+        "player": "Michael Chopra", 
+        "position": "",
+        "appearances": 18,
+        "goals": 0
+    },
+    {
+        "player": "Paul Ince", 
+        "position": "MA",
+        "appearances": 42,
+        "goals": 0
+    }
+
+]
