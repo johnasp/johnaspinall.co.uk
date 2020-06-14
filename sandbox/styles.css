@@ -71,4 +71,8 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.bfc .player {
+  background: #000;
+}
 /*# sourceMappingURL=styles.css.map */
