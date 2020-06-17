@@ -4,9 +4,13 @@ const data = new XMLHttpRequest();
 data.open('GET', 'json/worst11.json');
 data.send();
 
-const addPlayer = (name, number) => {  
+const addPlayer = (name, number, position) => {  
     let div = document.createElement('div')
-    div.textContent = number;
+    div.innerHTML = `
+        <span>${number}</span>
+        <p>${name}</p>
+        <p>${position}</p>
+    `;
     return div;
 }
 
@@ -18,8 +22,10 @@ const getPlayers = () => {
             players.forEach((player, index) => {
                 let playerName = player[1].name;
                 let playerNumber = player[1].number;
+                let playerPosition = player[1].position
+
                 console.log(playerNumber);
-                squad.appendChild(addPlayer(playerName, playerNumber));
+                squad.appendChild(addPlayer(playerName, playerNumber, playerPosition));
             });
         }
         else if (data.readyState === 4) {

@@ -47,6 +47,7 @@ table {
 
 body, html {
 	height: 100%;
+	font-family: 'Francois One', sans-serif;
 }
 
 //BFC styles
@@ -55,6 +56,7 @@ body, html {
 	body {
 		display: flex;
 		justify-content: center;
+		font-size: 10px;
 	}
 	.wrapper {
 		background-image: url("img/footy-field.svg");
@@ -65,8 +67,19 @@ body, html {
 		background-repeat: no-repeat;
 		background-size: cover;
 	  }
-	  .player {
-		  background: #000;
+	  .squad {
+		  display: flex;
+		  span {
+			  background: url(img/shirt.svg) no-repeat;
+			  height: 83px;
+			  width: 64px;
+			  display: inline-block;
+			  color: white;
+			  font-size: 2.6rem;
+		  }
+		  div {
+			  border: 1px solid black;
+		  }
 	  }
 
 }
